@@ -70,6 +70,6 @@ $(".section-team__team-list").slick({
 
   cookiesBtnClose.addEventListener("click", function () {
     cookieContainer.style.opacity = "0";
-    cookieContainer.style.transition = "opacity 0.5s";
+    cookieContainer.style.transition = "opacity 0.6s";
   });
 })();
