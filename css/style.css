@@ -443,8 +443,9 @@ p {
 }
 
 .section-hero__offers-link {
-  display: block;
-  padding: 9px 80px 7px 30px;
+  display: flex;
+  align-items: center;
+  padding: 9px 27px;
   border-radius: 50px;
   width: 564px;
   min-height: 65px;
@@ -452,12 +453,19 @@ p {
   font-weight: 700;
   line-height: 49px;
   background: var(--green-color);
-  background-position: 500px center;
-  background-repeat: no-repeat;
-  background-image: url("/image/hero-vector.svg");
   transition-property: transform, box-shadow;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
+}
+
+.section-hero__vector {
+  display: inline-block;
+  margin-left: 10px;
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/image/hero-vector.svg");
 }
 
 .section-hero__offers-link:hover,
@@ -572,7 +580,6 @@ p {
 
 .section-cookie {
   position: absolute;
-  display: none;
   border-top: 2px solid var(--green-color);
   border-bottom: 2px solid var(--green-color);
   box-shadow: 0px 0px 29px #04E069;

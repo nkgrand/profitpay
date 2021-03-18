@@ -10,6 +10,20 @@
     padding: 0px;
   }
 
+  .section-heading {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .section-desc {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .modal-form {
+    display: none;
+  }
+
   .header__container {
     align-items: center;
     margin-bottom: 25px;
@@ -72,9 +86,18 @@
     background-image: url("/image/hero-green-circle-320.svg");
   }
 
-  .section-hero__lightnings,
+  .section-hero__lightnings {
+    position: absolute;
+    width: 196px;
+    height: auto;
+    transform: translate(90px, -250px);
+  }
+  
   .section-hero__dolls {
-    display: none;
+    position: absolute;
+    width: 90px;
+    height: auto;
+    transform: translate(233px, -250px);
   }
   
   .section-hero__profit {
@@ -90,20 +113,317 @@
   }
 
   .section-hero__offers-link {
-    padding: 11px 45px 9px 16px;
+    padding: 9px 16px;
     border: 3px solid #fff;
     border-radius: 50px;
     width: 291px;
     min-height: 45px;
     font-size: 19px;
     line-height: 23px;
-    background-position: 250px center;
-    background-image: url("/image/hero-vector.svg");
+  }
+
+  .section-hero__vector {
+    width: 25px;
+    height: 25px;
+    transform: translateY(0px);
   }
 
   .section-hero__link-desc {
     font-size: 11px;
     line-height: 13px;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .section-hero__profitpay {
+    display: none;
+  }
+
+  .section-hero__social-item-vk {
+    display: none;
+  }
+
+  .section-hero__social-list {
+    margin-bottom: 70px;
+    min-height: 66px;
+    background-image: none;
+  }
+  
+  .section-hero__social-icon-tg {
+    margin-right: 18px;
+    width: 66px;
+    height: 55px;
+  }
+
+  .section-hero__social-link::after {
+    height: 2px;
+    border: 1px solid var(--green-color);
+  }
+
+  .section-us__container {
+    min-height: 86px;
+    margin-bottom: 70px;
+    padding-top: 0;
+    background-image: none;
+  }
+
+  .section-us__info {
+    padding: 16px 44px;
+    width: 310px;
+    min-height: 86px;
+    border-radius: 0 124px 124px 0;
+    text-align: center;
+    background-color: #dedede;
+    background-position-x: 263px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-image: url("/image/green-arrows-320.svg");
+    transition: box-shadow 0.5s ease-out;
+  }
+
+  .section-work__container {
+    margin-bottom: 47px;
+  }
+  
+  .section-work__heading {
+    margin-bottom: 24px;
+  }
+
+  .section-work__benefit-list {
+    margin: 0;
+  }
+
+  .section-offers__offer:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .section-offers__offers-list {
+    justify-content: center;
+  }
+
+  .section-work__info {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    width: 170px;
+    height: 170px;
+    background-color: inherit;
+  }
+
+  .section-work__desc {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .section-work__doll {
+    display: none;
+  }
+
+  .section-offers__block {
+    width: 276px;
+    min-height: 105px;
+    border-radius: 30px;
+  }
+
+  .section-offers__block-odd,
+  .section-offers__block-even {
+    padding: 13px 20px 13px 80px;
+  }
+
+  .section-offers__offer-info {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .section-offers__offer-link {
+    margin-bottom: 8px;
+    width: 100%;
+    min-height: 41px;
+    opacity: 1;
+  }
+
+  .section-offers__offer-name {
+    margin-right: 11px;
+    margin-left: 11px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .section-offers__adult-img {
+    width: auto;
+    height: 134px;
+    transform: translateY(-10px);
+  }
+  
+  .section-offers__ear-img {
+    width: auto;
+    height: 185px;
+    transform: translate(-10px, -50px);
+  }
+  
+  .section-offers__cardio-img {
+    width: auto;
+    height: 167px;
+    transform: translateY(-30px);
+  }
+  
+  .section-offers__bone-img {
+    width: auto;
+    height: 155px;
+    transform: translate(-18px, -30px);
+  }
+  
+  .section-offers__blood-img {
+    width: auto;
+    height: 143px;
+    transform: translateY(-20px);
+  }
+  
+  .section-offers__eye-img {
+    width: auto;
+    height: 152px;
+    transform: translate(-40px, -30px);
+  }
+
+  .section-offers__offer-vector {
+    width: 17px;
+    height: 17px;
+  }
+  
+  .section-offers__icon-adult {
+    width: 23px;
+    height: 23px;
+  }
+  
+  .section-offers__icon-ear {
+    width: 15px;
+    height: 22px;
+  }
+  
+  .section-offers__icon-cardio {
+    width: 19px;
+    height: 21px;
+  }
+  
+  .section-offers__icon-bone {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .section-offers__icon-blood {
+    width: 14px;
+    height: 25px;
+  }
+  
+  .section-offers__icon-eye {
+    width: 25px;
+    height: 16px;
+  }
+  
+  .section-offers__doll {
+    display: none;
+  }
+
+  .section-review {
+    margin-bottom: 40px;
+  }
+
+  .section-review__review {
+    padding: 12px;
+    width: 290px;
+    height: 205px;
+  }
+
+  .section-review__review-heading {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .section-review__review-text {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .section-review__user {
+    padding: 22px;
+    width: 290px;
+    height: 46px;
+  }
+  
+  .section-review__user-icon {
+    width: 61px;
+    height: auto;
+    margin-right: 19px;
+    transform: translateY(-35px);
+  }
+  
+  .section-review__user-name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .section-team__lightning {
+    display: none;
+  }
+  
+  .section-team__doll {
+    display: none;
+  }
+
+  .footer__container {
+    width: 280px;
+  }
+
+  .footer__heading {
+    margin-bottom: 27px;
+  }
+  
+  .footer__social-list {
+    margin-bottom: 34px;
+  }
+  
+  .footer-social-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .social-link {
+    height: 44px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .footer__social-item-inst {
+    display: none;
+  }
+
+  .footer__icon {
+    filter: drop-shadow(0px 0px 7px var(--green-color));
+  }
+
+  .footer__icon-tg {
+    width: 26px;
+    height: 21px;
+  }
+  
+  .footer__icon-vk {
+    width: 29px;
+    height: 18px;
+    transform: translateY(4px);
+  }
+  
+  .footer__icon-youtube {
+    width: 32px;
+    height: 25px;
+  }
+  
+  .footer__icon-blog {
+    width: 27px;
+    height: 26px;
+    transform: scale(1.5);
+  }
+
+  .footer__copyright {
+    font-size: 7px;
+    line-height: 9px;
   }
 }
