@@ -362,6 +362,31 @@
     line-height: 20px;
   }
 
+  .section-team__person {
+    display: none;
+  }
+
+  .section-team__person-320 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    width: 192px;
+    height: 216px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+  }
+
+  .section-team__name-320 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
   .section-team__lightning {
     display: none;
   }

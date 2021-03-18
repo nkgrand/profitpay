@@ -5,8 +5,10 @@ $(".section-work__benefit-list").slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
-  nextArrow: '<img src="/image/arrow-right.svg" class="section-work__right-arrow" alt="">',
-  prevArrow: '<img src="/image/arrow-left.svg" class="section-work__left-arrow" alt="">',
+  nextArrow:
+    '<img src="/image/arrow-right.svg" class="section-work__right-arrow" alt="">',
+  prevArrow:
+    '<img src="/image/arrow-left.svg" class="section-work__left-arrow" alt="">',
   responsive: [
     {
       breakpoint: 320,
@@ -14,10 +16,10 @@ $(".section-work__benefit-list").slick({
         slidesToShow: 1,
         nextArrow: false,
         prevArrow: false,
-        dots: true
-      }
-    }
-  ]
+        dots: true,
+      },
+    },
+  ],
 });
 
 $(".section-review__reviews-list").slick({
@@ -31,17 +33,17 @@ $(".section-review__reviews-list").slick({
     '<img src="/image/arrow-white-right.svg" class="section-review__vector-right" alt="">',
   prevArrow:
     '<img src="/image/arrow-white-left.svg" class="section-review__vector-left" alt="">',
-    responsive: [
-      {
-        breakpoint: 340,
-        settings: {
-          slidesToShow: 1,
-          nextArrow: false,
-          prevArrow: false,
-          dots: true
-        }
-      }
-    ]
+  responsive: [
+    {
+      breakpoint: 340,
+      settings: {
+        slidesToShow: 1,
+        nextArrow: false,
+        prevArrow: false,
+        dots: true,
+      },
+    },
+  ],
 });
 
 $(".section-team__team-list").slick({
@@ -89,7 +91,6 @@ $(".section-team__team-list").slick({
   });
 
   cookiesBtnClose.addEventListener("click", function () {
-    cookieContainer.style.opacity = "0";
-    cookieContainer.style.transition = "opacity 0.6s";
+    cookieContainer.style.display = "none";
   });
 })();
