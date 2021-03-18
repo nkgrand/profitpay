@@ -136,6 +136,15 @@ p {
   margin-bottom: 100px;
 }
 
+.burger {
+  display: none;
+  width: 20px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/image/burger.svg");
+}
+
 .header__logo-img {
   filter: drop-shadow(0px 0px 15px rgba(4, 224, 105, 0.8));
 }
@@ -216,6 +225,8 @@ p {
 .header__log-in-link:active {
   filter: drop-shadow(0px 0px 10px var(--green-color));
 }
+
+/* Modal form */
 
 .overlay {
   position: fixed;
@@ -416,6 +427,7 @@ p {
   font-weight: 800;
   line-height: 75px;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
 }
 
 .section-hero__offers-btn-desc {
@@ -556,21 +568,87 @@ p {
   width: 165px;
 }
 
+/* Cookie */
+
 .section-cookie {
   position: absolute;
   display: none;
-  border: 2px solid red;
+  border-top: 2px solid var(--green-color);
+  border-bottom: 2px solid var(--green-color);
+  box-shadow: 0px 0px 29px #04E069;
   width: 100%;
-  height: 170px;
-  transform: translateY(-280px);
+  height: 140px;
+  background-color: #0A0A0A;
+  transform: translateY(-260px);
 }
 
 .section-cookie__container {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  padding: 18px 0 18px 180px;
   width: 1130px;
+}
+
+.section-cookie__icon {
+  position: absolute;
+  left: 20%;
+  width: 149px;
+  height: 184px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/image/cookie.svg");
+  filter: drop-shadow(0px 4px 15px rgba(4, 224, 105, 0.7));
+}
+
+.section-cookie__text {
+  width: 650px;
+}
+
+.section-cookie__heading {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 700;
+  color: var(--green-color);
+  text-transform: capitalize;
+}
+
+.section-cookie__desc {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.section-cookie__link {
+  font-weight: 800;
+  color: var(--green-color);
+  text-transform: uppercase;
+}
+
+.section-cookie__btn {
+  padding: 13px 13px;
+  border: none;
+  border-radius: 30px;
+  width: 275px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  color: var(--desc-color);
+  text-transform: uppercase;
+  background-color: var(--green-color);
+  cursor: pointer;
+  outline: none;
+}
+
+.section-cookie__vector {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/image/offers-vector.svg");
+  transform: translateY(3px);
 }
 
 /* Section-us */
@@ -653,6 +731,7 @@ p {
 
 .section-work__benefit-item {
   position: relative;
+  display: inline-block;
   padding: 105px 65px 0;
   text-align: center;
   background-position: center top;
@@ -715,7 +794,7 @@ p {
 
 .section-offers__offer {
   transition-property: transform, filter;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
 

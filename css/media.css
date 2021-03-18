@@ -1,0 +1,109 @@
+@media (width:320px) {
+  body {
+    padding: 22px 0;
+    min-height: 2330px;
+    color: #fff;
+    background-image: url("/image/mobile_background.jpg");
+  }
+
+  .container {
+    padding: 0px;
+  }
+
+  .header__container {
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 0 12px;
+    height: 35px;
+  }
+
+  .burger{
+    display: block;
+  }
+
+  .header__center {
+    display: none;
+  }
+
+  .header__logo-img {
+    width: 52px;
+    height: auto;
+  }
+
+  .header__sign-up-link {
+    box-shadow: 0px 0px 10px var(--green-color);
+    padding: 9px;
+    width: 111px;
+    font-size: 9px;
+    line-height: 11px;
+    transform: translateY(0px);
+  }
+
+  .header__log-in-text {
+    display: none;
+  }
+
+  .header__log-in-link {
+    padding: 0;
+    transform: translateY(0);
+  }
+  
+  .header__log-in-icon {
+    margin-left: 8px;
+    width: 31px;
+    height: 27px;
+  }
+
+  .section-hero__container {
+    padding-top: 226px;
+    min-height: 400px;
+  }
+
+  .section-hero {
+    background-position: -75px 30px;
+    background-size: 382px 265px;
+    background-image: url("/image/man.png");
+    background-repeat: no-repeat;
+  }
+
+  .section-hero__circle {
+    background-position: 22px 0px;
+    background-repeat: no-repeat;
+    background-image: url("/image/hero-green-circle-320.svg");
+  }
+
+  .section-hero__lightnings,
+  .section-hero__dolls {
+    display: none;
+  }
+  
+  .section-hero__profit {
+    display: none;
+  }
+
+  .section-hero__write-us {
+    margin-bottom: 12px;
+    padding-left: 22px;
+    font-size: 16px;
+    line-height: 25px;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .section-hero__offers-link {
+    padding: 11px 45px 9px 16px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    width: 291px;
+    min-height: 45px;
+    font-size: 19px;
+    line-height: 23px;
+    background-position: 250px center;
+    background-image: url("/image/hero-vector.svg");
+  }
+
+  .section-hero__link-desc {
+    font-size: 11px;
+    line-height: 13px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+  }
+}
