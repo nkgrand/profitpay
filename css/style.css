@@ -133,6 +133,10 @@ p {
 
 /* Header */
 
+.header__log-in-btn-menu {
+  display: none;
+}
+
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -171,6 +175,7 @@ p {
   font-size: 17px;
   text-decoration: none;
   color: var(--white-color);
+  text-transform: uppercase;
 }
 
 .nav__toggle {
@@ -351,11 +356,6 @@ p {
 .modal-form__link:active {
   box-shadow: none;
 }
-
-/* не получилось достучаться */
-/* .modal-form__link:hover .modal-form__heading {
-  color: var(--green-color);
-} */
 
 .modal-form__icon {
   display: block;
@@ -712,6 +712,10 @@ p {
   background-position-y: center;
   background-image: url("/image/us-hashes.png");
   background-repeat: no-repeat;
+}
+
+.section-us__pp-hashes {
+  display: none;
 }
 
 .section-us__info {

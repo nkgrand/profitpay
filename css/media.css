@@ -34,22 +34,26 @@
     padding: 0 12px;
     height: 35px;
   }
+
   .nav__toggle {
     visibility: visible;
   }
 
   .nav__toggle {
-    --size: 30px;
     display: inherit;
-    width: var(--size);
-    height: var(--size);
+    width: 20px;
+    height: 14px;
     background-color: transparent;
     border: none;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/image/burger.svg");
     outline: none;
+    transform: translateY(6px);
   }
 
-  .nav__toggle::after {
+  /* .nav__toggle::after {
     content: "";
     position: absolute;
     width: 22px;
@@ -71,7 +75,7 @@
     transform: translateX(-50%);
     background: #fff;
     transition: cubic-bezier(0.23, 1, 0.32, 1) 0.5s;
-  }
+  } */
 
   .nav.closed .nav__list {
     visibility: hidden;
@@ -93,15 +97,32 @@
     transition: transform 0.5s;
   }
 
+  .menu-vector {
+    display: block;
+    width: 19px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/image/menu-vector.svg");
+    transform: translateX(60px);
+  }
+
   .header__nav__link {
     color: #fff;
   }
 
   .header__nav-item {
     margin: 0;
-    border-bottom: 1px solid rgb(124, 124, 124);
     width: 50%;
-    padding: 10px 0;
+    padding: 20px 0;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: space-between;
+    width: 239px;
+    font-weight: 500;
+    text-transform: capitalize;
   }
 
   .nav.expand .nav-list {
@@ -111,7 +132,14 @@
   }
 
   .nav.expand .nav__toggle {
-    visibility: hidden;
+    visibility: visible;
+    position: absolute;
+    right: 10px;
+    top: 230px;
+    display: block;
+    width: 46px;
+    height: 46px;
+    background-image: url("/image/menu-x.svg");
   }
 
   .header__log-in-btn-menu {
@@ -131,7 +159,7 @@
     background-color: var(--green-color);
   }
 
-  .nav.expand .nav__toggle::after {
+  /* .nav.expand .nav__toggle::after {
     transform: translateX(-50%) rotate(-45deg);
     top: 50%;
   }
@@ -139,7 +167,7 @@
   .nav.expand .nav__toggle::before {
     transform: translateX(-50%) rotate(45deg);
     bottom: calc(50% - 2px);
-  }
+  } */
 
   /* .nav__toggle {
     display: block;
@@ -296,7 +324,27 @@
     background-image: none;
   }
 
+  .section-us__pp-hashes {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    left: 69px;
+    transform: translateY(-15px);
+  }
+
+  .section-us__hashes {
+    display: block;
+    width: 106px;
+    height: 114px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/image/us-hashes.png");
+  }
+
   .section-us__info {
+    position: relative;
     padding: 16px 44px;
     width: 310px;
     min-height: 86px;
