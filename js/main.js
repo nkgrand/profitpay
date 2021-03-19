@@ -11,11 +11,10 @@ $(".section-work__benefit-list").slick({
     '<img src="/image/arrow-left.svg" class="section-work__left-arrow" alt="">',
   responsive: [
     {
-      breakpoint: 320,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
-        nextArrow: false,
-        prevArrow: false,
+        arrows: false,
         dots: true,
       },
     },
@@ -35,11 +34,10 @@ $(".section-review__reviews-list").slick({
     '<img src="/image/arrow-white-left.svg" class="section-review__vector-left" alt="">',
   responsive: [
     {
-      breakpoint: 340,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
-        nextArrow: false,
-        prevArrow: false,
+        arrows: false,
         dots: true,
       },
     },
@@ -55,6 +53,14 @@ $(".section-team__team-list").slick({
     '<img src="/image/arrow-white-right.svg" class="section-team__vector-right" alt="">',
   prevArrow:
     '<img src="/image/arrow-white-left.svg" class="section-team__vector-left" alt="">',
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
 });
 
 (() => {

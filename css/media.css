@@ -1,4 +1,4 @@
-@media (width:320px) {
+@media (max-width: 576px) {
   body {
     padding: 22px 0;
     min-height: 2330px;
@@ -221,6 +221,12 @@
     margin: 0;
   }
 
+  .section-work__benefit-item {
+    display: block;
+    width: 163px;
+    padding: 105px 0px 0;
+  }
+
   .section-offers {
     margin-bottom: 50px;
   }
@@ -370,6 +376,10 @@
     padding: 12px;
     width: 290px;
     height: 205px;
+  }
+
+  .section-review__reviews-item {
+    padding: 0;
   }
 
   .section-review__review-heading {
