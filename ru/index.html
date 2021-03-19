@@ -37,7 +37,7 @@
 
     <header>      
       <div class="container header__container">
-        <div class="burger"></div>
+        <button class="nav__toggle" id="toggle"></button>
 
         <div class="header__left">
           <a class="header__logo">
@@ -46,29 +46,27 @@
         </div>
 
         <div class="header__center">
-          <nav class="header__nav">
-            <ul class="header__nav-list">
-              <li class="header__nav-item">
-                <a href="#section-us" class="header__nav-link">О НАС</a>
-              </li>
+          <ul class="nav-list">
+            <li class="header__nav-item">
+              <a href="#section-us" class="header__nav-link">О НАС</a>
+            </li>
 
-              <li class="header__nav-item">
-                <a href="#section-work" class="header__nav-link">ВЕБМАСТЕРАМ</a>
-              </li>
+            <li class="header__nav-item">
+              <a href="#section-work" class="header__nav-link">ВЕБМАСТЕРАМ</a>
+            </li>
 
-              <li class="header__nav-item">
-                <a href="#section-offers" class="header__nav-link">ИНСТРУМЕНТЫ</a>
-              </li>
+            <li class="header__nav-item">
+              <a href="#section-offers" class="header__nav-link">ИНСТРУМЕНТЫ</a>
+            </li>
 
-              <li class="header__nav-item">
-                <a href="" class="header__nav-link">БЛОГ</a>
-              </li>
+            <li class="header__nav-item">
+              <a href="" class="header__nav-link">БЛОГ</a>
+            </li>
 
-              <li class="header__nav-item">
-                <a href="" class="header__nav-link">КОНТАКТ</a>
-              </li>
-            </ul>
-          </nav>
+            <li class="header__nav-item">
+              <a href="" class="header__nav-link">КОНТАКТ</a>
+            </li>
+          </ul>
         </div>
 
         <div class="header__sigh-up-btn">
@@ -130,7 +128,7 @@
                   
                   <span>
                     <span class="section-hero__social-name">Telegram</span>
-                    <br />@CPAFBCAT
+                    <br />@PROFITPAYCPA
                   </span>
                 </a>
               </li>
@@ -183,6 +181,9 @@
         <div class="section-work__doll">
           <img src="/image/work-doll.png" alt="" class="additional-img" />
         </div>
+
+        <div class="conf section-work__conf1"></div>
+        <div class="conf section-work__conf2"></div>
 
         <h2 class="section-heading section-work__heading">
           Работая с нами, ты получишь
@@ -357,6 +358,8 @@
 
       <section class="section-review">
         <div class="container">
+          <div class="conf section-review__conf"></div>
+
           <h2 class="section-heading section-review__heading">Отзывы</h2>
 
           <ul class="section-review__reviews-list">
@@ -451,6 +454,8 @@
           <div class="section-team__doll">
             <img src="/image/team-doll.png" alt="" class="additional-img" />
           </div>
+
+          <div class="conf section-team__conf"></div>
 
           <h2 class="section-heading section-team__heading">Наша команда:</h2>
 
@@ -648,6 +653,10 @@
 
     <footer>
       <div class="container footer__container">
+        <div class="conf footer__conf1"></div>
+
+        <div class="conf footer__conf2"></div>
+
         <h2 class="section-heading footer__heading">Мы в соц. сетях</h2>
 
         <ul class="footer__social-list">
@@ -698,5 +707,10 @@
     <script src="/libs/jquery.min.js"></script>
     <script src="/libs/slick/slick.min.js"></script>
     <script src="/js/main.js"></script>
+    <script>
+      toggle.onclick = () => {
+        nav.classList.toggle("expand");
+      };
+    </script>
   </body>
 </html>

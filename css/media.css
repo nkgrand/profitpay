@@ -7,7 +7,7 @@
   }
 
   .container {
-    padding: 0px;
+    padding: 0px 10px;
   }
 
   .section-heading {
@@ -24,6 +24,10 @@
     display: none;
   }
 
+  .conf {
+    display: none;
+  }
+
   .header__container {
     align-items: center;
     margin-bottom: 25px;
@@ -31,8 +35,23 @@
     height: 35px;
   }
 
-  .burger{
+  .nav__toggle {
     display: block;
+    position: relative;
+    left: 0px;
+    border: none;
+    width: 20px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/image/burger.svg");
+    background-color: transparent;
+    transform: translateY(-4px);
+    outline: none;
+  }
+
+  .nav.closed .nav__list {
+    visibility: hidden;
   }
 
   .header__center {
@@ -97,7 +116,7 @@
     position: absolute;
     width: 90px;
     height: auto;
-    transform: translate(233px, -250px);
+    transform: translate(220px, -250px);
   }
   
   .section-hero__profit {
@@ -142,6 +161,10 @@
     display: none;
   }
 
+  .section-hero__social-item:not(:last-child) {
+    margin-right: 0px;
+  }
+
   .section-hero__social-list {
     margin-bottom: 70px;
     min-height: 66px;
@@ -155,6 +178,7 @@
   }
 
   .section-hero__social-link::after {
+    width: 172px;
     height: 2px;
     border: 1px solid var(--green-color);
   }
@@ -183,6 +207,11 @@
   .section-work__container {
     margin-bottom: 47px;
   }
+
+  .section-work__left-arrow,
+  .section-work__right-arrow  {
+    display: none;
+  }
   
   .section-work__heading {
     margin-bottom: 24px;
@@ -190,6 +219,10 @@
 
   .section-work__benefit-list {
     margin: 0;
+  }
+
+  .section-offers {
+    margin-bottom: 50px;
   }
 
   .section-offers__offer:not(:last-child) {
@@ -328,6 +361,11 @@
     margin-bottom: 40px;
   }
 
+  .section-review__vector-left,
+  .section-review__vector-right {
+    display: none;
+  }
+
   .section-review__review {
     padding: 12px;
     width: 290px;
@@ -362,6 +400,26 @@
     line-height: 20px;
   }
 
+  .section-team__team-list {
+    margin: 0 30px;
+  }
+
+  .section-team__vector-left,
+  .section-team__vector-right {
+  top: 40px;
+  width: 26px;
+  height: 26px;
+  }
+
+.section-team__vector-left {
+  transform: translateX(-30px);
+}
+
+.section-team__vector-right {
+  right: 0;
+  transform: translateX(30px);
+}
+
   .section-team__person {
     display: none;
   }
@@ -393,10 +451,6 @@
   
   .section-team__doll {
     display: none;
-  }
-
-  .footer__container {
-    width: 280px;
   }
 
   .footer__heading {

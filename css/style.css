@@ -126,6 +126,11 @@ p {
   height: auto;
 }
 
+.conf {
+  background-repeat: no-repeat;
+  background-image: url("/image/work-conf1.svg");
+}
+
 /* Header */
 
 .header__container {
@@ -136,20 +141,24 @@ p {
   margin-bottom: 100px;
 }
 
-.burger {
+.nav__toggle {
+  display: none;
+}
+
+/* .burger {
   display: none;
   width: 20px;
   height: 14px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("/image/burger.svg");
-}
+} */
 
 .header__logo-img {
   filter: drop-shadow(0px 0px 15px rgba(4, 224, 105, 0.8));
 }
 
-.header__nav-list {
+.nav-list {
   display: flex;
   transform: translateY(46px);
 }
@@ -159,6 +168,7 @@ p {
   line-height: 18px;
   border-bottom: 0px solid var(--green-color);
   transition: border-bottom 0.2s ease-out;
+  text-transform: uppercase;
 }
 
 .header__nav-item:hover,
@@ -445,6 +455,7 @@ p {
 .section-hero__offers-link {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 9px 27px;
   border-radius: 50px;
   width: 564px;
@@ -772,7 +783,18 @@ p {
 
 .section-work__conf1 {
   position: absolute;
-  right: 0px;
+  width: 270px;
+  height: 90px;
+  background-position: center bottom;
+  background-image: url("/image/work-conf2.svg");
+  transform: translate(330px, 310px);
+}
+
+.section-work__conf2 {
+  position: absolute;
+  width: 170px;
+  height: 221px;
+  right: 0;
   transform: translateY(-130px);
 }
 
@@ -1044,6 +1066,14 @@ p {
   cursor: default;
 }
 
+.section-review__conf {
+  position: absolute;
+  width: 150px;
+  height: 221px;
+  left: 0;
+  transform: matrix(-0.43, -0.9, -0.9, 0.43, 0, 250);
+}
+
 /* Section team  */
 
 .section-team {
@@ -1143,8 +1173,6 @@ p {
   background-color: #dedede;
 }
 
-
-
 .section-team__lightning {
   position: absolute;
   left: 50px;
@@ -1155,6 +1183,15 @@ p {
   position: absolute;
   right: 50px;
   transform: translateY(250px);
+}
+
+.section-team__conf {
+  position: absolute;
+  width: 270px;
+  height: 221px;
+  right: 10px;
+  background-image: url("/image/work-conf2.svg");
+  transform: matrix(-0.27, 0.96, 0.96, 0.27, 0, -130);
 }
 
 /* Footer */
@@ -1251,4 +1288,22 @@ p {
   color: var(--green-color);
   text-align: center;
   cursor: default;
+}
+
+.footer__conf1 {
+  position: absolute;
+  width: 365px;
+  height: 220px;
+  left: 0;
+  background-image: url("/image/work-conf2.svg");
+  transform: matrix(-1, 0, 0, 1, -100, 100);
+}
+
+.footer__conf2 {
+  position: absolute;
+  width: 240px;
+  height: 221px;
+  right: 0;
+  background-image: url("/image/work-conf2.svg");
+  transform: matrix(-1, 0, 0, 1, 0, 100);
 }
