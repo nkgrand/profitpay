@@ -79,7 +79,7 @@
 
   .nav-list {
     position: absolute;
-    top: 60px;
+    top: 50px;
     right: 0;
     background: black;
     flex-direction: column;
@@ -108,6 +108,27 @@
     visibility: visible;
     transform: translateX(-20%);
     z-index: 9;
+  }
+
+  .nav.expand .nav__toggle {
+    visibility: hidden;
+  }
+
+  .header__log-in-btn-menu {
+    visibility: hidden;
+  }
+
+  .nav.expand .header__log-in-btn-menu {
+    position: absolute;
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 255px;
+    z-index: 5;
+    background-color: var(--green-color);
   }
 
   .nav.expand .nav__toggle::after {
