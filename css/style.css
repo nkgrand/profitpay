@@ -165,6 +165,10 @@ p {
   display: flex;
 }
 
+.header__nav-item:nth-child(1) {
+  display: none;
+}
+
 .header__nav-item:last-of-type {
   /* margin-right: 30px; */
 }
@@ -1115,6 +1119,7 @@ p {
 
 .section-team {
   margin-bottom: 150px;
+  position: relative;
 }
 
 .section-team__heading {
@@ -1165,6 +1170,10 @@ p {
   justify-content: center;
   flex-basis: 82%;
   height: 427px;
+  visibility: hidden;
+  position: absolute;
+  top: 99px;
+  left: 380px;
 }
 
 .section-team__name-info {

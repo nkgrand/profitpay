@@ -14,6 +14,7 @@ $(".section-work__benefit-list").slick({
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1,
         arrows: false,
         dots: true,
       },
@@ -26,7 +27,7 @@ $(".section-review__reviews-list").slick({
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   nextArrow:
     '<img src="/image/arrow-white-right.svg" class="section-review__vector-right" alt="">',
@@ -37,6 +38,7 @@ $(".section-review__reviews-list").slick({
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1,
         arrows: false,
         dots: true,
       },
@@ -58,6 +60,7 @@ $(".section-team__team-list").slick({
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1,
       },
     },
   ],
