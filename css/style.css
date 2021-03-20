@@ -142,7 +142,6 @@ p {
   justify-content: space-between;
   height: 82px;
   font-weight: 700;
-  margin-bottom: 100px;
 }
 
 .nav {
@@ -426,25 +425,10 @@ p {
 }
 
 .section-hero {
-  background-position: 640px 30px;
-  background-image: url("/image/man.png");
+  padding-top: 80px;
+  background-position: 75% top;
+  background-image: url("/image/hero-bg.png");
   background-repeat: no-repeat;
-}
-
-.section-hero__circle {
-  background-position: 906px 0px;
-  background-repeat: no-repeat;
-  background-image: url("/image/hero-green-circle.svg");
-}
-
-.section-hero__lightnings {
-  position: absolute;
-  transform: translate(720px, -180px);
-}
-
-.section-hero__dolls {
-  position: absolute;
-  transform: translate(1110px, -200px);
 }
 
 .section-hero__profit {
@@ -526,24 +510,10 @@ p {
 }
 
 .section-hero__link-desc {
+  margin-bottom: 210px;
   font-weight: 700;
   line-height: 22px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-}
-
-.section-hero__profitpay {
-  margin-left: 80%;
-  margin-bottom: 98px;
-  padding-left: 70px;
-  padding-top: 50px;
-  width: 220px;
-  min-height: 82px;
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 35px;
-  background-position: left top;
-  background-image: url("/image/hero-hash.svg");
-  background-repeat: no-repeat;
 }
 
 .section-hero__social-list {

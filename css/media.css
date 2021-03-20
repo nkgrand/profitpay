@@ -30,7 +30,6 @@
 
   .header__container {
     align-items: center;
-    margin-bottom: 25px;
     padding: 0 12px;
     height: 35px;
   }
@@ -226,35 +225,15 @@
   }
 
   .section-hero__container {
-    padding-top: 226px;
+    padding-top: 150px;
     min-height: 400px;
   }
 
   .section-hero {
-    background-position: -75px 30px;
-    background-size: 382px 265px;
-    background-image: url("/image/man.png");
+    background-position: -65px 30px;
+    background-size: 382px auto;
+    background-image: url("/image/hero-bg320.png");
     background-repeat: no-repeat;
-  }
-
-  .section-hero__circle {
-    background-position: 22px 0px;
-    background-repeat: no-repeat;
-    background-image: url("/image/hero-green-circle-320.svg");
-  }
-
-  .section-hero__lightnings {
-    position: absolute;
-    width: 196px;
-    height: auto;
-    transform: translate(90px, -250px);
-  }
-
-  .section-hero__dolls {
-    position: absolute;
-    width: 90px;
-    height: auto;
-    transform: translate(220px, -250px);
   }
 
   .section-hero__profit {
@@ -286,6 +265,7 @@
   }
 
   .section-hero__link-desc {
+    margin-bottom: 30px;
     font-size: 11px;
     line-height: 13px;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
