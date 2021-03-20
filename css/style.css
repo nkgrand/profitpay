@@ -43,7 +43,6 @@ html {
 body {
   margin: 0;
   padding: 30px 0;
-  min-height: 5000px;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 18px;
   color: #fff;
@@ -203,8 +202,8 @@ p {
 .header__nav-item {
   font-size: 15px;
   line-height: 18px;
-  border-bottom: 0px solid var(--green-color);
-  transition: border-bottom 0.2s ease-out;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-out;
   text-transform: uppercase;
 }
 
@@ -852,6 +851,11 @@ p {
   text-align: center;
 }
 
+.section-offers__ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 .section-offers__offers-list {
   display: flex;
   flex-wrap: wrap;
@@ -864,7 +868,7 @@ p {
   transition-timing-function: ease-out;
 }
 
-.section-offers__offer:not(:nth-last-child(-n + 3)) {
+.section-offers__offer:not(:last-child) {
   margin-bottom: 160px;
 }
 

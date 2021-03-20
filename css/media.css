@@ -385,6 +385,10 @@
     margin-bottom: 50px;
   }
 
+  .section-offers__ul {
+    flex-wrap: wrap;
+  }
+
   .section-offers__offer:not(:last-child) {
     margin-bottom: 50px;
   }
@@ -570,18 +574,18 @@
 
   .section-team__vector-left,
   .section-team__vector-right {
-    top: 40px;
+    top: 120px;
     width: 26px;
     height: 26px;
   }
 
   .section-team__vector-left {
-    transform: translateX(-30px);
+    transform: translateX(-15px);
   }
 
   .section-team__vector-right {
     right: 0;
-    transform: translateX(30px);
+    transform: translateX(15px);
   }
 
   .section-team__person {
