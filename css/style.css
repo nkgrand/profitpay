@@ -49,6 +49,7 @@ body {
   line-height: 1;
   background-color: #0c1a21;
   background-position: top center;
+  background-size: cover;
   background-image: url("/image/bg_lg.png");
   background-repeat: no-repeat;
 }
