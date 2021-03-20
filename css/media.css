@@ -1,3 +1,42 @@
+@media (max-width: 1800px) {
+  .section-work__doll,
+  .section-work__conf1,
+  .blog__dolls,
+  .blog__lightning,
+  .blog__doll {
+    display: none;
+  }
+}
+
+@media (max-width: 1700px) {
+  .section-offers__doll,
+  .section-review__conf,
+  .section-team__lightning,
+  .section-team__conf,
+  .section-team__doll,
+  .contacts-dolls,
+  .contacts-lightning {
+    display: none;
+  }
+}
+
+@media (max-width: 1550px) {
+  .section-us__container {
+    background-position-x: 880px;
+  }
+
+  .section-us__info {
+    padding: 16px 112px 49px 350px;
+    width: 900px;
+  }
+
+  .section-work__info {
+    width: 1200px;
+    padding: 24px 88px;
+
+  }
+}
+
 @media (max-width: 576px) {
   body {
     padding: 22px 0;

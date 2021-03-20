@@ -1,3 +1,7 @@
+.header__container {
+  margin-bottom: 75px;
+}
+
 .article-list {
   display: flex;
   justify-content: space-between;
@@ -64,6 +68,9 @@
 }
 
 .blog__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 20%;
   background-color: rgba(	3.9, 3.9, 3.9, 0.8);
 }
