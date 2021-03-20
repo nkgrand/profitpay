@@ -160,8 +160,11 @@ p {
 }
 
 .header__nav-item {
-  margin: 0 23px;
   display: flex;
+}
+
+.header__nav-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header__nav-item:last-of-type {

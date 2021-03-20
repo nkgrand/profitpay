@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profit Pay</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/media.css" />
     <link rel="stylesheet" href="/css/contacts.css">
+    <link rel="stylesheet" href="/css/media.css" />
   </head>
 
   <body class="body">
@@ -168,7 +168,7 @@
             Есть к нам вопросы?
           </p>
           <p class="section-contacts__write">
-            Напиши
+            Напиши!
           </p>
 
           <div class="section-contacts__contacts">
@@ -226,6 +226,25 @@
                   <span class="section-contacts__text">yummypeep</span>
                 </a>
               </span>
+            </div>
+          </div>
+
+          <div class="section-cookie">
+            <div class="section-cookie__container">
+              <span class="section-cookie__icon"></span>
+              <div class="section-cookie__text">
+                <p class="section-cookie__heading">Мы используем сookie</p>
+                <p class="section-cookie__desc">
+                  Во время посещения сайта «Культура.РФ» вы соглашаетесь с тем,
+                  что мы обрабатываем ваши персональные данные с использованием
+                  метрических программ.
+                  <a href="" class="section-cookie__link"> Подробнее. </a>
+                </p>
+              </div>
+
+              <button type="submit" class="section-cookie__btn cookiesBtnClose">
+                Понял <span class="section-cookie__vector"></span>
+              </button>
             </div>
           </div>
         </div>
@@ -298,5 +317,11 @@
         </p>
       </div>
     </footer>
+
+    <script>
+      toggle.onclick = () => {
+        nav.classList.toggle("expand");
+      };
+    </script>
   </body>
 </html>
