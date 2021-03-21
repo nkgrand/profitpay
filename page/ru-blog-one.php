@@ -136,13 +136,9 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
       </div>
     </header>
     
-    <main>
+    <main class="main">
       <section class="blog-page">
         <div class="container">
-          <span class="blog__dolls"></span>
-          <span class="blog__lightning blog__lightning1"></span>
-          <span class="blog__lightning blog__lightning2"></span>
-          <span class="blog__doll"></span>
 
           <div class="blog-page__container">
             <div class="blog-page__left">

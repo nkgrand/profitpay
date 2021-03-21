@@ -65,14 +65,14 @@ $sonets = showitonce( 'sonets' );
               </li>
 
               <li class="header__nav-item">
-                <a href="/blog/" class="nav-link">
+                <a href="/ru/blog/" class="nav-link">
                   <span>блог</span> 
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
-                <a href="/contact/" class="nav-link">
+                <a href="/ru/contact/" class="nav-link">
                   <span>контакт</span> 
                   <span class="menu-vector"></span>
                 </a>
@@ -130,7 +130,7 @@ $sonets = showitonce( 'sonets' );
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <h1 class="visually-hidden">Profit Pay</h1>
 
       <section class="section-hero">
@@ -215,9 +215,6 @@ $sonets = showitonce( 'sonets' );
     </section>
 
       <section id="section-work" class="section-work">
-        <div class="section-work__doll">
-          <img src="/image/work-doll.png" alt="" class="additional-img" />
-        </div>
 
         <div class="conf section-work__conf1"></div>
         <div class="conf section-work__conf2"></div>
@@ -283,9 +280,6 @@ $sonets = showitonce( 'sonets' );
 
       <section id="section-offers" class="section-offers">
         <div class="container">
-          <div class="section-offers__doll">
-            <img src="/image/work-doll.png" alt="" class="additional-img" />
-          </div>
 
           <h2 class="section-heading section-offers__heading">Лучшие офферы</h2>
 
@@ -582,17 +576,6 @@ $sonets = showitonce( 'sonets' );
 
       <section class="section-team">
         <div class="container">
-          <div class="section-team__lightning">
-            <img
-              src="/image/team-lightning.png"
-              alt=""
-              class="additional-img"
-            />
-          </div>
-
-          <div class="section-team__doll">
-            <img src="/image/team-doll.png" alt="" class="additional-img" />
-          </div>
 
           <div class="conf section-team__conf"></div>
 

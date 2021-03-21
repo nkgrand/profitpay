@@ -73,15 +73,11 @@ $blog = cached( $url );
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <h1 class="visually-hidden">Profit Pay Blog</h1>
 
       <section class="blog-section">
         <div class="container">
-          <span class="blog__dolls"></span>
-          <span class="blog__lightning blog__lightning1"></span>
-          <span class="blog__lightning blog__lightning2"></span>
-          <span class="blog__doll"></span>
 
           <ul class="article-list">
 <?php foreach ( $blog['data'] as $b ) : 
