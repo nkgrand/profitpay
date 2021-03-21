@@ -1,3 +1,10 @@
+.bg_dolls-lights {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  background-image: url("/image/contacts_dolls-lights.png");
+}
+
 .header__container {
   margin-bottom: 85px;
 }
@@ -122,24 +129,4 @@
   background-image: url("/image/vk.svg");
 }
 
-.contacts-dolls {
-  position: absolute;
-  left: 133px;
-  width: 208px;
-  height: 390px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/contacts-doll.png");
-}
-
-.contacts-lightning {
-  position: absolute;
-  right: 68px;
-  width: 251px;
-  height: 370px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/team-lightning.png");
-  transform: translateY(500px);
-}
 
