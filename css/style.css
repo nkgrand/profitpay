@@ -96,6 +96,13 @@ p {
   padding: 0;
 }
 
+.main {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  background-image: url("/image/main_dolls-lights.png");
+}
+
 .container {
   margin: 0 auto;
   max-width: 1220px;
@@ -817,12 +824,6 @@ p {
   transform: translateY(-130px);
 }
 
-.section-work__doll {
-  position: absolute;
-  left: 40px;
-  transform: translateY(90px);
-}
-
 /* Section offers */
 
 .section-offers {
@@ -989,12 +990,6 @@ p {
   width: 46px;
   height: 30px;
   background-image: url("/image/eye-img.svg");
-}
-
-.section-offers__doll {
-  position: absolute;
-  right: 50px;
-  transform: translateY(600px);
 }
 
 /* Section review */
@@ -1195,18 +1190,6 @@ p {
   color: #000;
   text-align: center;
   background-color: #dedede;
-}
-
-.section-team__lightning {
-  position: absolute;
-  left: 50px;
-  transform: translateY(-200px);
-}
-
-.section-team__doll {
-  position: absolute;
-  right: 50px;
-  transform: translateY(250px);
 }
 
 .section-team__conf {

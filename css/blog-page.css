@@ -2,6 +2,10 @@ body {
   background-image: url("/image/blog-page-bg.jpg");
 }
 
+.main {
+  background-image: url("/image/blog_dolls-lights.png");
+}
+
 .header__container {
   margin-bottom: 75px;
 }
@@ -86,7 +90,6 @@ p {
 
 ol {
   counter-reset: myCounter;
-  list-style-position: outside;
 }
 
 ol li {
@@ -243,7 +246,6 @@ h2 {
   border: none;
   border-radius: 28px;
   width: 250px;
-  min-height: 40px;
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
@@ -262,47 +264,4 @@ h2 {
 
 .blog-page__more-btn:active {
   transform: scale(1);
-}
-
-.blog__dolls {
-  position: absolute;
-  display: block;
-  left: 133px;
-  width: 208px;
-  height: 390px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/contacts-doll.png");
-}
-
-.blog__lightning {
-  position: absolute;
-  display: block;
-  width: 251px;
-  height: 371px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/team-lightning.png");
-}
-
-.blog__lightning1 {
-  right: 68px;
-  transform: translateY(430px);
-}
-
-.blog__lightning2 {
-  left: 112px;
-  transform: translateY(950px);
-}
-
-.blog__doll {
-  position: absolute;
-  display: block;
-  right: 150px;
-  width: 196px;
-  height: 333px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/team-doll.png");
-  transform: translateY(1300px);
 }

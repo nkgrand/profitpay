@@ -1,3 +1,8 @@
+.main {
+  background-size: cover;
+  background-image: url("/image/blog_dolls-lights.png");
+}
+
 .header__container {
   margin-bottom: 75px;
 }
@@ -107,47 +112,3 @@
 .blog__article-8 {
   background-image: url("/image/article5.jpg");
 }
-
-.blog__dolls {
-  position: absolute;
-  display: block;
-  left: 133px;
-  width: 208px;
-  height: 390px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/contacts-doll.png");
-}
-
-.blog__lightning {
-  position: absolute;
-  display: block;
-  width: 251px;
-  height: 371px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/team-lightning.png");
-}
-
-.blog__lightning1 {
-  right: 68px;
-  transform: translateY(430px);
-}
-
-.blog__lightning2 {
-  left: 112px;
-  transform: translateY(950px);
-}
-
-.blog__doll {
-  position: absolute;
-  display: block;
-  right: 150px;
-  width: 196px;
-  height: 333px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/image/team-doll.png");
-  transform: translateY(1300px);
-}
-
