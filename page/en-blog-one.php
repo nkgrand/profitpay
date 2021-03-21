@@ -19,120 +19,57 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
 
   <body class="body">
 
-<?php if ( $sonets ) sonetblock( 'ru' ); ?>
+<?php if ( $sonets ) sonetblock( 'en' ); ?>
 
     <header>
       <div class="container header__container">
-        <nav class="nav" id="nav">
-          <button class="nav__toggle" id="toggle"></button>
+        <button class="nav__toggle" id="toggle"></button>
 
-          <div class="header__log-in-btn-menu">
-            <a
-              href="https://dashboard.profitpay.pro/login"
-              class="header__log-in-link"
-            >
-              <span class="header__log-in-text-menu">Вход</span>
-              <span class="header__log-in-icon"></span>
-            </a>
-          </div>
+        <div class="header__left">
+          <a class="header__logo">
+            <img  src="/image/logo.svg"  alt="Логотип Profit Pay"  class="header__logo-img"/>
+          </a>
+        </div>
 
-          <div class="header__left">
-            <a href="index.html" class="header__logo">
-              <img
-                src="/image/logo.svg"
-                alt="Логотип Profit Pay"
-                class="header__logo-img"
-              />
-            </a>
-          </div>
-
-          <div class="header__center">
-            <!-- <button class="nav__toggle" id="toggle"></button> -->
-            <ul class="nav-list">
-              <li class="header__nav-item">
-                <a href="/ru/#section-us" class="nav-link">
-                  <span>о нас</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/#section-work" class="nav-link">
-                  <span>вебмастерам</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/#section-offers" class="nav-link">
-                  <span>офферы</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/blog/" class="nav-link">
-                  <span>блог</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/contact/" class="nav-link">
-                  <span>контакт</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/en/blog/" class="nav-link">
-                  <span>en</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-            </ul>
-
-            <!-- <ul class="nav-list">
+        <div class="header__center">
+          <ul class="nav-list">
             <li class="header__nav-item">
-              <a href="#section-us" class="nav-link">О НАС</a>
+              <a href="/en/#section-us" class="header__nav-link">ABOUT US</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="#section-work" class="nav-link">ВЕБМАСТЕРАМ</a>
+              <a href="/en/#section-work" class="header__nav-link">FOR WEBMASTERS</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="#section-offers" class="nav-link">ИНСТРУМЕНТЫ</a>
+              <a href="/en/#section-offers" class="header__nav-link">TOOLS</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="" class="nav-link">БЛОГ</a>
+              <a href="/en/blog/" class="header__nav-link">BLOG</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="" class="nav-link">КОНТАКТ</a>
+              <a href="/en/contact/" class="header__nav-link">CONTACT</a>
             </li>
-          </ul> -->
-          </div>
 
-          <div class="header__sigh-up-btn">
-            <a
-              href="https://dashboard.profitpay.pro/register"
-              class="header__sign-up-link"
-              >РЕГИСТРАЦИЯ</a
-            >
-          </div>
+            <li class="header__nav-item">
+              <a href="/ru/blog/" class="header__nav-link">RU</a>
+            </li>
 
-          <div class="header__log-in-btn">
-            <a
-              href="https://dashboard.profitpay.pro/login"
-              class="header__log-in-link"
-            >
-              <span class="header__log-in-text">Вход</span>
-              <span class="header__log-in-icon"></span>
-            </a>
-          </div>
-        </nav>
+          </ul>
+        </div>
+
+        <div class="header__sigh-up-btn">
+          <a  href="https://dashboard.profitpay.pro/register"  class="header__sign-up-link">REGISTRATION</a>
+        </div>
+
+        <div class="header__log-in-btn">
+          <a  href="https://dashboard.profitpay.pro/login"  class="header__log-in-link">
+            <span class="header__log-in-text">Login</span>
+            <span class="header__log-in-icon"></span>
+          </a>
+        </div>
       </div>
     </header>
     
@@ -144,7 +81,7 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
             <div class="blog-page__left">
               <a href="/ru/blog/" class="blog-page__back-link">
                 <span class="blog-page__vector"></span>
-                К списку статей
+                Back to the blog
               </a>
 
               <?php if ( $page['image'] ) : ?><img src="<?=$page['image'];?>" alt="" class="blog-page__main-img"><?php endif; ?>
@@ -189,13 +126,13 @@ if ( $b['image'] ) {
               </ul>
 
               <a href="/ru/blog/" class="blog-page__more-btn">
-                все записи
+                all the posts
               </a>
             </div>
           </div>
         </div>
 		
-<?php if ( $cookie ) cookieblock( 'ru' ); ?>		
+<?php if ( $cookie ) cookieblock( 'en' ); ?>		
 		
       </section>
     </main>
@@ -206,7 +143,7 @@ if ( $b['image'] ) {
 
         <div class="conf footer__conf2"></div>
 
-        <h2 class="section-heading footer__heading">Мы в соц. сетях</h2>
+        <h2 class="section-heading footer__heading">NETWORKS</h2>
 
         <ul class="footer__social-list">
           <li class="footer-social-item">
@@ -217,44 +154,28 @@ if ( $b['image'] ) {
           </li>
 
           <li class="footer-social-item">
-            <a
-              href="https://vk.com/profitpay"
-              target="_blank"
-              class="social-link"
-            >
+            <a  href="https://vk.com/profitpay"  target="_blank"  class="social-link">
               <span class="footer__icon footer__icon-vk"></span>
               <span>VKONTAKTE</span>
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a
-              href="https://www.youtube.com/channel/UCQJb5KlQ7QaWTb9ZSTVBlJw"
-              target="_blank"
-              class="social-link"
-            >
+            <a  href="https://www.youtube.com/channel/UCQJb5KlQ7QaWTb9ZSTVBlJw"  target="_blank"  class="social-link">
               <span class="footer__icon footer__icon-youtube"></span>
               <span>YOUTUBE</span>
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a
-              href="https://profitpay.pro/blog/"
-              target="_blank"
-              class="social-link"
-            >
+            <a  href="https://profitpay.pro/blog/"  target="_blank"  class="social-link">
               <span class="footer__icon footer__icon-blog"></span>
-              <span>БЛОГ</span>
+              <span>BLOG</span>
             </a>
           </li>
 
           <li class="footer-social-item footer__social-item-inst">
-            <a
-              href="https://bit.ly/3rY7jdA"
-              target="_blank"
-              class="social-link"
-            >
+            <a  href="https://bit.ly/3rY7jdA"  target="_blank"  class="social-link">
               <span class="footer__icon footer__icon-inst"></span>
               <span>INSTAGRAM</span>
             </a>
@@ -262,7 +183,7 @@ if ( $b['image'] ) {
         </ul>
 
         <p class="footer__copyright">
-          Авторские права © 2020-2021 Profitpay.pro
+          Copyright © 2020-2021 Profitpay.pro
         </p>
       </div>
     </footer>
