@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^page		-	[L,R=404]
+RewriteRule ^cache		-	[L,R=404]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .*			-	[L]
+RewriteRule .*			/index.php	[L]
