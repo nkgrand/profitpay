@@ -592,8 +592,24 @@
     transform: translateX(15px);
   }
 
-  .section-team__person {
+  /* .section-team__person {
     display: none;
+  } */
+
+  .section-team__person {
+    width: 100%;
+  }
+
+  .section-team__name-info,
+  .section-team__photo {
+    display: none;
+  }
+
+  .section-team__about {
+    flex: 0 0 65%;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
   }
 
   .section-team__person-320 {
