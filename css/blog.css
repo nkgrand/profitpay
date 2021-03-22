@@ -128,10 +128,10 @@
 	line-height: 35px;
 	margin: 0 6px;
 	background: rgba(255,255,255,0.05);
+	transition: all 0.5s ease;
 }
 .paginator a:hover {
 	background: rgba(255,255,255,0.4);
-	transition: all 0.5s ease;
 }
 .paginator a.active {
 	border-color: var(--green-color);
