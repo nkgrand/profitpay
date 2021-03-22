@@ -153,7 +153,7 @@ if ( $b['image'] ) {
           </ul>
         </div>
 
-		<div class="paginator"><?php pages( $base, $blog['total'], $blog['page'], $blog['show'] ); ?></div>
+		<div class="paginator"><?=pages( $base, $blog['total'], $blog['page'], $blog['show'] );?></div>
 
 		<?php if ( $cookie ) cookieblock( 'ru' ); ?>
 
