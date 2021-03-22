@@ -756,17 +756,11 @@
 
   /* Blog */
 
-  .blog__dolls,
-  .blog__lightning,
-  .blog__doll {
-    display: none;
-  }
-
   .article-list {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
   }
 
   .blog__article-item:nth-child(-n+2),
@@ -776,7 +770,7 @@
     height: 295px;
   }
 
-  .blog__article-item:not(:last-child) {
+  .blog__article-item {
     margin-bottom: 35px;
   }
 
@@ -861,6 +855,16 @@
     line-height: 20px;
   }
 
+  .blog-page__left ul {
+    padding-left: 10px;
+  }
+  
+  .blog-page__left ul li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
   figure {
     margin: 0 0 15px;
   }

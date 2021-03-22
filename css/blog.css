@@ -1,4 +1,4 @@
-.main {
+.bg_dolls-lights {
   background-size: cover;
   background-image: url("/image/blog_dolls-lights.png");
 }
@@ -11,7 +11,11 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 190px;
+  margin-bottom: 90px;
+}
+
+.blog__article-item {
+  margin-bottom: 100px;
 }
 
 .blog__article-item:nth-child(-n+2) {
@@ -42,10 +46,6 @@
 .blog__article-item:nth-child(n+3) .blog__article .blog__desc .blog__name {
   font-size: 14px;
   line-height: 17px;
-}
-
-.blog__article-item:not(:nth-last-child(-n+3)) {
-  margin-bottom: 100px;
 }
 
 .blog__article {
