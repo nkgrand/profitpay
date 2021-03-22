@@ -3,6 +3,9 @@
   const girl = document.querySelector("#girl");
   const boy = document.querySelector("#boy");
 
+  const windowInnerWidth = window.innerWidth;
+  console.log(windowInnerWidth);
+
   girl.addEventListener("mouseover", mouseOverGirl);
   girl.addEventListener("mouseout", mouseOutGirl);
 
@@ -10,18 +13,26 @@
   boy.addEventListener("mouseout", mouseOutBoy);
 
   function mouseOverGirl() {
-    block.style.backgroundImage = "url('/image/contact-lines-left.svg')";
+    if (windowInnerWidth > "955") {
+      block.style.backgroundImage = "url('/image/contact-lines-left.svg')";
+    }
   }
 
   function mouseOutGirl() {
-    block.style.backgroundImage = "url('/image/contact-lines.svg')";
+    if (windowInnerWidth > "955") {
+      block.style.backgroundImage = "url('/image/contact-lines.svg')";
+    }
   }
 
   function mouseOverBoy() {
-    block.style.backgroundImage = "url('/image/contact-lines-right.svg')";
+    if (windowInnerWidth > "955") {
+      block.style.backgroundImage = "url('/image/contact-lines-right.svg')";
+    }
   }
 
   function mouseOutBoy() {
-    block.style.backgroundImage = "url('/image/contact-lines.svg')";
+    if (windowInnerWidth > "955") {
+      block.style.backgroundImage = "url('/image/contact-lines.svg')";
+    }
   }
 })();
