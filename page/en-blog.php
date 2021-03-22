@@ -84,7 +84,7 @@ $blog = cached( $url );
         <div class="container">
 
           <ul class="article-list">
-<?php foreach ( $blog['data'] as $b ) : 
+<?php foreach ( $blog['data'] as $b ) :
 if ( $b['image'] ) {
 	$bcl = 'blog__article';
 	$bs = 'style="background-image: url('.$b['image'].')"';
@@ -94,7 +94,7 @@ if ( $b['image'] ) {
 	$bcl = 'blog__article blog__article-' . $bi;
 	$bs = false;
 }
-?>			  
+?>
             <li class="blog__article-item">
               <a href="/en/blog/<?=$b['id'];?>-<?=text2link($b['title']);?>" class="<?=$bcl;?>" <?=$bs;?>>
                 <span class="blog__desc">
@@ -107,7 +107,7 @@ if ( $b['image'] ) {
           </ul>
         </div>
 
-		<div class="paginator"><?=pages( $base, $blog['total'], $blog['page'], $blog['show'] );?></div>
+		<div class="paginator"><?=pages( $base, $blog['total'], $page, 8 );?></div>
 
 <?php if ( $cookie ) cookieblock( 'en' ); ?>
 

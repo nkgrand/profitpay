@@ -3,7 +3,7 @@ $cookie = showitonce( 'cookie' );
 $sonets = showitonce( 'sonets' );
 $page = max( 1, (int) $_GET['page'] );
 $url = 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&lang=ru&show=8';
-$base = '/en/blog/';
+$base = '/ru/blog/';
 if ( $page > 1 ) $url .= '&page=' . $page;
 if (isset( $_GET['search'] )) {
 	$url .= '&search='.urlencode( $_GET['search'] );
@@ -153,7 +153,7 @@ if ( $b['image'] ) {
           </ul>
         </div>
 
-		<div class="paginator"><?=pages( $base, $blog['total'], $blog['page'], $blog['show'] );?></div>
+		<div class="paginator"><?=pages( $base, $blog['total'], $page, 8 );?></div>
 
 		<?php if ( $cookie ) cookieblock( 'ru' ); ?>
 
