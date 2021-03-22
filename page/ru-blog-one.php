@@ -49,6 +49,16 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
           <div class="header__center">
             <!-- <button class="nav__toggle" id="toggle"></button> -->
             <ul class="nav-list">
+            <li class="header__nav-item">
+                <a
+                  href="https://dashboard.profitpay.pro/login"
+                  class="header__log-in-link"
+                >
+                  <span class="header__log-in-text-menu">Вход</span>
+                  <span class="header__log-in-icon"></span>
+                </a>
+              </li>
+              
               <li class="header__nav-item">
                 <a href="/ru/#section-us" class="nav-link">
                   <span>о нас</span>
