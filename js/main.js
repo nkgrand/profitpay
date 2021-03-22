@@ -52,10 +52,11 @@ $(".section-review__reviews-list").slick({
 });
 
 $(".section-team__team-list").slick({
-  infinite: true,
+  infinite: false,
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
+  draggable: false,
   nextArrow:
     '<img src="/image/arrow-white-right.svg" class="section-team__vector-right" alt="">',
   prevArrow:

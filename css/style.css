@@ -1141,12 +1141,12 @@ p {
   height: 427px;
   visibility: hidden;
   position: absolute;
-  top: 90px;
-  left: 380px;
+  top: 100px;
+  left: 0px;
 }
 
 .section-team__name-info {
-  flex: 0 0 32%;
+  /* flex: 0 0 32%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1173,11 +1173,11 @@ p {
 }
 
 .section-team__photo {
-  flex: 0 0 23.5%;
+  /* flex: 0 0 23.5%; */
 }
 
 .section-team__about {
-  flex: 0 0 27.5%;
+  flex: 0 0 17.5%;
   display: flex;
   align-items: center;
   padding: 21px;
