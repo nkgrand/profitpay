@@ -161,6 +161,7 @@ figcaption {
 }
 
 h2 {
+  margin-top: 20px;
   margin-bottom: 35px;
   font-size: 25px;
   font-weight: 700;

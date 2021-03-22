@@ -75,7 +75,7 @@ $blog = cached( $url );
               </li>
 
               <li class="header__nav-item">
-                <a href="/blog/" class="nav-link">
+                <a href="/ru/blog/" class="nav-link">
                   <span>блог</span>
                   <span class="menu-vector"></span>
                 </a>

@@ -137,11 +137,6 @@ p {
   cursor: default;
 }
 
-.additional-img {
-  width: 100%;
-  height: auto;
-}
-
 .conf {
   background-repeat: no-repeat;
   background-image: url("/image/work-conf1.svg");
@@ -185,10 +180,6 @@ p {
 
 .header__nav-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.header__nav-item:last-of-type {
-  /* margin-right: 30px; */
 }
 
 .nav-link {
@@ -237,10 +228,6 @@ p {
 
 .header__nav-item:active {
   border-bottom: 2px solid #05753a;
-}
-
-.header__nav-item:not(:last-child) {
-  /* margin-right: 30px; */
 }
 
 .header__sign-up-link {
@@ -817,7 +804,7 @@ p {
   height: 90px;
   background-position: center bottom;
   background-image: url("/image/work-conf2.svg");
-  transform: translate(330px, 310px);
+  transform: translate(330px, 325px);
 }
 
 .section-work__conf2 {

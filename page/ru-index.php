@@ -158,7 +158,7 @@ $sonets = showitonce( 'sonets' );
 
             <div>
               <p class="section-hero__link-desc">
-                Аппрув от 60%. Гарантируем
+                Аппрув от 50%. Гарантируем
               </p>
             </div>
           </div>
@@ -238,7 +238,7 @@ $sonets = showitonce( 'sonets' );
                 class="section-work__benefit-item section-work__benefit-item-percent"
               >
                 <p class="section-desc section-work__desc">
-                  <strong>Апрув с кэшем - от 60%</strong>
+                  <strong>Апрув от 50%</strong>
                 </p>
               </li>
 

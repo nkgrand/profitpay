@@ -1,10 +1,22 @@
 @media (max-width: 1600px) {
-  .main {
+  .main,
+  .bg_dolls-lights {
     background-image: none;
   }
 
-  .bg_dolls-lights {
-    background-image: none;
+  .section-review__conf,
+  .section-team__conf {
+    display: none;
+  }
+
+
+  .section-us__container {
+    background-position-x: 900px;
+  }
+
+  .section-us__info {
+    padding: 16px 112px 49px 350px;
+    width: 900px;
   }
 
   .section-work__info {
@@ -13,7 +25,241 @@
   }
 
   .section-work__conf1 {
-    transform: translate(270px, 310px);
+    transform: translate(270px, 325px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-work__conf1,
+  .section-work__conf2,
+  .footer__conf1,
+  .footer__conf2 {
+    display: none;
+  }
+
+  .section-heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .section-desc {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .header__nav-item:nth-child(-n+4) {
+    display: none;
+  }
+
+  .header__center {
+    margin-left: 30px;
+    margin-right: auto;
+  }
+
+  .header__sigh-up-btn {
+    margin-right: 30px;
+  }
+
+  .section-hero {
+    padding-top: 40px;
+    background-position: 90% top;
+    background-size: 80%;
+  }
+
+  .section-hero__profit {
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .section-hero__profit::after {
+    margin-top: 15px;
+    height: 2px;
+    border-bottom: 2px solid var(--green-color);
+  }
+
+  .section-hero__write-us {
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .section-hero__offers-btn-desc {
+    margin-bottom: 0;
+    max-width: 452px;
+    align-items: center;
+  }
+
+  .section-hero__offers-link {
+    padding: 9px 20px;
+    width: 450px;
+    min-height: 40px;
+    font-size: 30px;
+    line-height: 35px;
+    background: var(--green-color);
+  }
+
+  .section-hero__vector {
+    width: 35px;
+    height: 35px;
+  }
+
+  .section-hero__link-desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .section-hero__social-list {
+    margin-bottom: 50px;
+    min-height: 150px;
+    background-image: none;
+  }
+
+  .section-hero__social-link::after {
+    height: 2px;
+    border: 1px solid var(--green-color);
+  }
+
+  .section-us__info {
+    padding: 16px 112px 49px 120px;
+    width: 600px;
+  }
+
+  .section-us__container {
+    background-position-x: 600px;
+  }
+
+  .section-work__info {
+    width: 980px;
+    padding: 24px 20px 24px 40px;
+  }
+
+  .section-work__desc {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .section-work__left-arrow,
+  .section-work__right-arrow {
+    top: 55px;
+  }
+
+  .section-offers__offer:not(:last-child) {
+    margin-bottom: 100px;
+  }
+
+  .section-offers__offers-list-2 {
+    justify-content: flex-end;
+  }
+
+  .section-offers__block {
+    width: 390px;
+    min-height: 150px;
+    border-radius: 30px;
+  }
+  
+  .section-offers__block-odd {
+    padding: 15px 15px 15px 120px;
+  }
+  
+  .section-offers__block-even {
+    padding: 15px 120px 15px 15px;
+  }
+
+  .section-offers__offer-info {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .section-offers__offer-link {
+    margin-bottom: 10px;
+    min-height: 50px;
+  }
+
+  .section-offers__offer-name {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-offers__adult-img {
+    height: 35%;
+    transform: translateY(-25px);
+  }
+  
+  .section-offers__ear-img {
+    height: 45%;
+    transform: translate(310px, -90px);
+  }
+  
+  .section-offers__cardio-img {
+    height: 40%;
+    transform: translateY(-50px);
+  }
+  
+  .section-offers__bone-img {
+    height: 38%;
+    transform: translate(263px, -48px);
+  }
+  
+  .section-offers__blood-img {
+    height: 37%;
+    transform: translate(-1px, -35px);
+  }
+  
+  .section-offers__eye-img {
+    height: 40%;
+    transform: translate(227px, -50px);
+  }
+
+  .section-offers__offer-vector {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .section-offers__icon-adult {
+    width: 30px;
+    height: 30px;
+    background-image: url("/image/adult-img.svg");
+  }
+  
+  .section-offers__icon-ear {
+    width: 22px;
+    height: 34px;
+    background-image: url("/image/ear-img.svg");
+  }
+  
+  .section-offers__icon-cardio {
+    width: 28px;
+    height: 32px;
+    background-image: url("/image/cardio-img.svg");
+  }
+  
+  .section-offers__icon-bone {
+    width: 32px;
+    height: 32px;
+    background-image: url("/image/bone-img.svg");
+  }
+  
+  .section-offers__icon-blood {
+    width: 21px;
+    height: 32px;
+    background-image: url("/image/blood-img.svg");
+  }
+  
+  .section-offers__icon-eye {
+    width: 36px;
+    height: 20px;
+    background-image: url("/image/eye-img.svg");
+  }
+  
+  .section-review__reviews-item {
+    margin: 30px 20px;
+    padding: 0;
+  }
+
+  .section-team__item {
+    padding: 0;
   }
 }
 

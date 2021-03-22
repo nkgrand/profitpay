@@ -34,6 +34,13 @@ $(".section-review__reviews-list").slick({
     '<img src="/image/arrow-white-left.svg" class="section-review__vector-left" alt="">',
   responsive: [
     {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+
+    {
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
@@ -54,6 +61,13 @@ $(".section-team__team-list").slick({
   prevArrow:
     '<img src="/image/arrow-white-left.svg" class="section-team__vector-left" alt="">',
   responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+
     {
       breakpoint: 576,
       settings: {
