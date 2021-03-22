@@ -13,11 +13,12 @@ $page = isset( $path[1] ) ? $path[1] : 'index';
 $slug = isset( $path[2] ) ? $path[2] : false;
 
 // Language redirect
-if ( ! $lang ) {
-	header( 'Location: /en/' );
+if ( !$lang || ( $lang != 'ru' && $lang != 'en' ) ) {
+	$pp = ( $page != 'index' ) ? "$lang/$page" : $lang;
+	header( "Location: /en/$pp" );
 	if (isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )) {
 		$x = explode( ',', $_SERVER['HTTP_ACCEPT_LANGUAGE'] );
-		foreach ( $x as $z ) if ( $z = trim( $z ) ) if ( strpos( $z, 'ru' ) !== false ) header( 'Location: /ru/' );
+		foreach ( $x as $z ) if ( $z = trim( $z ) ) if ( strpos( $z, 'ru' ) !== false ) header( "Location: /ru/$pp" );
 	}
 	die();
 } else define( 'LANG', $lang );
