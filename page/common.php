@@ -102,6 +102,36 @@ function text2link( $text ) {
 }
 
 // Make the pages list
-function pages( $base, $count, $page, $show ) {
-	
+function pages( $url, $cc, $page, $sh ) {
+
+	if ( ! $cc ) return '';
+	$sp = ( strpos( $url, '?' ) === false ) ? '?' : '&';
+	$pages = ceil( $cc / $sh );
+	if ( $pages < 2 ) return '';
+
+	$block1st = 1;
+	$block1en = min( 2, $pages );
+	$block2st = max( $block1en + 1, min( $page - 2, $pages - 4 ) );
+	$block2en = min( $pages, $block2st + 4 );
+	$block3st = max( $block2en + 1, $pages - 1 );
+	$block3en = $pages;
+
+	$pl = [];
+	for ( $i = $block1st; $i <= $block1en; $i++ ) $pl[] = '<a'.( ($i==$page) ? ' class="active"' : '' ).' href="' .( ($i>1) ? $url . $sp . "page=$i" : $url ). '">' . $i . '</a>';
+	if ( $i < $block2st ) {
+		if ( $block2st - $block1en == 2 ) {
+			$bzz = $block1en + 1;
+			$pl[] = '<a href="' . $url . $sp . "page=$bzz". '">' . $i . '</a>';
+		} else $pl[] = '<span>&hellip;</span>';
+	}
+	for ( $i = $block2st; $i <= $block2en; $i++ ) $pl[] = '<a'.( ($i==$page) ? ' class="active"' : '' ).' href="' . $url . $sp . "page=$i" . '">' . $i . '</a>';
+	if ( $i < $block3st ) {
+		if ( $block3st - $block2en == 2 ) {
+			$bzz = $block2en + 1;
+			$pl[] = '<a href="' . $url . $sp . "page=$bzz". '">' . $i . '</a>';
+		} else $pl[] = '<span>&hellip;</span>';
+	}
+	for ( $i = $block3st; $i <= $block3en; $i++ ) $pl[] = '<a'.( ($i==$page) ? ' class="active"' : '' ).' href="' . $url . $sp . "page=$i" . '">' . $i . '</a>';
+	return implode( '', $pl );
+
 }
