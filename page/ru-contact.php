@@ -30,7 +30,7 @@ $sonets = showitonce( 'sonets' );
           </div>
 
           <div class="header__left">
-            <a href="" class="header__logo">
+            <a href="/ru/" class="header__logo">
               <img
                 src="/image/logo.svg"
                 alt="Логотип Profit Pay"

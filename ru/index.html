@@ -52,18 +52,8 @@
         <nav class="nav" id="nav">
           <button class="nav__toggle" id="toggle"></button>
 
-          <div class="header__log-in-btn-menu">
-            <a
-              href="https://dashboard.profitpay.pro/login"
-              class="header__log-in-link"
-            >
-              <span class="header__log-in-text-menu">Вход</span>
-              <span class="header__log-in-icon"></span>
-            </a>
-          </div>
-
           <div class="header__left">
-            <a class="header__logo">
+            <a class="header__logo"> <!-- .header__log-in-link -->
               <img
                 src="/image/logo.svg"
                 alt="Логотип Profit Pay"
@@ -75,6 +65,16 @@
           <div class="header__center">
             <!-- <button class="nav__toggle" id="toggle"></button> -->
             <ul class="nav-list">
+              <li class="header__nav-item">
+                <a
+                  href="https://dashboard.profitpay.pro/login"
+                  class="header__log-in-link"
+                >
+                  <span class="header__log-in-text-menu">Вход</span>
+                  <span class="header__log-in-icon"></span>
+                </a>
+              </li>
+
               <li class="header__nav-item">
                 <a href="#section-us" class="nav-link">
                   <span>о нас</span> 
@@ -635,31 +635,31 @@
 
           <h2 class="section-heading section-team__heading">Наша команда:</h2>
 
-          <ul class="section-team__team-list">
-            <li class="section-team__item">
+          <div class="section-team__team-list">
+            <div class="section-team__item">
               <img src="/image/photo1.png" alt="" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo2.png" alt="" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo3.png" alt="" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo4.png" alt="" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo5.png" alt="" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo6.png" alt="" />
-            </li>
-          </ul>
+            </div>
+          </div>
 
           <!-- <div class="section-team__person section-team__person1">
             <div class="section-team__name-info">

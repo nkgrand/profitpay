@@ -37,7 +37,7 @@ $blog = cached( $url );
           </div>
 
           <div class="header__left">
-            <a href="index.html" class="header__logo">
+            <a href="/ru/" class="header__logo">
               <img
                 src="/image/logo.svg"
                 alt="Логотип Profit Pay"

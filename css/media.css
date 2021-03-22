@@ -6,6 +6,15 @@
   .bg_dolls-lights {
     background-image: none;
   }
+
+  .section-work__info {
+    width: 1200px;
+    padding: 24px 88px 24px 88px;
+  }
+
+  .section-work__conf1 {
+    transform: translate(270px, 310px);
+  }
 }
 
 @media (max-width: 576px) {
@@ -92,7 +101,7 @@
 
   .nav-list {
     position: absolute;
-    top: 50px;
+    top: 0;
     right: 0;
     background: black;
     flex-direction: column;
@@ -136,6 +145,10 @@
     width: 239px;
     font-weight: 500;
     text-transform: capitalize;
+  }
+
+  .body.nav.expand {
+    overflow: hidden;
   }
 
   .nav.expand .nav-list {
@@ -232,6 +245,16 @@
     margin-left: 8px;
     width: 31px;
     height: 27px;
+  }
+
+  .header__nav-item:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-left: 20%;
+    background-color: var(--green-color);
+
   }
 
   .section-hero__container {
@@ -395,13 +418,14 @@
     margin: 0 auto;
     padding: 0;
     border-radius: 0;
-    width: 170px;
+    width: 80%;
     height: 170px;
     background-color: inherit;
   }
 
   .section-work__desc {
     font-size: 18px;
+    line-height: 1.2;
     color: #fff;
     text-align: center;
   }
@@ -525,13 +549,17 @@
   }
 
   .section-review__review {
+    margin: 0 auto;
     padding: 12px;
-    width: 290px;
-    height: 205px;
+    width: 100%;
+    min-height: 205px;
+    height: auto;
+    text-align: center;
   }
 
   .section-review__reviews-item {
     padding: 0;
+    width: 100%;
   }
 
   .section-review__review-heading {
@@ -546,7 +574,7 @@
 
   .section-review__user {
     padding: 22px;
-    width: 290px;
+    width: 100%;
     height: 46px;
   }
 
