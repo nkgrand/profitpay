@@ -100,3 +100,8 @@ function text2link( $text ) {
 	$text = trim ( $text, '-' );
 	return $text ? $text : '';
 }
+
+// Make the pages list
+function pages( $base, $count, $page, $show ) {
+	
+}

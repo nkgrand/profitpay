@@ -5,13 +5,13 @@ $xx = explode( '-', SLUG );
 $id = (int) $xx[0];
 $page = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&uid='.$id );
 $page = $page['data'][0];
-$blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&show=5&lang=ru' );
+$blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&show=6&lang=ru' );
 ?><!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profit Pay</title>
+    <title><?=$page['title'];?> | Profit Pay</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/blog-page.css">
     <link rel="stylesheet" href="/css/media.css" />
@@ -167,6 +167,7 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
 
               <ul class="blog-page__article-list">
 <?php foreach ( $blog['data'] as $b ) : 
+if ( $b['id'] == $page['id'] ) continue;
 if ( $b['image'] ) {
 	$bcl = 'blog__article';
 	$bs = 'style="background-image: url('.$b['image'].')"';

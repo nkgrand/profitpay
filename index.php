@@ -1,8 +1,5 @@
 <?php
 
-ini_set( 'display_errors', 'On' );
-error_reporting( E_ALL & ~E_NOTICE );
-
 // Find the way
 $ws = explode( '?', $_SERVER['REQUEST_URI'], 2 );
 $pp = trim( $ws[0], '/' );
@@ -22,6 +19,7 @@ if ( ! $lang ) {
 		$x = explode( ',', $_SERVER['HTTP_ACCEPT_LANGUAGE'] );
 		foreach ( $x as $z ) if ( $z = trim( $z ) ) if ( strpos( $z, 'ru' ) !== false ) header( 'Location: /ru/' );
 	}
+	die();
 } else define( 'LANG', $lang );
 
 // Take the part
