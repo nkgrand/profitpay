@@ -183,33 +183,33 @@
   }
 
   .section-offers__adult-img {
-    height: 35%;
+    height: 40%;
     transform: translateY(-25px);
   }
   
   .section-offers__ear-img {
-    height: 45%;
-    transform: translate(310px, -90px);
+    height: 50%;
+    transform: translate(320px, -75px);
   }
   
   .section-offers__cardio-img {
-    height: 40%;
-    transform: translateY(-50px);
+    height: 45%;
+    transform: translateY(-40px);
   }
   
   .section-offers__bone-img {
-    height: 38%;
-    transform: translate(263px, -48px);
+    height: 45%;
+    transform: translate(265px, -48px);
   }
   
   .section-offers__blood-img {
-    height: 37%;
-    transform: translate(-1px, -35px);
+    height: 45%;
+    transform: translate(-2px, -35px);
   }
   
   .section-offers__eye-img {
-    height: 40%;
-    transform: translate(227px, -50px);
+    height: 45%;
+    transform: translate(238px, -40px);
   }
 
   .section-offers__offer-vector {

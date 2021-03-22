@@ -64,7 +64,7 @@ function sonetblock( $lang ) {
             <span class="modal-form__icon modal-form__icon-tg"></span>
             <span class="modal-form__name">TELEGRAM</span>
             <span class="modal-form__desc">@PROFITPAYCPA</span>
-            <span class="modal-form__btn">LOGIN <span class="modal-form__vector"></span></span>
+            <span class="modal-form__btn">LOG IN <span class="modal-form__vector"></span></span>
           </a>
         </div>
 
@@ -73,7 +73,7 @@ function sonetblock( $lang ) {
             <span class="modal-form__icon modal-form__icon-vk"></span>
             <span class="modal-form__name">ВКОНТАКТЕ</span>
             <span class="modal-form__desc">@PROFITPAYCPA</span>
-            <span class="modal-form__btn">LOGIN <span class="modal-form__vector"></span></span>
+            <span class="modal-form__btn">LOG IN <span class="modal-form__vector"></span></span>
           </a>
         </div>
       </div>

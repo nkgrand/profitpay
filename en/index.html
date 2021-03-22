@@ -5,226 +5,327 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profit Pay</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/media.css" />
   </head>
 
   <body class="body">
     <div class="modal-form">
       <span class="modal-form__x btnClose"></span>
-      <h2 class="section-heading modal-form__heading">NETWORKS</h2>
+      <h2 class="section-heading modal-form__heading">Networks</h2>
 
       <div class="modal-form__socials">
         <div class="modal-form__item">
-          <a  href="https://t.me/cpafbcat"  target="_blank"  class="modal-form__link">
+          <a
+            href="https://t.me/cpafbcat"
+            target="_blank"
+            class="modal-form__link"
+          >
             <span class="modal-form__icon modal-form__icon-tg"></span>
             <span class="modal-form__name">TELEGRAM</span>
             <span class="modal-form__desc">@PROFITPAYCPA</span>
-            <span class="modal-form__btn">LOGIN <span class="modal-form__vector"></span></span>
+            <span class="modal-form__btn"
+              >Log in <span class="modal-form__vector"></span
+            ></span>
           </a>
         </div>
 
         <div class="modal-form__item">
-          <a  href="https://vk.com/profitpay"  target="_blank"  class="modal-form__link">
+          <a
+            href="https://vk.com/profitpay"
+            target="_blank"
+            class="modal-form__link"
+          >
             <span class="modal-form__icon modal-form__icon-vk"></span>
-            <span class="modal-form__name">ВКОНТАКТЕ</span>
+            <span class="modal-form__name">VKONTAKTE</span>
             <span class="modal-form__desc">@PROFITPAYCPA</span>
-            <span class="modal-form__btn">LOGIN <span class="modal-form__vector"></span></span>
+            <span class="modal-form__btn"
+              >Log in <span class="modal-form__vector"></span
+            ></span>
           </a>
         </div>
       </div>
     </div>
     <div class="overlay"></div>
 
-    <header>      
+    <header>
       <div class="container header__container">
-        <button class="nav__toggle" id="toggle"></button>
+        <nav class="nav" id="nav">
+          <button class="nav__toggle" id="toggle"></button>
 
-        <div class="header__left">
-          <a class="header__logo">
-            <img  src="/image/logo.svg"  alt="Логотип Profit Pay"  class="header__logo-img"/>
-          </a>
-        </div>
+          <div class="header__left">
+            <a class="header__logo"> <!-- .header__log-in-link -->
+              <img
+                src="/image/logo.svg"
+                alt="Логотип Profit Pay"
+                class="header__logo-img"
+              />
+            </a>
+          </div>
 
-        <div class="header__center">
-          <ul class="nav-list">
+          <div class="header__center">
+            <!-- <button class="nav__toggle" id="toggle"></button> -->
+            <ul class="nav-list">
+              <li class="header__nav-item">
+                <a
+                  href="https://dashboard.profitpay.pro/login"
+                  class="header__log-in-link"
+                >
+                  <span class="header__log-in-text-menu">Log in</span>
+                  <span class="header__log-in-icon"></span>
+                </a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#section-us" class="nav-link">
+                  <span>about us</span> 
+                  <span class="menu-vector"></span>
+                </a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#section-work" class="nav-link">
+                  <span>Webmasters</span> 
+                  <span class="menu-vector"></span>
+                </a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#section-offers" class="nav-link">
+                  <span>Offers</span> 
+                  <span class="menu-vector"></span>
+                </a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="blog.html" class="nav-link">
+                  <span>Blog</span> 
+                  <span class="menu-vector"></span>
+                </a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="contacts.html" class="nav-link">
+                  <span>Contacts</span> 
+                  <span class="menu-vector"></span>
+                </a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="/ru/index.html" class="nav-link">
+                  <span>ru</span> 
+                  <span class="menu-vector"></span>
+                </a>
+              </li>
+            </ul>
+
+            <!-- <ul class="nav-list">
             <li class="header__nav-item">
-              <a href="#section-us" class="header__nav-link">ABOUT US</a>
+              <a href="#section-us" class="nav-link">about us</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="#section-work" class="header__nav-link">FOR WEBMASTERS</a>
+              <a href="#section-work" class="nav-link">webmasters</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="#section-offers" class="header__nav-link">TOOLS</a>
+              <a href="#section-offers" class="nav-link">offers</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="" class="header__nav-link">BLOG</a>
+              <a href="" class="nav-link">blog</a>
             </li>
 
             <li class="header__nav-item">
-              <a href="" class="header__nav-link">CONTACT</a>
+              <a href="" class="nav-link">contacts</a>
+            </li>
+          </ul> -->
+          </div>
+
+          <div class="header__sigh-up-btn">
+            <a
+              href="https://dashboard.profitpay.pro/register"
+              class="header__sign-up-link"
+              >Sign up</a
+            >
+          </div>
+
+          <div class="header__log-in-btn">
+            <a
+              href="https://dashboard.profitpay.pro/login"
+              class="header__log-in-link"
+            >
+              <span class="header__log-in-text">Вход</span>
+              <span class="header__log-in-icon"></span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 class="visually-hidden">Profit Pay</h1>
+
+      <section class="section-hero">
+        <div class="container section-hero__container">
+          <p class="section-hero__profit">
+            You love <span class="green-color">PROFIT</span> - so do we! With us  -
+            <span class="green-color">$$$</span> more
+          </p>
+
+          <p class="section-hero__write-us">
+            <span class="green-color">CONTACT US  <br />AND GET A BOOST </span> AT THE START
+          </p>
+
+          <div class="section-hero__offers-btn-desc">
+            <div class="section-hero__offers-btn">
+              <a
+                href="https://dashboard.profitpay.pro/register"
+                class="section-hero__offers-link"
+              >
+                <span>VIEW OFFERS</span>
+                <span class="section-hero__vector"></span
+              ></a>
+            </div>
+
+            <div>
+              <p class="section-hero__link-desc">
+                Approve from 50%. We guarantee it
+              </p>
+            </div>
+          </div>
+
+          <ul class="section-hero__social-list">
+            <li
+              class="section-hero__social-item section-hero__social-item-tg"
+            >
+              <a
+                href="https://t.me/cpafbcat"
+                target="_blank"
+                class="section-hero__social-link section-hero__social-link-tg"
+              >
+                <span
+                  class="section-hero__social-icon section-hero__social-icon-tg"
+                ></span>
+
+                <span>
+                  <span class="section-hero__social-name">Telegram</span>
+                  <br />@PROFITPAYCPA
+                </span>
+              </a>
+            </li>
+
+            <li
+              class="section-hero__social-item section-hero__social-item-vk"
+            >
+              <a
+                href="https://vk.com/profitpay"
+                target="_blank"
+                class="section-hero__social-link section-hero__social-link-vk"
+              >
+                <span
+                  class="section-hero__social-icon section-hero__social-icon-vk"
+                ></span>
+                <span>
+                  <span class="section-hero__social-name">Vkontakte</span>
+                  <br />VK.COM/PROFITPAY
+                </span>
+              </a>
             </li>
           </ul>
         </div>
 
-        <div class="header__sigh-up-btn">
-          <a  href="https://dashboard.profitpay.pro/register"  class="header__sign-up-link">REGISTRATION</a>
-        </div>
-
-        <div class="header__log-in-btn">
-          <a  href="https://dashboard.profitpay.pro/login"  class="header__log-in-link">
-            <span class="header__log-in-text">Login</span>
-            <span class="header__log-in-icon"></span>
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <h1 class="visually-hidden">Profit Pay</h1>
-
-      <div class="section-hero__circle">
-        <section class="section-hero">
-          <div class="container section-hero__container">
-            <div class="section-hero__lightnings">
-              <img  src="/image/hero-lightnings.png"  alt=""  class="additional-img"/>
+        <div class="section-cookie">
+          <div class="section-cookie__container">
+            <span class="section-cookie__icon"></span>
+            <div class="section-cookie__text">
+              <p class="section-cookie__heading">Мы используем сookie</p>
+              <p class="section-cookie__desc">
+                Во время посещения сайта «Культура.РФ» вы соглашаетесь с тем,
+                что мы обрабатываем ваши персональные данные с использованием
+                метрических программ.
+                <a href="" class="section-cookie__link"> Подробнее. </a>
+              </p>
             </div>
 
-            <div class="section-hero__dolls">
-              <img src="/image/hero-doll.png" alt="" class="additional-img" />
-            </div>
-
-            <p class="section-hero__profit">
-              You love <span class="green-color">PROFIT</span> - so do we! With us -
-              <span class="green-color">$$$</span> more
-            </p>
-
-            <p class="section-hero__write-us">
-              <span class="green-color">CONTACT US <br />AND GET A BOOST</span> AT THE START
-            </p>
-
-            <div class="section-hero__offers-btn-desc">
-              <div class="section-hero__offers-btn">
-                <a href="https://dashboard.profitpay.pro/register" class="section-hero__offers-link">
-                  <span>VIEW OFFERS</span> 
-                  <span class="section-hero__vector"></span></a>
-              </div>
-
-              <div>
-                <p class="section-hero__link-desc">
-                  Approve from 50%. We guarantee it
-                </p>
-              </div>
-            </div>
-
-            <p class="section-hero__profitpay">PROFITPAY</p>
-
-            <ul class="section-hero__social-list">
-              <li class="section-hero__social-item section-hero__social-item-tg">
-                <a  href="https://t.me/cpafbcat"  target="_blank"  class="section-hero__social-link section-hero__social-link-tg">
-                  <span  class="section-hero__social-icon section-hero__social-icon-tg"></span>
-                  
-                  <span>
-                    <span class="section-hero__social-name">Telegram</span>
-                    <br />@PROFITPAYCPA
-                  </span>
-                </a>
-              </li>
-
-              <li class="section-hero__social-item section-hero__social-item-vk">
-                <a  href="https://vk.com/profitpay"  target="_blank"  class="section-hero__social-link section-hero__social-link-vk">
-                  <span  class="section-hero__social-icon section-hero__social-icon-vk"></span>
-                  <span>
-                    <span class="section-hero__social-name">Vkontakte</span>
-                    <br />VK.COM/PROFITPAY
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="section-cookie">
-            <div class="section-cookie__container">
-              <span class="section-cookie__icon"></span>
-              <div class="section-cookie__text">
-                <p class="section-cookie__heading">This site uses cookies.</p>
-                <p class="section-cookie__desc">
-                  By continuing to browse the site, you are agreeing to our use of cookies.
-                  <a href="" class="section-cookie__link">
-                    More info.
-                  </a>
-                </p>
-              </div>
-
-              <button type="submit" class="section-cookie__btn cookiesBtnClose">
-                Accept it <span class="section-cookie__vector"></span>
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <section id="section-us" class="section-us">
-        <div class="section-us__container">
-          <div class="section-us__info">
-            <h2 class="section-heading section-us__heading">WHO ARE WE?</h2>
-            <p class="section-desc section-us__desc">
-              <strong>ProfitPay</strong> - CPA - the network of the direct gut of the advertiser from Europe!
-            </p>
+            <button type="submit" class="section-cookie__btn cookiesBtnClose">
+              Понял <span class="section-cookie__vector"></span>
+            </button>
           </div>
         </div>
       </section>
 
-      <section id="section-work" class="section-work">
-        <div class="section-work__doll">
-          <img src="/image/work-doll.png" alt="" class="additional-img" />
+    <section id="section-us" class="section-us">
+      <div class="section-us__container">
+        <div class="section-us__pp-hashes">
+          <span class="section-us__hashes"></span>
+          <span class="section-us__pp">ProfitPay</span>
         </div>
 
+        <div class="section-us__info">
+          <h2 class="section-heading section-us__heading">WHO ARE WE?</h2>
+          <p class="section-desc section-us__desc">
+            <strong>ProfitPay</strong> - CPA-the network of the direct gut of the advertiser from Europe!
+          </p>
+        </div>
+      </div>
+    </section>
+
+      <section id="section-work" class="section-work">
         <div class="conf section-work__conf1"></div>
         <div class="conf section-work__conf2"></div>
 
         <h2 class="section-heading section-work__heading">
-          WHAT YOU WILL GET WHEN WORKING WITH US?
+          WHAT WILL YOU GET WORKING WITH US?
         </h2>
 
         <div class="section-work__container">
           <div class="section-work__info">
             <ul class="section-work__benefit-list">
-              <li  class="section-work__benefit-item section-work__benefit-item-doll">
+              <li
+                class="section-work__benefit-item section-work__benefit-item-doll"
+              >
                 <p class="section-desc section-work__desc">
                   <strong>High stakes from start</strong>
                 </p>
               </li>
 
-              <li  class="section-work__benefit-item section-work__benefit-item-percent">
+              <li
+                class="section-work__benefit-item section-work__benefit-item-percent"
+              >
                 <p class="section-desc section-work__desc">
                   <strong>Approve from 50%</strong>
                 </p>
               </li>
 
-              <li  class="section-work__benefit-item section-work__benefit-item-money">
+              <li
+                class="section-work__benefit-item section-work__benefit-item-money"
+              >
                 <p class="section-desc section-work__desc">
                   <strong>Daily payouts from $100</strong>
                 </p>
               </li>
 
-              <li  class="section-work__benefit-item section-work__benefit-item-call-center">
+              <li
+                class="section-work__benefit-item section-work__benefit-item-call-center"
+              >
                 <p class="section-desc section-work__desc">
                   <strong>Own Call Center</strong>
                 </p>
               </li>
 
-              <li  class="section-work__benefit-item section-work__benefit-item-support">
+              <li
+                class="section-work__benefit-item section-work__benefit-item-support"
+              >
                 <p class="section-desc section-work__desc">
                   <strong>Support 24/7</strong>
                 </p>
               </li>
 
-              <li  class="section-work__benefit-item section-work__benefit-item-crown">
+              <li
+                class="section-work__benefit-item section-work__benefit-item-crown"
+              >
                 <p class="section-desc section-work__desc">
-                  <strong>Эксклюзивные офферы и перевод промо-материалов</strong>
+                  <strong>Exclusive offers and translated promo materials</strong>
                 </p>
               </li>
             </ul>
@@ -234,125 +335,191 @@
 
       <section id="section-offers" class="section-offers">
         <div class="container">
-          <div class="section-offers__doll">
-            <img src="/image/work-doll.png" alt="" class="additional-img" />
+          <h2 class="section-heading section-offers__heading">Best offers</h2>
+
+          <div class="section-offers__ul">
+            <ul class="section-offers__offers-list section-offers__offers-list-1">
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-adult.png"
+                  alt=""
+                  class="section-offers__img section-offers__adult-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-adult"
+                      ></span>
+  
+                      <h3 class="section-offers__offer-name">Adult</h3>
+  
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">57%</span>
+                  </p>
+                </div>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-cardio.png"
+                  alt=""
+                  class="section-offers__img section-offers__cardio-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-cardio"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Cholesterol</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">72%</span>
+                  </p>
+                </div>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-blood.png"
+                  alt=""
+                  class="section-offers__img section-offers__blood-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-blood"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Diabetes</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">66%</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+  
+            <ul class="section-offers__offers-list section-offers__offers-list-2">
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-ear.png"
+                  alt=""
+                  class="section-offers__img section-offers__ear-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-even">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-ear"
+                      ></span>
+  
+                      <h3 class="section-offers__offer-name">Hearing</h3>
+  
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">76%</span>
+                  </p>
+                </div>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-bone.png"
+                  alt=""
+                  class="section-offers__img section-offers__bone-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-even">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-bone"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Joints</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">67%</span>
+                  </p>
+                </div>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-eye.png"
+                  alt=""
+                  class="section-offers__img section-offers__eye-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-even">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-eye"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Vision</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">64%</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
-
-          <h2 class="section-heading section-offers__heading">BEST OFFERS</h2>
-
-          <ul class="section-offers__offers-list">
-            <li class="section-offers__offer">
-              <img src="/image/offer-adult.png" alt="" class="section-offers__img section-offers__adult-img"/>
-
-              <div class="section-offers__block section-offers__block-odd">
-                <div class="section-offers__btn">
-                  <a href="" class="section-offers__offer-link section-offers__offer-info">
-                    <span class="section-offers__icon section-offers__icon-adult" ></span>
-                    
-                    <h3 class="section-offers__offer-name">Adult</h3>
-                    
-                    <span class="section-offers__icon section-offers__offer-vector" ></span>
-                  </a>
-                </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">57%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img src="/image/offer-ear.png" alt="" class="section-offers__img section-offers__ear-img"/>
-
-              <div class="section-offers__block section-offers__block-even">
-                <div class="section-offers__btn">
-                  <a href="" class="section-offers__offer-link section-offers__offer-info">
-                    <span class="section-offers__icon section-offers__icon-ear"></span>
-                    
-                    <h3 class="section-offers__offer-name">Hearing</h3>
-                    
-                    <span class="section-offers__icon section-offers__offer-vector" ></span>
-                  </a>
-                </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">76%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img src="/image/offer-cardio.png" alt="" class="section-offers__img section-offers__cardio-img"/>
-
-              <div class="section-offers__block section-offers__block-odd">
-                <div class="section-offers__btn">
-                  <a href="" class="section-offers__offer-link section-offers__offer-info">
-                    <span class="section-offers__icon section-offers__icon-cardio"></span>
-                    <h3 class="section-offers__offer-name">Cholesterol</h3>
-                    <span class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
-                </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">72%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img  src="/image/offer-bone.png"  alt=""  class="section-offers__img section-offers__bone-img"/>
-
-              <div class="section-offers__block section-offers__block-even">
-                <div class="section-offers__btn">
-                  <a  href=""  class="section-offers__offer-link section-offers__offer-info">
-                    <span  class="section-offers__icon section-offers__icon-bone"></span>
-                    <h3 class="section-offers__offer-name">Joints</h3>
-                    <span  class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
-                </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">67%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img  src="/image/offer-blood.png"  alt=""  class="section-offers__img section-offers__blood-img"/>
-
-              <div class="section-offers__block section-offers__block-odd">
-                <div class="section-offers__btn">
-                  <a  href=""  class="section-offers__offer-link section-offers__offer-info">
-                    <span  class="section-offers__icon section-offers__icon-blood"></span>
-                    <h3 class="section-offers__offer-name">Diabetes</h3>
-                    <span  class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
-                </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">66%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img  src="/image/offer-eye.png"  alt=""  class="section-offers__img section-offers__eye-img"/>
-
-              <div class="section-offers__block section-offers__block-even">
-                <div class="section-offers__btn">
-                  <a  href=""  class="section-offers__offer-link section-offers__offer-info">
-                    <span  class="section-offers__icon section-offers__icon-eye"></span>
-                    <h3 class="section-offers__offer-name">Vision</h3>
-                    <span  class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
-                </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">64%</span>
-                </p>
-              </div>
-            </li>
-          </ul>
         </div>
       </section>
 
@@ -366,18 +533,21 @@
             <li class="section-review__reviews-item">
               <div class="section-review__review">
                 <p class="section-review__review-heading">
-                  I wouldn't be surprised if it goes to the TOP...
+                  Не удивлюсь, если выйдет в ТОП...
                 </p>
 
-                <p class="section-review__review-text"> 
-                  ProfitPay. They do their best for the web. Fact! There is a sense of a civilized approach to business in general. As for a young partner, a rarity. It can be regarded as defirambs, but not taken away. Technically, everything is there: it is easy, clear and works. Not broken offers, sharpened by common sense. The affiliate program for your GEO is local, so they know their target audience well. And this, for a moment, is high approve. If the $100 minimum price scares beginners, make a mistake. It is a newbie, 5 leads went, 4 approved in 15 min. Without any problems. Managers: Pavel, Alexandra. There is a suspicion that they do not sleep at all :) haha, joke, but they are constantly in touch. To me as a "Noob", they threw off the landing pages configured for the API, and even threw a bunch. Anyway, I'm with you guys.
-                  Aleksandr
+                <p class="section-review__review-text">
+                  ProfitPay. Стараются для вэбов. Факт! Чувствуется цивилизованный подход к бизнесу в целом. Как для молодой партнерки, редкость. Можно расценивать - как дефирамбы, но не отнять. Технически все есть: легко, понятно, работает. Не заезженые офферы, заточены под здравый смысл. Партнерка для своего ГЕО местная, поэтому хорошо знают свою ЦА. А это, на минуточку, высокий Approve. Если 100$ минималка пугает новичков, ошибаються. Сам новичек, зашло 5 лидов, 4 Approveа. 15 мин. на вывод. Вааще без проблем. Менеджеры: Павел, Александра. Есть подозрение что не спят вообще...) Шутка, но на связи постоянно. Мне как "Нубу", скинули настроенные под API ленды, и даже связочку подкинули. Короче, я с Вами ребята.
                 </p>
               </div>
 
               <div class="section-review__user">
                 <span>
-                  <img  src="/image/review-person.svg"  alt=""  class="section-review__user-icon"/>
+                  <img
+                    src="/image/review-person.svg"
+                    alt=""
+                    class="section-review__user-icon"
+                  />
                 </span>
 
                 <h3 class="section-review__user-name">Aleksandr</h3>
@@ -386,19 +556,22 @@
 
             <li class="section-review__reviews-item">
               <div class="section-review__review">
-                <p class="section-review__review-heading">PP is not bad</p>
+                <p class="section-review__review-heading">ПП неплохая</p>
 
                 <p class="section-review__review-text">
-                  I try to pour adult here, the offers are uncompressed compared to the same terra. The payout is higher significantly, which even on tests comes out a positive swarm. The output is at least a hundred.
+                  Пробую тут адалт лить, офферы неотжатые по сравнению с той же террой. Выплата выше ощутимо, что даже на тестах выходит плюсовой рои. Вывод минимум сотка. 
                   
-                  The only inconvenience may be for beginners - in the land you need to prescribe API integration. Not difficult, there is an instruction, bat anyway. And the manager, it seems, can throw off everything ready. By the way, they answer almost at any time of the day. Out of a dozen pp, this one still seems to be the most normal. Mainly because of the fresh offers.
-                  Mikhail
+                  Единственное неудобство может быть для новичков - в ленды надо прописывать апи интеграцию. Не сложно, есть инстуркция, бат энивей. Да и манагер, вроде как, может всё готовое скинуть. Кстати отвечают практически в любое время суток. Из десятка пп, даже бурж, эта пока что кажется самой норм. В основном из-за свежих офферов
                 </p>
               </div>
 
               <div class="section-review__user">
                 <span>
-                  <img  src="/image/review-person.svg"  alt=""  class="section-review__user-icon"/>
+                  <img
+                    src="/image/review-person.svg"
+                    alt=""
+                    class="section-review__user-icon"
+                  />
                 </span>
 
                 <h3 class="section-review__user-name">Mikhail</h3>
@@ -407,17 +580,20 @@
 
             <li class="section-review__reviews-item">
               <div class="section-review__review">
-                <p class="section-review__review-heading">Review of ProfitPay</p>
+                <p class="section-review__review-heading">Отзыв о ProfitPay</p>
 
                 <p class="section-review__review-text">
-                  Posh PP. Previously, I worked mainly with leadrock, but when I got acquainted with ProfitPay, it was something with something: high payouts for all offers, a low offer price on the site, a good KC and, as a result, a high approve. On the technical side too, everything is OK, if you have any questions - Pavel is always online. As for the payments, everything is fine here - no delays. There are also various contests in which it is a pleasure to participate, as the saying goes "a good toastmaster and interesting contests").
-                  Lorrens
+                  Шикарная ПП. Раньше работал в основном с leadrock, но когда познакомился с ProfitPay - то это что-то с чем то: высокие выплаты по всем офферам, низкая цена оффера на сайте, хороший КЦ и как следствие - высокий аппрув. По технической части тоже все ок, если возникают какие либо вопросы - Павел всегда онлайн. По поводу выплат, то тут все отлично - никаких задержек. Так же есть различные конкурсы в которых одно удовольствие участвовать, как говорится "хороший тамада и конкурсы интересные").
                 </p>
               </div>
 
               <div class="section-review__user">
                 <span>
-                  <img  src="/image/review-person.svg"  alt=""  class="section-review__user-icon"/>
+                  <img
+                    src="/image/review-person.svg"
+                    alt=""
+                    class="section-review__user-icon"
+                  />
                 </span>
 
                 <h3 class="section-review__user-name">Lorrens</h3>
@@ -427,18 +603,22 @@
             <li class="section-review__reviews-item">
               <div class="section-review__review">
                 <p class="section-review__review-heading">
-                  First impressions of the affiliate program
+                  Первые впечатления о партнерке
                 </p>
 
                 <p class="section-review__review-text">
-                  I came to the ProfitPay affiliate program for the sake of interest, as the manager was very much talking about their high approval and high-quality promos. Well, I was pleasantly surprised indeed! Now the team and I have been working with them for 1.5 months. There are no special comments. There were issues with form validation - but they were quickly eliminated. Tech suport - fire! Always in touch. So I recommend it from the bottom of my heart!
-                  Anton
+                  В партнерку ProfitPay пришел ради интереса, так как очень уж менеджер рассказывала о их высоких аппрувах и качественных промо. 
+                  Ну и был приятно удивлен действительно! Сейчас мы с командой работаем уже 1,5 месяца с ними. Замечаний особо никаких нет. Были вопросы с валидацией формы - но быстро устранили. Тех поддержка - огонь! всегда на связи. Так что рекомендую от души!
                 </p>
               </div>
 
               <div class="section-review__user">
                 <span>
-                  <img  src="/image/review-person.svg"  alt=""  class="section-review__user-icon"/>
+                  <img
+                    src="/image/review-person.svg"
+                    alt=""
+                    class="section-review__user-icon"
+                  />
                 </span>
 
                 <h3 class="section-review__user-name">Anton</h3>
@@ -450,206 +630,251 @@
 
       <section class="section-team">
         <div class="container">
-          <div class="section-team__lightning">
-            <img  src="/image/team-lightning.png"  alt=""  class="additional-img"/>
-          </div>
-
-          <div class="section-team__doll">
-            <img src="/image/team-doll.png" alt="" class="additional-img" />
-          </div>
-
           <div class="conf section-team__conf"></div>
 
-          <h2 class="section-heading section-team__heading">Our team:</h2>
+          <h2 class="section-heading section-team__heading">Наша команда:</h2>
 
-          <ul class="section-team__team-list">
-            <li class="section-team__item">
+          <div class="section-team__team-list">
+            <div class="section-team__item">
+              <img src="/image/photo1.png" alt="" id="person1" />
+            </div>
+
+            <div class="section-team__item">
+              <img src="/image/photo2.png" alt="" id="person2" />
+            </div>
+
+            <div class="section-team__item">
+              <img src="/image/photo3.png" alt="" id="person3" />
+            </div>
+
+            <div class="section-team__item">
+              <img src="/image/photo4.png" alt="" id="person4" />
+            </div>
+
+            <div class="section-team__item">
+              <img src="/image/photo5.png" alt="" id="person5" />
+            </div>
+
+            <div class="section-team__item">
+              <img src="/image/photo6.png" alt="" id="person6" />
+            </div>
+          </div>
+
+          <!-- Detailed blok of team player -->
+          <div
+            class="section-team__person section-team__person1 person1_detailed"
+          >
+            <div class="section-team__name-info">
+              <span class="section-team__name">Павел</span>
+              <span class="section-team__vector"></span>
+            </div>
+
+            <div class="section-team__photo">
               <img src="/image/photo1.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo2.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo3.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo4.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo5.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo6.png" alt="" />
-            </li>
-          </ul>
-
-          <!-- <div class="section-team__person section-team__person1">
-            <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
-              <span class="section-team__vector"></span>
             </div>
-            
-            <div class="section-team__photo">
-              <img src="/image/photo1.png" alt="" />
-            </div>
-  
+
             <div class="section-team__about">
+              <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Развиваю сеть с технической части. Если вам нужен определенный
+                преленд с формой, либо нужна интеграция - это ко мне. Также
+                помогаю начинающим вебам советом как и на что лить. В прошлом
+                арбитражил в FB и Google.
               </p>
             </div>
           </div>
+          <!-- Detailed blok of team player -->
 
-          <div class="section-team__person section-team__person2">
+          <div
+            class="section-team__person section-team__person2 person2_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Александра</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo2.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
+              <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Подберу идеальную связку, которая принесет вам профит. Прослежу,
+                чтобы вы вовремя получили выплату на свой кошелек. Пристально
+                слежу за работой колл-центр, чтобы аппрув вас радовал. А еще
+                огромный мотиватор для нашей команды - со мной ProfitPay скоро
+                станет топовой ПП по нутре. Ищете вкусный оффер с высоким
+                Approveом? Пишите мне!
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person3">
+          <div
+            class="section-team__person section-team__person3 person3_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Кароль</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo3.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
+              <p><strong>Графический дизайнер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Генерирую творческие идеи и реализую их в своих проектах. Я
+                стараюсь создавать современный, стильный и структурированный
+                визуал для Profit Pay. Разработка всех иллюстраций, дизайна
+                постов и лэндов в этом проекте лежит на мне. Ежедневно в моей
+                голове появляется миллион новых идей для улучшения нашей сети.
+                Эти идеи скоро можно будет увидеть на сайте Profit Pay.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person4">
+          <div
+            class="section-team__person section-team__person4 person4_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Габриела</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo4.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
+              <p><strong>Копирайтер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                У меня необычный взгляд на вещи и события, которые происходят в
+                мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю
+                писать тексты, а работа в Profit Pay дает мне возможность
+                совершенствовать эти навыки и делиться своими взглядами на этот
+                мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них
+                что-то полезное. Если же после прочтения у вас останутся вопросы
+                - пишите мне, и мы это обсудим.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person5">
+          <div
+            class="section-team__person section-team__person5 person5_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Томаш</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo5.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
+              <p><strong>Frontend-разработчик Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Я ответственно и с наслаждением отношусь к своей работе.
+                Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы
+                к CRM. Я не люблю стоять на месте. Постоянное развитие - мое
+                второе имя. В свободное я совершенствую свои профессиональные
+                навыки, читаю научную фантастику и бью противников в League of
+                Legends.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person6">
+          <div
+            class="section-team__person section-team__person6 person6_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Магдалена</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo6.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
+              <p><strong>Старший копирайтер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Моя основная задача - создание контента для лэндингов. Я работаю
+                в команде с графическим дизайнером и программистом. Я слежу за
+                тем, чтобы наши страницы выглядели визуально и стилистически
+                правильно. У меня получится найти любые ошибки, даже самые
+                маленькие.
               </p>
             </div>
-          </div> -->
+          </div>
 
           <!-- <div class="section-team__person-320 section-team__person1-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Павел
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Аффилиэйт-менеджер Profit Pay</strong>
+              <br>Развиваю сеть с технической части. Если вам нужен определенный преленд с формой, либо нужна интеграция - это ко мне. Также помогаю начинающим вебам советом как и на что лить. В прошлом арбитражил в FB и Google.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person2-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Александра
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Аффилиэйт-менеджер Profit Pay</strong>
+              <br>Подберу идеальную связку, которая принесет вам профит. Прослежу, чтобы вы вовремя получили выплату на свой кошелек. Пристально слежу за работой колл-центр, чтобы аппрув вас радовал. А еще огромный мотиватор для нашей команды - со мной ProfitPay скоро станет топовой ПП по нутре. Ищете вкусный оффер с высоким Approveом? Пишите мне!
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person3-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Кароль
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Графический дизайнер Profit Pay</strong>
+              <br> Генерирую творческие идеи и реализую их в своих проектах. Я стараюсь создавать современный, стильный и структурированный визуал для Profit Pay. Разработка всех иллюстраций, дизайна постов и лэндов в этом проекте лежит на мне. Ежедневно в моей голове появляется миллион новых идей для улучшения нашей сети. Эти идеи скоро можно будет увидеть на сайте Profit Pay.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person4-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Габриела
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Копирайтер Profit Pay</strong>
+              <br> У меня необычный взгляд на вещи и события, которые происходят в мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю писать тексты, а работа в Profit Pay дает мне возможность совершенствовать эти навыки и делиться своими взглядами на этот мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них что-то полезное. Если же после прочтения у вас останутся вопросы - пишите мне, и мы это обсудим.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person5-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Томаш
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Frontend-разработчик Profit Pay</strong>
+              <br> Я ответственно и с наслаждением отношусь к своей работе. Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы к CRM. Я не люблю стоять на месте. Постоянное развитие - мое второе имя. В свободное я совершенствую свои профессиональные навыки, читаю научную фантастику и бью противников в League of Legends.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person6-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Магдалена
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Старший копирайтер Profit Pay</strong>
+              <br> Моя основная задача - создание контента для лэндингов. Я работаю в команде с графическим дизайнером и программистом. Я слежу за тем, чтобы наши страницы выглядели визуально и стилистически правильно. У меня получится найти любые ошибки, даже самые маленькие.
             </p>
           </div> -->
-
         </div>
       </section>
     </main>
@@ -660,7 +885,7 @@
 
         <div class="conf footer__conf2"></div>
 
-        <h2 class="section-heading footer__heading">NETWORKS</h2>
+        <h2 class="section-heading footer__heading">Мы в соц. сетях</h2>
 
         <ul class="footer__social-list">
           <li class="footer-social-item">
@@ -671,28 +896,44 @@
           </li>
 
           <li class="footer-social-item">
-            <a  href="https://vk.com/profitpay"  target="_blank"  class="social-link">
+            <a
+              href="https://vk.com/profitpay"
+              target="_blank"
+              class="social-link"
+            >
               <span class="footer__icon footer__icon-vk"></span>
               <span>VKONTAKTE</span>
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a  href="https://www.youtube.com/channel/UCQJb5KlQ7QaWTb9ZSTVBlJw"  target="_blank"  class="social-link">
+            <a
+              href="https://www.youtube.com/channel/UCQJb5KlQ7QaWTb9ZSTVBlJw"
+              target="_blank"
+              class="social-link"
+            >
               <span class="footer__icon footer__icon-youtube"></span>
               <span>YOUTUBE</span>
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a  href="https://profitpay.pro/blog/"  target="_blank"  class="social-link">
+            <a
+              href="https://profitpay.pro/blog/"
+              target="_blank"
+              class="social-link"
+            >
               <span class="footer__icon footer__icon-blog"></span>
-              <span>BLOG</span>
+              <span>БЛОГ</span>
             </a>
           </li>
 
           <li class="footer-social-item footer__social-item-inst">
-            <a  href="https://bit.ly/3rY7jdA"  target="_blank"  class="social-link">
+            <a
+              href="https://bit.ly/3rY7jdA"
+              target="_blank"
+              class="social-link"
+            >
               <span class="footer__icon footer__icon-inst"></span>
               <span>INSTAGRAM</span>
             </a>
@@ -700,7 +941,7 @@
         </ul>
 
         <p class="footer__copyright">
-          Copyright © 2020-2021 Profitpay.pro
+          Авторские права © 2020-2021 Profitpay.pro
         </p>
       </div>
     </footer>
@@ -710,6 +951,7 @@
     <script src="/libs/jquery.min.js"></script>
     <script src="/libs/slick/slick.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/personClick.js"></script>
     <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");

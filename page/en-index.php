@@ -20,141 +20,160 @@ $sonets = showitonce( 'sonets' );
 
         <div class="header__left">
           <a class="header__logo">
-            <img  src="/image/logo.svg"  alt="Логотип Profit Pay"  class="header__logo-img"/>
+            <img  src="/image/logo.svg"  alt="The logo of Profit Pay"  class="header__logo-img"/>
           </a>
         </div>
 
         <div class="header__center">
           <ul class="nav-list">
             <li class="header__nav-item">
-              <a href="#section-us" class="header__nav-link">ABOUT US</a>
+              <a
+                href="https://dashboard.profitpay.pro/login"
+                class="header__log-in-link"
+              >
+                <span class="header__log-in-text-menu">Log in</span>
+                <span class="header__log-in-icon"></span>
+              </a>
             </li>
 
             <li class="header__nav-item">
-              <a href="#section-work" class="header__nav-link">FOR WEBMASTERS</a>
+              <a href="/en/#section-us" class="nav-link">
+                <span>About us</span>
+                <span class="menu-vector"></span>
+              </a>
             </li>
 
             <li class="header__nav-item">
-              <a href="#section-offers" class="header__nav-link">TOOLS</a>
+              <a href="/en/#section-work" class="nav-link">
+                <span>Webmasters</span>
+                <span class="menu-vector"></span>
+              </a>
             </li>
 
             <li class="header__nav-item">
-              <a href="/en/blog/" class="header__nav-link">BLOG</a>
+              <a href="/en/#section-offers" class="nav-link">
+                <span>Offers</span>
+                <span class="menu-vector"></span>
+              </a>
             </li>
 
             <li class="header__nav-item">
-              <a href="/en/contact/" class="header__nav-link">CONTACT</a>
+              <a href="/en/blog/" class="nav-link">
+                <span>Blog</span>
+                <span class="menu-vector"></span>
+              </a>
             </li>
 
             <li class="header__nav-item">
-              <a href="/ru/" class="header__nav-link">RU</a>
+              <a href="/en/contact/" class="nav-link">
+                <span>Contact</span>
+                <span class="menu-vector"></span>
+              </a>
+            </li>
+
+            <li class="header__nav-item">
+              <a href="/ru/" class="nav-link">
+                <span>ru</span>
+                <span class="menu-vector"></span>
+              </a>
             </li>
 
           </ul>
         </div>
 
         <div class="header__sigh-up-btn">
-          <a  href="https://dashboard.profitpay.pro/register"  class="header__sign-up-link">REGISTRATION</a>
+          <a  href="https://dashboard.profitpay.pro/register"  class="header__sign-up-link">SIGN UP</a>
         </div>
 
         <div class="header__log-in-btn">
           <a  href="https://dashboard.profitpay.pro/login"  class="header__log-in-link">
-            <span class="header__log-in-text">Login</span>
+            <span class="header__log-in-text">Log in</span>
             <span class="header__log-in-icon"></span>
           </a>
         </div>
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <h1 class="visually-hidden">Profit Pay</h1>
 
-      <div class="section-hero__circle">
-        <section class="section-hero">
-          <div class="container section-hero__container">
-            <div class="section-hero__lightnings">
-              <img  src="/image/hero-lightnings.png"  alt=""  class="additional-img"/>
+      <section class="section-hero">
+        <div class="container section-hero__container">
+          <p class="section-hero__profit">
+            YOU LOVE <span class="green-color">PROFIT</span> - SO DO WE! WITH US -
+            <span class="green-color">$$$</span> MORE
+          </p>
+
+          <p class="section-hero__write-us">
+            <span class="green-color">CONTACT US <br />AND GET A BOOST</span> AT THE START
+          </p>
+
+          <div class="section-hero__offers-btn-desc">
+            <div class="section-hero__offers-btn">
+              <a href="https://dashboard.profitpay.pro/offers" class="section-hero__offers-link">
+                <span>VIEW OFFERS</span>
+                <span class="section-hero__vector"></span></a>
             </div>
 
-            <div class="section-hero__dolls">
-              <img src="/image/hero-doll.png" alt="" class="additional-img" />
+            <div>
+              <p class="section-hero__link-desc">
+                Approve from 50%. We guarantee it
+              </p>
             </div>
-
-            <p class="section-hero__profit">
-              You love <span class="green-color">PROFIT</span> - so do we! With us -
-              <span class="green-color">$$$</span> more
-            </p>
-
-            <p class="section-hero__write-us">
-              <span class="green-color">CONTACT US <br />AND GET A BOOST</span> AT THE START
-            </p>
-
-            <div class="section-hero__offers-btn-desc">
-              <div class="section-hero__offers-btn">
-                <a href="https://dashboard.profitpay.pro/offers" class="section-hero__offers-link">
-                  <span>VIEW OFFERS</span>
-                  <span class="section-hero__vector"></span></a>
-              </div>
-
-              <div>
-                <p class="section-hero__link-desc">
-                  Approve from 50%. We guarantee it
-                </p>
-              </div>
-            </div>
-
-            <p class="section-hero__profitpay">PROFITPAY</p>
-
-            <ul class="section-hero__social-list">
-              <li class="section-hero__social-item section-hero__social-item-tg">
-                <a  href="https://t.me/cpafbcat"  target="_blank"  class="section-hero__social-link section-hero__social-link-tg">
-                  <span  class="section-hero__social-icon section-hero__social-icon-tg"></span>
-
-                  <span>
-                    <span class="section-hero__social-name">Telegram</span>
-                    <br />@PROFITPAYCPA
-                  </span>
-                </a>
-              </li>
-
-              <li class="section-hero__social-item section-hero__social-item-vk">
-                <a  href="https://vk.com/profitpay"  target="_blank"  class="section-hero__social-link section-hero__social-link-vk">
-                  <span  class="section-hero__social-icon section-hero__social-icon-vk"></span>
-                  <span>
-                    <span class="section-hero__social-name">Vkontakte</span>
-                    <br />VK.COM/PROFITPAY
-                  </span>
-                </a>
-              </li>
-            </ul>
           </div>
+
+          <p class="section-hero__profitpay">PROFITPAY</p>
+
+          <ul class="section-hero__social-list">
+            <li class="section-hero__social-item section-hero__social-item-tg">
+              <a  href="https://t.me/cpafbcat"  target="_blank"  class="section-hero__social-link section-hero__social-link-tg">
+                <span  class="section-hero__social-icon section-hero__social-icon-tg"></span>
+                
+                <span>
+                  <span class="section-hero__social-name">Telegram</span>
+                  <br />@PROFITPAYCPA
+                </span>
+              </a>
+            </li>
+
+            <li class="section-hero__social-item section-hero__social-item-vk">
+              <a  href="https://vk.com/profitpay"  target="_blank"  class="section-hero__social-link section-hero__social-link-vk">
+                <span  class="section-hero__social-icon section-hero__social-icon-vk"></span>
+                <span>
+                  <span class="section-hero__social-name">Vkontakte</span>
+                  <br />VK.COM/PROFITPAY
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
 <?php if ( $cookie ) cookieblock( 'en' ); ?>		
 
-        </section>
-      </div>
+      </section>
 
       <section id="section-us" class="section-us">
         <div class="section-us__container">
+          <div class="section-us__pp-hashes">
+            <span class="section-us__hashes"></span>
+            <span class="section-us__pp">ProfitPay</span>
+          </div>
+
           <div class="section-us__info">
             <h2 class="section-heading section-us__heading">WHO ARE WE?</h2>
             <p class="section-desc section-us__desc">
-              <strong>ProfitPay</strong> - CPA - the network of the direct gut of the advertiser from Europe!
+              <strong>ProfitPay</strong> CPA is the network of the direct gut of the advertiser from Europe!
             </p>
           </div>
         </div>
       </section>
 
       <section id="section-work" class="section-work">
-        <div class="section-work__doll">
-          <img src="/image/work-doll.png" alt="" class="additional-img" />
-        </div>
-
         <div class="conf section-work__conf1"></div>
         <div class="conf section-work__conf2"></div>
 
         <h2 class="section-heading section-work__heading">
-          WHAT YOU WILL GET WHEN WORKING WITH US?
+          WHAT WILL YOU GET WORKING WITH US?
         </h2>
 
         <div class="section-work__container">
@@ -192,7 +211,7 @@ $sonets = showitonce( 'sonets' );
 
               <li  class="section-work__benefit-item section-work__benefit-item-crown">
                 <p class="section-desc section-work__desc">
-                  <strong>Эксклюзивные офферы и перевод промо-материалов</strong>
+                  <strong>Exclusive offers and translated promo materials</strong>
                 </p>
               </li>
             </ul>
@@ -203,125 +222,191 @@ $sonets = showitonce( 'sonets' );
 
       <section id="section-offers" class="section-offers">
         <div class="container">
-          <div class="section-offers__doll">
-            <img src="/image/work-doll.png" alt="" class="additional-img" />
-          </div>
-
           <h2 class="section-heading section-offers__heading">BEST OFFERS</h2>
 
-          <ul class="section-offers__offers-list">
-            <li class="section-offers__offer">
-              <img src="/image/offer-adult.png" alt="" class="section-offers__img section-offers__adult-img"/>
-
-              <div class="section-offers__block section-offers__block-odd">
-                <div class="section-offers__btn">
-                  <a href="" class="section-offers__offer-link section-offers__offer-info">
-                    <span class="section-offers__icon section-offers__icon-adult" ></span>
-
-                    <h3 class="section-offers__offer-name">Adult</h3>
-
-                    <span class="section-offers__icon section-offers__offer-vector" ></span>
-                  </a>
+          <div class="section-offers__ul">
+            <ul class="section-offers__offers-list section-offers__offers-list-1">
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-adult.png"
+                  alt=""
+                  class="section-offers__img section-offers__adult-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-adult"
+                      ></span>
+  
+                      <h3 class="section-offers__offer-name">Adult</h3>
+  
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">57%</span>
+                  </p>
                 </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">57%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img src="/image/offer-ear.png" alt="" class="section-offers__img section-offers__ear-img"/>
-
-              <div class="section-offers__block section-offers__block-even">
-                <div class="section-offers__btn">
-                  <a href="" class="section-offers__offer-link section-offers__offer-info">
-                    <span class="section-offers__icon section-offers__icon-ear"></span>
-
-                    <h3 class="section-offers__offer-name">Hearing</h3>
-
-                    <span class="section-offers__icon section-offers__offer-vector" ></span>
-                  </a>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-cardio.png"
+                  alt=""
+                  class="section-offers__img section-offers__cardio-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-cardio"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Cholesterol</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">72%</span>
+                  </p>
                 </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">76%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img src="/image/offer-cardio.png" alt="" class="section-offers__img section-offers__cardio-img"/>
-
-              <div class="section-offers__block section-offers__block-odd">
-                <div class="section-offers__btn">
-                  <a href="" class="section-offers__offer-link section-offers__offer-info">
-                    <span class="section-offers__icon section-offers__icon-cardio"></span>
-                    <h3 class="section-offers__offer-name">Cholesterol</h3>
-                    <span class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-blood.png"
+                  alt=""
+                  class="section-offers__img section-offers__blood-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-blood"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Diabetes</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">66%</span>
+                  </p>
                 </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">72%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img  src="/image/offer-bone.png"  alt=""  class="section-offers__img section-offers__bone-img"/>
-
-              <div class="section-offers__block section-offers__block-even">
-                <div class="section-offers__btn">
-                  <a  href=""  class="section-offers__offer-link section-offers__offer-info">
-                    <span  class="section-offers__icon section-offers__icon-bone"></span>
-                    <h3 class="section-offers__offer-name">Joints</h3>
-                    <span  class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
+              </li>
+            </ul>
+  
+            <ul class="section-offers__offers-list section-offers__offers-list-2">
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-ear.png"
+                  alt=""
+                  class="section-offers__img section-offers__ear-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-even">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-ear"
+                      ></span>
+  
+                      <h3 class="section-offers__offer-name">Hearing</h3>
+  
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">76%</span>
+                  </p>
                 </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">67%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img  src="/image/offer-blood.png"  alt=""  class="section-offers__img section-offers__blood-img"/>
-
-              <div class="section-offers__block section-offers__block-odd">
-                <div class="section-offers__btn">
-                  <a  href=""  class="section-offers__offer-link section-offers__offer-info">
-                    <span  class="section-offers__icon section-offers__icon-blood"></span>
-                    <h3 class="section-offers__offer-name">Diabetes</h3>
-                    <span  class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-bone.png"
+                  alt=""
+                  class="section-offers__img section-offers__bone-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-even">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-bone"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Joints</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">67%</span>
+                  </p>
                 </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">66%</span>
-                </p>
-              </div>
-            </li>
-
-            <li class="section-offers__offer">
-              <img  src="/image/offer-eye.png"  alt=""  class="section-offers__img section-offers__eye-img"/>
-
-              <div class="section-offers__block section-offers__block-even">
-                <div class="section-offers__btn">
-                  <a  href=""  class="section-offers__offer-link section-offers__offer-info">
-                    <span  class="section-offers__icon section-offers__icon-eye"></span>
-                    <h3 class="section-offers__offer-name">Vision</h3>
-                    <span  class="section-offers__icon section-offers__offer-vector"></span>
-                  </a>
+              </li>
+  
+              <li class="section-offers__offer">
+                <img
+                  src="/image/offer-eye.png"
+                  alt=""
+                  class="section-offers__img section-offers__eye-img"
+                />
+  
+                <div class="section-offers__block section-offers__block-even">
+                  <div class="section-offers__btn">
+                    <a
+                      href=""
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-eye"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Vision</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+  
+                  <p class="section-offers__offer-info">
+                    Approve <span class="section-heading">64%</span>
+                  </p>
                 </div>
-
-                <p class="section-offers__offer-info">
-                  Approve <span class="section-heading">64%</span>
-                </p>
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -419,47 +504,42 @@ $sonets = showitonce( 'sonets' );
 
       <section class="section-team">
         <div class="container">
-          <div class="section-team__lightning">
-            <img  src="/image/team-lightning.png"  alt=""  class="additional-img"/>
-          </div>
-
-          <div class="section-team__doll">
-            <img src="/image/team-doll.png" alt="" class="additional-img" />
-          </div>
-
           <div class="conf section-team__conf"></div>
 
           <h2 class="section-heading section-team__heading">Our team:</h2>
 
           <ul class="section-team__team-list">
             <li class="section-team__item">
-              <img src="/image/photo1.png" alt="" />
+              <img src="/image/photo1.png" alt="" id="person1" />
             </li>
 
             <li class="section-team__item">
-              <img src="/image/photo2.png" alt="" />
+              <img src="/image/photo2.png" alt="" id="person2" />
             </li>
 
             <li class="section-team__item">
-              <img src="/image/photo3.png" alt="" />
+              <img src="/image/photo3.png" alt="" id="person3" />
             </li>
 
             <li class="section-team__item">
-              <img src="/image/photo4.png" alt="" />
+              <img src="/image/photo4.png" alt="" id="person4" />
             </li>
 
             <li class="section-team__item">
-              <img src="/image/photo5.png" alt="" />
+              <img src="/image/photo5.png" alt="" id="person5" />
             </li>
 
             <li class="section-team__item">
-              <img src="/image/photo6.png" alt="" />
+              <img src="/image/photo6.png" alt="" id="person6" />
             </li>
           </ul>
 
-          <!-- <div class="section-team__person section-team__person1">
+          <!-- Detailed blok of team player -->
+          <div
+            class="section-team__person section-team__person1 person1_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Pavel</span>
               <span class="section-team__vector"></span>
             </div>
 
@@ -468,15 +548,20 @@ $sonets = showitonce( 'sonets' );
             </div>
 
             <div class="section-team__about">
+              <p><strong>Profit Pay Affiliate Manager</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                I develop the network from the technical part. If you need a specific prelend with a form or need an integration - call me. I also help novice web users with advice on how and what to start with. In the past, I worked with FB and Google.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person2">
+          <!-- Detailed blok of team player -->
+
+          <div
+            class="section-team__person section-team__person2 person2_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Aleksandra</span>
               <span class="section-team__vector"></span>
             </div>
 
@@ -485,15 +570,18 @@ $sonets = showitonce( 'sonets' );
             </div>
 
             <div class="section-team__about">
+              <p><strong>Profit Pay Affiliate Manager</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                I find the perfect package for you that will bring you good profit. I will make sure that you receive your money on time. I closely follow the work of the call center so that you can be satisfied with the profits. And also a huge motivation for our team - ProfitPay for me will become the best PP soon. Are you looking for a tasty, highly appreciated offer? E-mail me! 
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person3">
+          <div
+            class="section-team__person section-team__person3 person3_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Karol</span>
               <span class="section-team__vector"></span>
             </div>
 
@@ -502,15 +590,18 @@ $sonets = showitonce( 'sonets' );
             </div>
 
             <div class="section-team__about">
+              <p><strong>Graphic designer of ProfitPay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                I create creative visions that I reflect in my graphic designs. From the very beginning, I take care of the modern and consistent appearance of the entire PP network. All graphics, posts or landing pages that you see in our network are mine. I have millions of creative ideas in my head everyday, which I hope, you will see in our ProfitPay network soon.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person4">
+          <div
+            class="section-team__person section-team__person4 person4_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Gabrysia</span>
               <span class="section-team__vector"></span>
             </div>
 
@@ -519,15 +610,18 @@ $sonets = showitonce( 'sonets' );
             </div>
 
             <div class="section-team__about">
+              <p><strong>Copywriter ProfitPay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                I have a very crazy view of the world around me. I think it can be seen from the texts that I am writing. I love doing it, and writing content on ProfitPay is a real honor. I hope that you really like what you are reading. If you do not – let me know and I will start over.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person5">
+          <div
+            class="section-team__person section-team__person5 person5_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Tomek</span>
               <span class="section-team__vector"></span>
             </div>
 
@@ -536,15 +630,18 @@ $sonets = showitonce( 'sonets' );
             </div>
 
             <div class="section-team__about">
+              <p><strong>Front-end developer of ProfitPay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                I definitely combine my work with passion. I deal with creating, supporting websites and combining offers with CRM on a daily basis. I don't like standing still - personal development is my second name. In my free time, I deepen my Front-end skills, read Sci-Fi books and beat opponents in LOL game.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person6">
+          <div
+            class="section-team__person section-team__person6 person6_detailed"
+          >
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Magda</span>
               <span class="section-team__vector"></span>
             </div>
 
@@ -553,72 +650,12 @@ $sonets = showitonce( 'sonets' );
             </div>
 
             <div class="section-team__about">
+              <p><strong>Senior Copywriter of Profitpay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Creating landing page content is my main task. My work is also based on cooperation with a graphic designer and programmer. I make sure that our pages are stylistically and visually correct. I will find every - even the smallest mistake and nothing can be hidden from me.
               </p>
             </div>
-          </div> -->
-
-          <!-- <div class="section-team__person-320 section-team__person1-320">
-            <p class="section-team__name-320">
-              Lorem ipsum
-            </p>
-
-            <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
-            </p>
           </div>
-
-          <div class="section-team__person-320 section-team__person2-320">
-            <p class="section-team__name-320">
-              Lorem ipsum
-            </p>
-
-            <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person3-320">
-            <p class="section-team__name-320">
-              Lorem ipsum
-            </p>
-
-            <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person4-320">
-            <p class="section-team__name-320">
-              Lorem ipsum
-            </p>
-
-            <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person5-320">
-            <p class="section-team__name-320">
-              Lorem ipsum
-            </p>
-
-            <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person6-320">
-            <p class="section-team__name-320">
-              Lorem ipsum
-            </p>
-
-            <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
-            </p>
-          </div> -->
-
         </div>
       </section>
     </main>
@@ -679,6 +716,7 @@ $sonets = showitonce( 'sonets' );
     <script src="/libs/jquery.min.js"></script>
     <script src="/libs/slick/slick.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/personClick.js"></script>
     <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");
