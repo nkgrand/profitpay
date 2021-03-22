@@ -73,3 +73,24 @@
     mainBlock.style.visibility = "visible";
   });
 })();
+
+// function personClick(wrapper) {
+//   const el = wrapper.querySelectorAll(".section-team__item");
+//   const mainBlock = document.querySelector(".section-team__team-list");
+
+//   for (let i = 0; i < el.length; i++) {
+//     personClick(el[i]);
+//   }
+
+//   function personClick(button) {
+//     button.addEventListener("click", function () {
+//       showPersonDetailed(id);
+//     });
+//   }
+
+//   function showPersonDetailed(id) {
+//     // mainBlock.style.visibility = "hidden";
+//     console.log(id);
+//   }
+// }
+// personClick(document.querySelector(".section-team__team-list"));
