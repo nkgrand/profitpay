@@ -51,42 +51,42 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
             <ul class="nav-list">
               <li class="header__nav-item">
                 <a href="/ru/#section-us" class="nav-link">
-                  <span>о нас</span> 
+                  <span>о нас</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/#section-work" class="nav-link">
-                  <span>вебмастерам</span> 
+                  <span>вебмастерам</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/#section-offers" class="nav-link">
-                  <span>офферы</span> 
+                  <span>офферы</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/blog/" class="nav-link">
-                  <span>блог</span> 
+                  <span>блог</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/contact/" class="nav-link">
-                  <span>контакт</span> 
+                  <span>контакт</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/en/blog/" class="nav-link">
-                  <span>en</span> 
+                  <span>en</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
@@ -135,7 +135,7 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
         </nav>
       </div>
     </header>
-    
+
     <main class="main">
       <section class="blog-page">
         <div class="container">
@@ -166,8 +166,10 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
 			</form>
 
               <ul class="blog-page__article-list">
-<?php foreach ( $blog['data'] as $b ) : 
+<?php $z = 0; foreach ( $blog['data'] as $b ) :
 if ( $b['id'] == $page['id'] ) continue;
+$z += 1;
+if ( $z > 4 ) break;
 if ( $b['image'] ) {
 	$bcl = 'blog__article';
 	$bs = 'style="background-image: url('.$b['image'].')"';
@@ -177,7 +179,7 @@ if ( $b['image'] ) {
 	$bcl = 'blog__article blog__article-' . $bi;
 	$bs = false;
 }
-?>			  
+?>
             <li class="blog-page__article-item">
               <a href="/ru/blog/<?=$b['id'];?>-<?=text2link($b['title']);?>" class="<?=$bcl;?>" <?=$bs;?>>
                 <span class="blog__desc">
@@ -186,7 +188,7 @@ if ( $b['image'] ) {
                 </span>
               </a>
             </li>
-<?php endforeach; ?>				  
+<?php endforeach; ?>
               </ul>
 
               <a href="/ru/blog/" class="blog-page__more-btn">
@@ -195,9 +197,9 @@ if ( $b['image'] ) {
             </div>
           </div>
         </div>
-		
-<?php if ( $cookie ) cookieblock( 'ru' ); ?>		
-		
+
+<?php if ( $cookie ) cookieblock( 'ru' ); ?>
+
       </section>
     </main>
 
