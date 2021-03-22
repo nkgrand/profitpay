@@ -1,15 +1,27 @@
 (() => {
+  const block = document.querySelector(".section-contacts__contacts");
   const girl = document.querySelector("#girl");
   const boy = document.querySelector("#boy");
 
   girl.addEventListener("mouseover", mouseOverGirl);
+  girl.addEventListener("mouseout", mouseOutGirl);
+
   boy.addEventListener("mouseover", mouseOverBoy);
+  boy.addEventListener("mouseout", mouseOutBoy);
 
   function mouseOverGirl() {
-    console.log("mouse on girl");
+    block.style.backgroundImage = "url('/image/contact-lines-left.svg')";
+  }
+
+  function mouseOutGirl() {
+    block.style.backgroundImage = "url('/image/contact-lines.svg')";
   }
 
   function mouseOverBoy() {
-    console.log("mouse on boy");
+    block.style.backgroundImage = "url('/image/contact-lines-right.svg')";
+  }
+
+  function mouseOutBoy() {
+    block.style.backgroundImage = "url('/image/contact-lines.svg')";
   }
 })();

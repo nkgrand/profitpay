@@ -1,7 +1,7 @@
-<svg width="588" height="278" viewBox="0 0 588 278" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="581" height="279" viewBox="0 0 581 279" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="281" y="20" width="245" height="6" rx="3" transform="rotate(90 281 20)" fill="#04E069"/>
 <circle cx="278" cy="20" r="20" fill="#04E069"/>
-<circle cx="570.5" cy="260.5" r="17.5" fill="white"/>
+<circle cx="563" cy="260.5" r="17.5" fill="white"/>
 <line x1="41" y1="261" x2="278" y2="261" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="15 15"/>
 <line x1="304" y1="261" x2="541" y2="261" stroke="#04E069" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="15 15"/>
 <ellipse cx="279" cy="259.573" rx="14" ry="14.573" fill="white"/>
