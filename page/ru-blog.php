@@ -3,11 +3,11 @@ $cookie = showitonce( 'cookie' );
 $sonets = showitonce( 'sonets' );
 $page = max( 1, (int) $_GET['page'] );
 $url = 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&lang=ru&show=8';
-$base = '/ru/blog/?';
+$base = '/en/blog/';
 if ( $page > 1 ) $url .= '&page=' . $page;
 if (isset( $_GET['search'] )) {
 	$url .= '&search='.urlencode( $_GET['search'] );
-	$base .= 'search='.urlencode( $_GET['search'] ).'&';
+	$base .= '?search='.urlencode( $_GET['search'] );
 }
 $blog = cached( $url );
 ?><!DOCTYPE html>
