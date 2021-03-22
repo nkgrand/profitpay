@@ -2,6 +2,10 @@ body {
   background-image: url("/image/blog-page-bg.jpg");
 }
 
+p a {
+  border-bottom: 1px solid var(--green-color);
+}
+
 .main {
   background-image: url("/image/blog_dolls-lights.png");
 }
@@ -114,7 +118,7 @@ ol li:before {
 
 
 figure {
-  margin: 0 0 30px;
+  margin: 0 auto 30px;
 }
 
 figure img {

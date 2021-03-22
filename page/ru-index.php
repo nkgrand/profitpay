@@ -609,7 +609,7 @@ $sonets = showitonce( 'sonets' );
 
           <!-- <div class="section-team__person section-team__person1">
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Павел</span>
               <span class="section-team__vector"></span>
             </div>
             
@@ -618,15 +618,16 @@ $sonets = showitonce( 'sonets' );
             </div>
   
             <div class="section-team__about">
+              <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Развиваю сеть с технической части. Если вам нужен определенный преленд с формой, либо нужна интеграция - это ко мне. Также помогаю начинающим вебам советом как и на что лить. В прошлом арбитражил в FB и Google.
               </p>
             </div>
           </div>
 
           <div class="section-team__person section-team__person2">
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Александра</span>
               <span class="section-team__vector"></span>
             </div>
             
@@ -635,15 +636,16 @@ $sonets = showitonce( 'sonets' );
             </div>
   
             <div class="section-team__about">
+              <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Подберу идеальную связку, которая принесет вам профит. Прослежу, чтобы вы вовремя получили выплату на свой кошелек. Пристально слежу за работой колл-центр, чтобы аппрув вас радовал. А еще огромный мотиватор для нашей команды - со мной ProfitPay скоро станет топовой ПП по нутре. Ищете вкусный оффер с высоким апрувом? Пишите мне!
               </p>
             </div>
           </div>
 
           <div class="section-team__person section-team__person3">
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Кароль</span>
               <span class="section-team__vector"></span>
             </div>
             
@@ -652,15 +654,16 @@ $sonets = showitonce( 'sonets' );
             </div>
   
             <div class="section-team__about">
+              <p><strong>Графический дизайнер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Генерирую творческие идеи и реализую их в своих проектах. Я стараюсь создавать современный, стильный и структурированный визуал для Profit Pay. Разработка всех иллюстраций, дизайна постов и лэндов в этом проекте лежит на мне. Ежедневно в моей голове появляется миллион новых идей для улучшения нашей сети. Эти идеи скоро можно будет увидеть на сайте Profit Pay.
               </p>
             </div>
           </div>
 
           <div class="section-team__person section-team__person4">
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Габриела</span>
               <span class="section-team__vector"></span>
             </div>
             
@@ -669,15 +672,16 @@ $sonets = showitonce( 'sonets' );
             </div>
   
             <div class="section-team__about">
+              <p><strong>Копирайтер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                У меня необычный взгляд на вещи и события, которые происходят в мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю писать тексты, а работа в Profit Pay дает мне возможность совершенствовать эти навыки и делиться своими взглядами на этот мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них что-то полезное. Если же после прочтения у вас останутся вопросы - пишите мне, и мы это обсудим.
               </p>
             </div>
           </div>
 
           <div class="section-team__person section-team__person5">
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Томаш</span>
               <span class="section-team__vector"></span>
             </div>
             
@@ -686,15 +690,16 @@ $sonets = showitonce( 'sonets' );
             </div>
   
             <div class="section-team__about">
+              <p><strong>Frontend-разработчик Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Я ответственно и с наслаждением отношусь к своей работе. Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы к CRM. Я не люблю стоять на месте. Постоянное развитие - мое второе имя. В свободное я совершенствую свои профессиональные навыки, читаю научную фантастику и бью противников в League of Legends.
               </p>
             </div>
           </div>
 
           <div class="section-team__person section-team__person6">
             <div class="section-team__name-info">
-              <span class="section-team__name">Pavel lushko</span>
+              <span class="section-team__name">Магдалена</span>
               <span class="section-team__vector"></span>
             </div>
             
@@ -703,69 +708,76 @@ $sonets = showitonce( 'sonets' );
             </div>
   
             <div class="section-team__about">
+              <p><strong>Старший копирайтер Profit Pay</strong></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae velit quibusdam voluptatibus, fugit illum iusto rem error suscipit expedita aperiam officiis porro tenetur, blanditiis dolore a? Dicta, quam voluptatem.
+                Моя основная задача - создание контента для лэндингов. Я работаю в команде с графическим дизайнером и программистом. Я слежу за тем, чтобы наши страницы выглядели визуально и стилистически правильно. У меня получится найти любые ошибки, даже самые маленькие.
               </p>
             </div>
           </div> -->
 
           <!-- <div class="section-team__person-320 section-team__person1-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Павел
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Аффилиэйт-менеджер Profit Pay</strong>
+              <br>Развиваю сеть с технической части. Если вам нужен определенный преленд с формой, либо нужна интеграция - это ко мне. Также помогаю начинающим вебам советом как и на что лить. В прошлом арбитражил в FB и Google.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person2-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Александра
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Аффилиэйт-менеджер Profit Pay</strong>
+              <br>Подберу идеальную связку, которая принесет вам профит. Прослежу, чтобы вы вовремя получили выплату на свой кошелек. Пристально слежу за работой колл-центр, чтобы аппрув вас радовал. А еще огромный мотиватор для нашей команды - со мной ProfitPay скоро станет топовой ПП по нутре. Ищете вкусный оффер с высоким апрувом? Пишите мне!
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person3-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Кароль
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Графический дизайнер Profit Pay</strong>
+              <br> Генерирую творческие идеи и реализую их в своих проектах. Я стараюсь создавать современный, стильный и структурированный визуал для Profit Pay. Разработка всех иллюстраций, дизайна постов и лэндов в этом проекте лежит на мне. Ежедневно в моей голове появляется миллион новых идей для улучшения нашей сети. Эти идеи скоро можно будет увидеть на сайте Profit Pay.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person4-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Габриела
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Копирайтер Profit Pay</strong>
+              <br> У меня необычный взгляд на вещи и события, которые происходят в мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю писать тексты, а работа в Profit Pay дает мне возможность совершенствовать эти навыки и делиться своими взглядами на этот мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них что-то полезное. Если же после прочтения у вас останутся вопросы - пишите мне, и мы это обсудим.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person5-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Томаш
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Frontend-разработчик Profit Pay</strong>
+              <br> Я ответственно и с наслаждением отношусь к своей работе. Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы к CRM. Я не люблю стоять на месте. Постоянное развитие - мое второе имя. В свободное я совершенствую свои профессиональные навыки, читаю научную фантастику и бью противников в League of Legends.
             </p>
           </div>
 
           <div class="section-team__person-320 section-team__person6-320">
             <p class="section-team__name-320">
-              Lorem ipsum
+              Магдалена
             </p>
 
             <p class="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium odio obcaecati error tempore aspernatur, architecto officia amet corrupti. Accusantium voluptatum provident quibusdam eius velit alias excepturi. Eos, nam.
+              <strong>Старший копирайтер Profit Pay</strong>
+              <br> Моя основная задача - создание контента для лэндингов. Я работаю в команде с графическим дизайнером и программистом. Я слежу за тем, чтобы наши страницы выглядели визуально и стилистически правильно. У меня получится найти любые ошибки, даже самые маленькие.
             </p>
           </div> -->
         </div>
