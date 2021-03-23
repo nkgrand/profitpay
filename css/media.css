@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 1200px) and (min-width: 999px) {
+  .team_photo {
+    margin: 0 auto;
+  }
   .section-team__name-info {
     display: none;
   }
