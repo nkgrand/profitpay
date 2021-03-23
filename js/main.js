@@ -11,6 +11,15 @@ $(".section-work__benefit-list").slick({
     '<img src="/image/arrow-left.svg" class="section-work__left-arrow" alt="">',
   responsive: [
     {
+      breakpoint: 999,
+      settings: {
+        slidesToShow: 2,
+        arrows: false,
+        dots: true,
+      },
+    },
+
+    {
       breakpoint: 576,
       settings: {
         slidesToShow: 1,

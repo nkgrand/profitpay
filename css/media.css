@@ -35,7 +35,19 @@
   .footer__conf2 {
     display: none;
   }
-
+  
+  .section-cookie__container {
+    width: 960px;
+  }
+  
+  .section-cookie__icon {
+    transform: translateX(-480px);
+  }
+  
+  .section-cookie__text {
+    width: 630px;
+  }
+  
   .section-heading {
     font-size: 30px;
     line-height: 35px;
@@ -305,9 +317,63 @@
     display: none;
   }
 
+  .section-cookie {
+    min-height: 120px;
+    transform: translateY(450px);
+  }
+
+  .section-cookie__container {
+    padding: 10px 0 10px 120px;
+    width: 720px;
+  }
+  
+  .section-cookie__icon {
+    width: 130px;
+    min-height: 160px;
+    transform: translateX(-380px);
+  }
+  
+  .section-cookie__text {
+    width: 500px;
+  }
+  
+  .section-cookie__heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .section-cookie__desc {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  
+  .section-cookie__link {
+    font-size: 15px;
+  }
+  
+  .section-cookie__btn {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  
+  .section-cookie__vector {
+    width: 30px;
+    height: 30px;
+  }
+
   .container {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .section-heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .section-desc {
+    font-size: 16px;
+    line-height: 19px;
   }
 
   .header__center {
@@ -322,6 +388,204 @@
 
   .header__sigh-up-btn {
     margin-right: 30px;
+  }
+
+  .section-hero {
+    padding-top: 40px;
+    background-position: 85% top;
+    background-size: 80%;
+  }
+
+  .section-hero__profit {
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .section-hero__profit::after {
+    margin-top: 15px;
+    height: 2px;
+    border-bottom: 2px solid var(--green-color);
+  }
+
+  .section-hero__write-us {
+    margin-bottom: 95px;
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .section-hero__offers-btn-desc {
+    margin-bottom: 0;
+    max-width: 452px;
+    align-items: center;
+  }
+
+  .section-hero__offers-link {
+    margin-left: 65px;
+    padding: 9px 20px;
+    width: 450px;
+    min-height: 40px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .section-hero__vector {
+    width: 35px;
+    height: 35px;
+  }
+
+  .section-hero__link-desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .section-hero__social-list {
+    display: none;
+  }
+
+  .section-us__container {
+    padding: 0;
+    min-height: 150px;
+    margin-bottom: 100px;
+    background-image: none;
+  }
+
+  .section-us__info {
+    padding: 16px 50px 16px 200px;
+    width: 600px;
+    min-height: 120px;
+  }
+
+  .section-work__container {
+    margin-bottom: 120px;
+  }
+
+  .section-work__info {
+    width: 700px;
+    min-height: 120px;
+    padding: 20px;
+  }
+
+  .section-work__benefit-list {
+    margin: 0 30px;
+  }
+
+  .section-work__benefit-item {
+    padding: 105px 40px 0;
+  }
+
+  .section-work__desc {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .section-offers__offer:not(:last-child) {
+    margin-bottom: 90px;
+  }
+
+  .section-offers__offers-list-2 {
+    justify-content: flex-end;
+  }
+
+  .section-offers__block {
+    width: 350px;
+    min-height: 130px;
+    border-radius: 30px;
+  }
+
+  .section-offers__block-odd {
+    padding: 15px 15px 15px 120px;
+  }
+
+  .section-offers__block-even {
+    padding: 15px 120px 15px 15px;
+  }
+
+  .section-offers__offer-info {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .section-offers__offer-link {
+    margin-bottom: 10px;
+    min-height: 50px;
+  }
+
+  .section-offers__offer-name {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .section-offers__adult-img {
+    height: 25%;
+    transform: translateY(-35px);
+  }
+
+  .section-offers__ear-img {
+    height: 30%;
+    transform: translate(300px, -85px);
+  }
+
+  .section-offers__cardio-img {
+    height: 30%;
+    transform: translateY(-60px);
+  }
+
+  .section-offers__bone-img {
+    height: 25%;
+    transform: translate(270px, -55px);
+  }
+
+  .section-offers__blood-img {
+    height: 25%;
+    transform: translate(-2px, -35px);
+  }
+
+  .section-offers__eye-img {
+    height: 25%;
+    transform: translate(240px, -50px);
+  }
+
+  .section-offers__offer-vector {
+    width: 24px;
+    height: 24px;
+  }
+
+  .section-offers__icon-adult {
+    width: 30px;
+    height: 30px;
+    background-image: url("/image/adult-img.svg");
+  }
+
+  .section-offers__icon-ear {
+    width: 22px;
+    height: 34px;
+    background-image: url("/image/ear-img.svg");
+  }
+
+  .section-offers__icon-cardio {
+    width: 28px;
+    height: 32px;
+    background-image: url("/image/cardio-img.svg");
+  }
+
+  .section-offers__icon-bone {
+    width: 32px;
+    height: 32px;
+    background-image: url("/image/bone-img.svg");
+  }
+
+  .section-offers__icon-blood {
+    width: 21px;
+    height: 32px;
+    background-image: url("/image/blood-img.svg");
+  }
+
+  .section-offers__icon-eye {
+    width: 36px;
+    height: 20px;
+    background-image: url("/image/eye-img.svg");
   }
 
   .footer__heading {
@@ -439,6 +703,50 @@
   .footer__conf1,
   .footer__conf2 {
     display: none;
+  }
+
+  .section-cookie {
+    min-height: 120px;
+    transform: translateY(300px);
+  }
+
+  .section-cookie__container {
+    padding: 10px 0;
+    width: 540px;
+  }
+  
+  .section-cookie__icon {
+    display: none;
+  }
+  
+  .section-cookie__text {
+    width: 400px;
+  }
+  
+  .section-cookie__heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .section-cookie__desc {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  
+  .section-cookie__link {
+    font-size: 15px;
+  }
+  
+  .section-cookie__btn {
+    padding: 13px 13px;
+    width: 200px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  
+  .section-cookie__vector {
+    width: 25px;
+    height: 25px;
   }
 
   body {
@@ -647,6 +955,47 @@
 }
 
 @media (max-width: 600px) {
+  .section-cookie {
+    transform: translateY(200px);
+  }
+
+  .section-cookie__container {
+    flex-direction: column;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  .section-cookie__icon {
+    display: none;
+  }
+  
+  .section-cookie__text {
+    width: 100%;
+  }
+  
+  .section-cookie__heading {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .section-cookie__desc {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+    
+  .section-cookie__btn {
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .section-cookie__vector {
+    width: 20px;
+    height: 20px;
+  }
+
   body {
     padding: 22px 0;
     color: #fff;
