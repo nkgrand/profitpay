@@ -345,7 +345,7 @@ $sonets = showitonce( 'sonets' );
 
                 <p class="section-review__review-text">
                   ProfitPay. They do their best for the web. Fact! There is a sense of a civilized approach to business in general. As for a young partner, a rarity. It can be regarded as defirambs, but not taken away. Technically, everything is there: it is easy, clear and works. Not broken offers, sharpened by common sense. The affiliate program for your GEO is local, so they know their target audience well. And this, for a moment, is high approve. If the $100 minimum price scares beginners, make a mistake. It is a newbie, 5 leads went, 4 approved in 15 min. Without any problems. Managers: Pavel, Alexandra. There is a suspicion that they do not sleep at all :) haha, joke, but they are constantly in touch. To me as a "Noob", they threw off the landing pages configured for the API, and even threw a bunch. Anyway, I'm with you guys.
-                  Aleksandr
+                  <br>Aleksandr
                 </p>
               </div>
 
@@ -364,9 +364,8 @@ $sonets = showitonce( 'sonets' );
 
                 <p class="section-review__review-text">
                   I try to pour adult here, the offers are uncompressed compared to the same terra. The payout is higher significantly, which even on tests comes out a positive swarm. The output is at least a hundred.
-
-                  The only inconvenience may be for beginners - in the land you need to prescribe API integration. Not difficult, there is an instruction, bat anyway. And the manager, it seems, can throw off everything ready. By the way, they answer almost at any time of the day. Out of a dozen pp, this one still seems to be the most normal. Mainly because of the fresh offers.
-                  Mikhail
+                  <br>The only inconvenience may be for beginners - in the land you need to prescribe API integration. Not difficult, there is an instruction, bat anyway. And the manager, it seems, can throw off everything ready. By the way, they answer almost at any time of the day. Out of a dozen pp, this one still seems to be the most normal. Mainly because of the fresh offers.
+                  <br>Mikhail
                 </p>
               </div>
 
@@ -385,7 +384,7 @@ $sonets = showitonce( 'sonets' );
 
                 <p class="section-review__review-text">
                   Posh PP. Previously, I worked mainly with leadrock, but when I got acquainted with ProfitPay, it was something with something: high payouts for all offers, a low offer price on the site, a good KC and, as a result, a high approve. On the technical side too, everything is OK, if you have any questions - Pavel is always online. As for the payments, everything is fine here - no delays. There are also various contests in which it is a pleasure to participate, as the saying goes "a good toastmaster and interesting contests").
-                  Lorrens
+                  <br>Lorrens
                 </p>
               </div>
 
@@ -406,7 +405,7 @@ $sonets = showitonce( 'sonets' );
 
                 <p class="section-review__review-text">
                   I came to the ProfitPay affiliate program for the sake of interest, as the manager was very much talking about their high approval and high-quality promos. Well, I was pleasantly surprised indeed! Now the team and I have been working with them for 1.5 months. There are no special comments. There were issues with form validation - but they were quickly eliminated. Tech suport - fire! Always in touch. So I recommend it from the bottom of my heart!
-                  Anton
+                  <br>Anton
                 </p>
               </div>
 

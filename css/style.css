@@ -1053,7 +1053,6 @@ p {
 .section-review__review-text {
   font-size: 12px;
   line-height: 19px;
-  white-space: pre-line;
   cursor: default;
 }
 
