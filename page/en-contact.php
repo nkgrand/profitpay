@@ -84,6 +84,7 @@ $sonets = showitonce( 'sonets' );
 
 <?php footer('en'); ?>
 
+	<script src="/js/lines.js"></script>
     <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");
