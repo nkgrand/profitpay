@@ -228,7 +228,7 @@
 
   .section-offers__ear-img {
     height: 35%;
-    transform: translate(310px, -105px);
+    transform: translate(315px, -85px);
   }
 
   .section-offers__cardio-img {
@@ -238,7 +238,7 @@
 
   .section-offers__bone-img {
     height: 30%;
-    transform: translate(260px, -65px);
+    transform: translate(265px, -45px);
   }
 
   .section-offers__blood-img {
@@ -248,7 +248,7 @@
 
   .section-offers__eye-img {
     height: 30%;
-    transform: translate(230px, -60px);
+    transform: translate(235px, -40px);
   }
 
   .section-offers__offer-vector {
@@ -292,26 +292,15 @@
     background-image: url("/image/eye-img.svg");
   }
 
-  /* .section-review__reviews-list {
-    margin: 0 auto;
-    width: 60%;
+  .section-offers__offer:hover,
+  .section-offers__offer:focus {
+    transform: none;
+    filter: none;
   }
   
-  
-  .section-review__reviews-item {
-    width: 100%;
-    height: 100%;
-  } */
-
-  /* .section-team__team-list {
-    margin: 0 auto;
-    width: 75%;
+  .section-offers__offer:active {
+    transform: none;
   }
-
-  .section-team__item {
-    padding: 0;
-    transform: translateX(20%);
-  } */
 
   /* blog */
 
@@ -682,6 +671,16 @@
     background-image: url("/image/eye-img.svg");
   }
 
+  .section-offers__offer:hover,
+  .section-offers__offer:focus {
+    transform: none;
+    filter: none;
+  }
+  
+  .section-offers__offer:active {
+    transform: none;
+  }
+
   .footer__heading {
     margin-bottom: 40px;
   }
@@ -791,7 +790,7 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 600px) {
+@media (max-width: 767px) and (min-width: 600px) {
   .section-team__item {
     padding: 0;
   }
@@ -1194,6 +1193,16 @@
   .section-offers__eye-img {
     height: 45%;
     transform: translate(263px, -40px);
+  }
+  
+  .section-offers__offer:hover,
+  .section-offers__offer:focus {
+    transform: none;
+    filter: none;
+  }
+  
+  .section-offers__offer:active {
+    transform: none;
   }
 
   .footer__heading {
@@ -1958,6 +1967,16 @@
   .section-offers__icon-eye {
     width: 25px;
     height: 16px;
+  }
+
+  .section-offers__offer:hover,
+  .section-offers__offer:focus {
+    transform: none;
+    filter: none;
+  }
+  
+  .section-offers__offer:active {
+    transform: none;
   }
 
   .section-review {
