@@ -10,6 +10,8 @@ $sonets = showitonce( 'sonets' );
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/contacts.css">
     <link rel="stylesheet" href="/css/media.css" />
+	<link rel="preload" href="/image/contact-lines-right.svg" as="image" />
+	<link rel="preload" href="/image/contact-lines-left.svg" as="image" />	
   </head>
 
 <?php if ( $sonets ) sonetblock( 'ru' ); ?>
