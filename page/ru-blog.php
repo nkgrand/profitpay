@@ -170,72 +170,7 @@ if ( $b['image'] ) {
       </section>
     </main>
 
-    <footer>
-      <div class="container footer__container">
-        <div class="conf footer__conf1"></div>
-
-        <div class="conf footer__conf2"></div>
-
-        <h2 class="section-heading footer__heading">Мы в соц. сетях</h2>
-
-        <ul class="footer__social-list">
-          <li class="footer-social-item">
-            <a href="https://t.me/cpafbcat" target="_blank" class="social-link">
-              <span class="footer__icon footer__icon-tg"></span>
-              <span>TELEGRAM</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a
-              href="https://vk.com/profitpay"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-vk"></span>
-              <span>VKONTAKTE</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a
-              href="https://www.youtube.com/channel/UCQJb5KlQ7QaWTb9ZSTVBlJw"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-youtube"></span>
-              <span>YOUTUBE</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a
-              href="https://profitpay.pro/blog/"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-blog"></span>
-              <span>БЛОГ</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item footer__social-item-inst">
-            <a
-              href="https://bit.ly/3rY7jdA"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-inst"></span>
-              <span>INSTAGRAM</span>
-            </a>
-          </li>
-        </ul>
-
-        <p class="footer__copyright">
-          Авторские права © 2020-2021 Profitpay.pro
-        </p>
-      </div>
-    </footer>
+<?php footer('ru'); ?>
 
     <script>
       toggle.onclick = () => {
