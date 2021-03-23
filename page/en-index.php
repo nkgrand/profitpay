@@ -145,14 +145,16 @@ $sonets = showitonce( 'sonets' );
           <h2 class="section-heading section-offers__heading">BEST OFFERS</h2>
 
           <div class="section-offers__ul">
-            <ul class="section-offers__offers-list section-offers__offers-list-1">
-              <li class="section-offers__offer">
+            <div
+              class="section-offers__offers-list section-offers__offers-list-1"
+            >
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-adult.png"
                   alt=""
                   class="section-offers__img section-offers__adult-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
@@ -162,28 +164,28 @@ $sonets = showitonce( 'sonets' );
                       <span
                         class="section-offers__icon section-offers__icon-adult"
                       ></span>
-  
+
                       <h3 class="section-offers__offer-name">Adult</h3>
-  
+
                       <span
                         class="section-offers__icon section-offers__offer-vector"
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Approve <span class="section-heading">57%</span>
                   </p>
                 </div>
-              </li>
-  
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-cardio.png"
                   alt=""
                   class="section-offers__img section-offers__cardio-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
@@ -199,20 +201,20 @@ $sonets = showitonce( 'sonets' );
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Approve <span class="section-heading">72%</span>
                   </p>
                 </div>
-              </li>
-  
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-blood.png"
                   alt=""
                   class="section-offers__img section-offers__blood-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
@@ -228,22 +230,20 @@ $sonets = showitonce( 'sonets' );
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Approve <span class="section-heading">66%</span>
                   </p>
                 </div>
-              </li>
-            </ul>
-  
-            <ul class="section-offers__offers-list section-offers__offers-list-2">
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-ear.png"
                   alt=""
                   class="section-offers__img section-offers__ear-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
@@ -253,28 +253,28 @@ $sonets = showitonce( 'sonets' );
                       <span
                         class="section-offers__icon section-offers__icon-ear"
                       ></span>
-  
+
                       <h3 class="section-offers__offer-name">Hearing</h3>
-  
+
                       <span
                         class="section-offers__icon section-offers__offer-vector"
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Approve <span class="section-heading">76%</span>
                   </p>
                 </div>
-              </li>
-  
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-bone.png"
                   alt=""
                   class="section-offers__img section-offers__bone-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
@@ -290,20 +290,20 @@ $sonets = showitonce( 'sonets' );
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Approve <span class="section-heading">67%</span>
                   </p>
                 </div>
-              </li>
-  
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-eye.png"
                   alt=""
                   class="section-offers__img section-offers__eye-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
@@ -319,13 +319,19 @@ $sonets = showitonce( 'sonets' );
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Approve <span class="section-heading">64%</span>
                   </p>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
+
+            <!-- <ul
+              class="section-offers__offers-list section-offers__offers-list-2"
+            >
+              
+            </ul> -->
           </div>
         </div>
       </section>
