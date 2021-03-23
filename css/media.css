@@ -35,6 +35,8 @@
   .footer__conf2 {
     display: none;
   }
+
+  /* Cookie */
   
   .section-cookie__container {
     width: 960px;
@@ -47,6 +49,21 @@
   .section-cookie__text {
     width: 630px;
   }
+
+  /* Modal form */
+
+  .modal-form {
+    padding: 40px 35px;
+    width: 960px;
+    height: 600px;
+  }
+    
+  .modal-form__heading {
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  /* Sections */
   
   .section-heading {
     font-size: 30px;
@@ -317,6 +334,8 @@
     display: none;
   }
 
+  /* Cookie */
+
   .section-cookie {
     min-height: 120px;
     transform: translateY(450px);
@@ -360,6 +379,62 @@
     width: 30px;
     height: 30px;
   }
+
+  /* Modal form */
+
+  .modal-form {
+    padding: 35px;
+    width: 720px;
+    height: 500px;
+  }
+  
+  .modal-form__heading {
+    margin-bottom: 30px;
+  }
+  
+  .modal-form__link {
+    padding: 30px;
+    width: 290px;
+    height: 340px;
+  }
+  
+  .modal-form__icon {
+    margin-bottom: 35px;
+  }
+  
+  .modal-form__icon-tg {
+    width: 122px;
+    height: 100px;
+  }
+  
+  .modal-form__icon-vk {
+    width: 156px;
+    height: 87px;
+  }
+  
+  .modal-form__name {
+    font-size: 35px;
+    line-height: 43px;
+  }
+  
+  .modal-form__desc {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  .modal-form__btn {
+    width: 220px;
+    padding: 12px;
+    font-size: 35px;
+    line-height: 43px;
+  }
+  
+  .modal-form__vector {
+    height: 37px;
+    width: 37px;
+  }
+
+  /* Sections */
 
   .container {
     padding-right: 20px;
@@ -705,6 +780,8 @@
     display: none;
   }
 
+  /* Cookie */
+
   .section-cookie {
     min-height: 120px;
     transform: translateY(300px);
@@ -748,6 +825,69 @@
     width: 25px;
     height: 25px;
   }
+
+  /* Modal form */
+
+  .modal-form {
+    padding: 35px;
+    width: 540px;
+    height: 400px;
+  }
+  
+  .modal-form__x {
+    top: 15px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .modal-form__heading {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .modal-form__link {
+    padding: 20px;
+    width: 200px;
+    height: 260px;
+  }
+  
+  .modal-form__icon {
+    margin-bottom: 20px;
+  }
+  
+  .modal-form__icon-tg {
+    width: 110px;
+    height: 80px;
+  }
+  
+  .modal-form__icon-vk {
+    width: 120px;
+    height: 70px;
+  }
+  
+  .modal-form__name {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  .modal-form__desc {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .modal-form__btn {
+    width: 160px;
+    padding: 10px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  .modal-form__vector {
+    display: none;
+  }
+
+  /* Sections */
 
   body {
     padding: 15px 0;
@@ -955,6 +1095,9 @@
 }
 
 @media (max-width: 600px) {
+
+  /* Cookie */
+
   .section-cookie {
     transform: translateY(200px);
   }
@@ -996,6 +1139,77 @@
     height: 20px;
   }
 
+  /* Modal form */
+
+  .modal-form {
+    padding: 15px;
+    width: 300px;
+    height: 500px;
+  }
+  
+  .modal-form__x {
+    top: 10px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .modal-form__heading {
+    margin-bottom: 15px;
+  }
+
+  .modal-form__socials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-form__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .modal-form__link {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .modal-form__icon {
+    margin-bottom: 10px;
+  }
+  
+  .modal-form__icon-tg {
+    width: 70px;
+    height: 60px;
+  }
+  
+  .modal-form__icon-vk {
+    width: 80px;
+    height: 50px;
+  }
+  
+  .modal-form__name {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .modal-form__desc {
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  
+  .modal-form__btn {
+    width: 160px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .modal-form__vector {
+    display: none;
+  }
+
+  /* Sections */
+
   body {
     padding: 22px 0;
     color: #fff;
@@ -1016,10 +1230,6 @@
   .section-desc {
     font-size: 10px;
     line-height: 12px;
-  }
-
-  .modal-form {
-    display: none;
   }
 
   .conf {
