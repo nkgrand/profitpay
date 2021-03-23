@@ -20,7 +20,7 @@ $(".section-work__benefit-list").slick({
     },
 
     {
-      breakpoint: 576,
+      breakpoint: 600,
       settings: {
         slidesToShow: 1,
         arrows: false,
@@ -50,7 +50,7 @@ $(".section-review__reviews-list").slick({
     },
 
     {
-      breakpoint: 576,
+      breakpoint: 600,
       settings: {
         slidesToShow: 1,
         arrows: false,
@@ -84,7 +84,7 @@ $(".section-team__team-list").slick({
       },
     },
     {
-      breakpoint: 576,
+      breakpoint: 600,
       settings: {
         slidesToShow: 1,
       },
