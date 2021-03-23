@@ -463,186 +463,254 @@ $sonets = showitonce( 'sonets' );
 
       <section class="section-team">
         <div class="container">
-
           <div class="conf section-team__conf"></div>
 
           <h2 class="section-heading section-team__heading">Наша команда:</h2>
 
-          <ul class="section-team__team-list">
-            <li class="section-team__item">
-              <img src="/image/photo1.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo2.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo3.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo4.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo5.png" alt="" />
-            </li>
-
-            <li class="section-team__item">
-              <img src="/image/photo6.png" alt="" />
-            </li>
-          </ul>
-
-          <!-- Detailed blok of team player -->
-          <div
-            class="section-team__person section-team__person1 person1_detailed"
-          >
-            <div class="section-team__name-info">
-              <span class="section-team__name">Павел</span>
-              <span class="section-team__vector"></span>
+          <div class="section-team__team-list">
+            <div class="section-team__item">
+              <img src="/image/photo1.png" alt="" class="team_photo" />
             </div>
 
-            <div class="section-team__photo">
-              <img src="/image/photo1.png" alt="" />
+            <div class="section-team__item">
+              <img src="/image/photo2.png" alt="" class="team_photo" />
             </div>
 
-            <div class="section-team__about">
-              <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
-              <p>
-                Развиваю сеть с технической части. Если вам нужен определенный
-                преленд с формой, либо нужна интеграция - это ко мне. Также
-                помогаю начинающим вебам советом как и на что лить. В прошлом
-                арбитражил в FB и Google.
-              </p>
-            </div>
-          </div>
-          <!-- Detailed blok of team player -->
-
-          <div
-            class="section-team__person section-team__person2 person2_detailed"
-          >
-            <div class="section-team__name-info">
-              <span class="section-team__name">Александра</span>
-              <span class="section-team__vector"></span>
+            <div class="section-team__item">
+              <img src="/image/photo3.png" alt="" class="team_photo" />
             </div>
 
-            <div class="section-team__photo">
-              <img src="/image/photo2.png" alt="" />
+            <div class="section-team__item">
+              <img src="/image/photo4.png" alt="" class="team-photo" />
             </div>
 
-            <div class="section-team__about">
-              <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
-              <p>
-                Подберу идеальную связку, которая принесет вам профит. Прослежу,
-                чтобы вы вовремя получили выплату на свой кошелек. Пристально
-                слежу за работой колл-центр, чтобы аппрув вас радовал. А еще
-                огромный мотиватор для нашей команды - со мной ProfitPay скоро
-                станет топовой ПП по нутре. Ищете вкусный оффер с высоким
-                Approveом? Пишите мне!
-              </p>
+            <div class="section-team__item">
+              <img src="/image/photo5.png" alt="" class="team_photo" />
+            </div>
+
+            <div class="section-team__item">
+              <img src="/image/photo6.png" alt="" class="team_photo" />
             </div>
           </div>
 
-          <div
-            class="section-team__person section-team__person3 person3_detailed"
-          >
-            <div class="section-team__name-info">
-              <span class="section-team__name">Кароль</span>
-              <span class="section-team__vector"></span>
+          <div id="personDetailed">
+            <!-- Detailed blok of team player -->
+            <div
+              class="section-team__person section-team__person1 person_detailed"
+            >
+              <div class="section-team__name-info">
+                <span class="section-team__name">Павел</span>
+                <span class="section-team__vector"></span>
+              </div>
+
+              <div class="section-team__photo">
+                <img src="/image/photo1.png" alt="" />
+              </div>
+
+              <div class="section-team__about">
+                <button>Close</button>
+                <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
+                <p>
+                  Развиваю сеть с технической части. Если вам нужен определенный
+                  преленд с формой, либо нужна интеграция - это ко мне. Также
+                  помогаю начинающим вебам советом как и на что лить. В прошлом
+                  арбитражил в FB и Google.
+                </p>
+              </div>
+            </div>
+            <!-- Detailed blok of team player -->
+
+            <div
+              class="section-team__person section-team__person2 person_detailed"
+            >
+              <div class="section-team__name-info">
+                <span class="section-team__name">Александра</span>
+                <span class="section-team__vector"></span>
+              </div>
+
+              <div class="section-team__photo">
+                <img src="/image/photo2.png" alt="" />
+              </div>
+
+              <div class="section-team__about">
+                <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
+                <p>
+                  Подберу идеальную связку, которая принесет вам профит.
+                  Прослежу, чтобы вы вовремя получили выплату на свой кошелек.
+                  Пристально слежу за работой колл-центр, чтобы аппрув вас
+                  радовал. А еще огромный мотиватор для нашей команды - со мной
+                  ProfitPay скоро станет топовой ПП по нутре. Ищете вкусный
+                  оффер с высоким апрувом? Пишите мне!
+                </p>
+              </div>
             </div>
 
-            <div class="section-team__photo">
-              <img src="/image/photo3.png" alt="" />
+            <div
+              class="section-team__person section-team__person3 person_detailed"
+            >
+              <div class="section-team__name-info">
+                <span class="section-team__name">Кароль</span>
+                <span class="section-team__vector"></span>
+              </div>
+
+              <div class="section-team__photo">
+                <img src="/image/photo3.png" alt="" />
+              </div>
+
+              <div class="section-team__about">
+                <p><strong>Графический дизайнер Profit Pay</strong></p>
+                <p>
+                  Генерирую творческие идеи и реализую их в своих проектах. Я
+                  стараюсь создавать современный, стильный и структурированный
+                  визуал для Profit Pay. Разработка всех иллюстраций, дизайна
+                  постов и лэндов в этом проекте лежит на мне. Ежедневно в моей
+                  голове появляется миллион новых идей для улучшения нашей сети.
+                  Эти идеи скоро можно будет увидеть на сайте Profit Pay.
+                </p>
+              </div>
             </div>
 
-            <div class="section-team__about">
-              <p><strong>Графический дизайнер Profit Pay</strong></p>
-              <p>
-                Генерирую творческие идеи и реализую их в своих проектах. Я
-                стараюсь создавать современный, стильный и структурированный
-                визуал для Profit Pay. Разработка всех иллюстраций, дизайна
-                постов и лэндов в этом проекте лежит на мне. Ежедневно в моей
-                голове появляется миллион новых идей для улучшения нашей сети.
-                Эти идеи скоро можно будет увидеть на сайте Profit Pay.
-              </p>
+            <div
+              class="section-team__person section-team__person4 person_detailed"
+            >
+              <div class="section-team__name-info">
+                <span class="section-team__name">Габриела</span>
+                <span class="section-team__vector"></span>
+              </div>
+
+              <div class="section-team__photo">
+                <img src="/image/photo4.png" alt="" />
+              </div>
+
+              <div class="section-team__about">
+                <p><strong>Копирайтер Profit Pay</strong></p>
+                <p>
+                  У меня необычный взгляд на вещи и события, которые происходят
+                  в мире. Это можно увидеть, ознакомившись с моими статьями. Я
+                  люблю писать тексты, а работа в Profit Pay дает мне
+                  возможность совершенствовать эти навыки и делиться своими
+                  взглядами на этот мир. Я надеюсь, вам понравятся наши статьи,
+                  и вы найдете в них что-то полезное. Если же после прочтения у
+                  вас останутся вопросы - пишите мне, и мы это обсудим.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section-team__person section-team__person5 person_detailed"
+            >
+              <div class="section-team__name-info">
+                <span class="section-team__name">Томаш</span>
+                <span class="section-team__vector"></span>
+              </div>
+
+              <div class="section-team__photo">
+                <img src="/image/photo5.png" alt="" />
+              </div>
+
+              <div class="section-team__about">
+                <p><strong>Frontend-разработчик Profit Pay</strong></p>
+                <p>
+                  Я ответственно и с наслаждением отношусь к своей работе.
+                  Ежедневно я создаю и поддерживаю сайты, а также подключаю
+                  офферы к CRM. Я не люблю стоять на месте. Постоянное развитие
+                  - мое второе имя. В свободное я совершенствую свои
+                  профессиональные навыки, читаю научную фантастику и бью
+                  противников в League of Legends.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section-team__person section-team__person6 person_detailed"
+            >
+              <div class="section-team__name-info">
+                <span class="section-team__name">Магдалена</span>
+                <span class="section-team__vector"></span>
+              </div>
+
+              <div class="section-team__photo">
+                <img src="/image/photo6.png" alt="" />
+              </div>
+
+              <div class="section-team__about">
+                <p><strong>Старший копирайтер Profit Pay</strong></p>
+                <p>
+                  Моя основная задача - создание контента для лэндингов. Я
+                  работаю в команде с графическим дизайнером и программистом. Я
+                  слежу за тем, чтобы наши страницы выглядели визуально и
+                  стилистически правильно. У меня получится найти любые ошибки,
+                  даже самые маленькие.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div
-            class="section-team__person section-team__person4 person4_detailed"
-          >
-            <div class="section-team__name-info">
-              <span class="section-team__name">Габриела</span>
-              <span class="section-team__vector"></span>
-            </div>
+          <!-- <div class="section-team__person-320 section-team__person1-320">
+            <p class="section-team__name-320">
+              Павел
+            </p>
 
-            <div class="section-team__photo">
-              <img src="/image/photo4.png" alt="" />
-            </div>
-
-            <div class="section-team__about">
-              <p><strong>Копирайтер Profit Pay</strong></p>
-              <p>
-                У меня необычный взгляд на вещи и события, которые происходят в
-                мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю
-                писать тексты, а работа в Profit Pay дает мне возможность
-                совершенствовать эти навыки и делиться своими взглядами на этот
-                мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них
-                что-то полезное. Если же после прочтения у вас останутся вопросы
-                - пишите мне, и мы это обсудим.
-              </p>
-            </div>
+            <p class="section-desc">
+              <strong>Аффилиэйт-менеджер Profit Pay</strong>
+              <br>Развиваю сеть с технической части. Если вам нужен определенный преленд с формой, либо нужна интеграция - это ко мне. Также помогаю начинающим вебам советом как и на что лить. В прошлом арбитражил в FB и Google.
+            </p>
           </div>
 
-          <div
-            class="section-team__person section-team__person5 person5_detailed"
-          >
-            <div class="section-team__name-info">
-              <span class="section-team__name">Томаш</span>
-              <span class="section-team__vector"></span>
-            </div>
+          <div class="section-team__person-320 section-team__person2-320">
+            <p class="section-team__name-320">
+              Александра
+            </p>
 
-            <div class="section-team__photo">
-              <img src="/image/photo5.png" alt="" />
-            </div>
-
-            <div class="section-team__about">
-              <p><strong>Frontend-разработчик Profit Pay</strong></p>
-              <p>
-                Я ответственно и с наслаждением отношусь к своей работе.
-                Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы
-                к CRM. Я не люблю стоять на месте. Постоянное развитие - мое
-                второе имя. В свободное я совершенствую свои профессиональные
-                навыки, читаю научную фантастику и бью противников в League of
-                Legends.
-              </p>
-            </div>
+            <p class="section-desc">
+              <strong>Аффилиэйт-менеджер Profit Pay</strong>
+              <br>Подберу идеальную связку, которая принесет вам профит. Прослежу, чтобы вы вовремя получили выплату на свой кошелек. Пристально слежу за работой колл-центр, чтобы аппрув вас радовал. А еще огромный мотиватор для нашей команды - со мной ProfitPay скоро станет топовой ПП по нутре. Ищете вкусный оффер с высоким апрувом? Пишите мне!
+            </p>
           </div>
 
-          <div
-            class="section-team__person section-team__person6 person6_detailed"
-          >
-            <div class="section-team__name-info">
-              <span class="section-team__name">Магдалена</span>
-              <span class="section-team__vector"></span>
-            </div>
+          <div class="section-team__person-320 section-team__person3-320">
+            <p class="section-team__name-320">
+              Кароль
+            </p>
 
-            <div class="section-team__photo">
-              <img src="/image/photo6.png" alt="" />
-            </div>
-
-            <div class="section-team__about">
-              <p><strong>Старший копирайтер Profit Pay</strong></p>
-              <p>
-                Моя основная задача - создание контента для лэндингов. Я работаю
-                в команде с графическим дизайнером и программистом. Я слежу за
-                тем, чтобы наши страницы выглядели визуально и стилистически
-                правильно. У меня получится найти любые ошибки, даже самые
-                маленькие.
-              </p>
-            </div>
+            <p class="section-desc">
+              <strong>Графический дизайнер Profit Pay</strong>
+              <br> Генерирую творческие идеи и реализую их в своих проектах. Я стараюсь создавать современный, стильный и структурированный визуал для Profit Pay. Разработка всех иллюстраций, дизайна постов и лэндов в этом проекте лежит на мне. Ежедневно в моей голове появляется миллион новых идей для улучшения нашей сети. Эти идеи скоро можно будет увидеть на сайте Profit Pay.
+            </p>
           </div>
+
+          <div class="section-team__person-320 section-team__person4-320">
+            <p class="section-team__name-320">
+              Габриела
+            </p>
+
+            <p class="section-desc">
+              <strong>Копирайтер Profit Pay</strong>
+              <br> У меня необычный взгляд на вещи и события, которые происходят в мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю писать тексты, а работа в Profit Pay дает мне возможность совершенствовать эти навыки и делиться своими взглядами на этот мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них что-то полезное. Если же после прочтения у вас останутся вопросы - пишите мне, и мы это обсудим.
+            </p>
+          </div>
+
+          <div class="section-team__person-320 section-team__person5-320">
+            <p class="section-team__name-320">
+              Томаш
+            </p>
+
+            <p class="section-desc">
+              <strong>Frontend-разработчик Profit Pay</strong>
+              <br> Я ответственно и с наслаждением отношусь к своей работе. Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы к CRM. Я не люблю стоять на месте. Постоянное развитие - мое второе имя. В свободное я совершенствую свои профессиональные навыки, читаю научную фантастику и бью противников в League of Legends.
+            </p>
+          </div>
+
+          <div class="section-team__person-320 section-team__person6-320">
+            <p class="section-team__name-320">
+              Магдалена
+            </p>
+
+            <p class="section-desc">
+              <strong>Старший копирайтер Profit Pay</strong>
+              <br> Моя основная задача - создание контента для лэндингов. Я работаю в команде с графическим дизайнером и программистом. Я слежу за тем, чтобы наши страницы выглядели визуально и стилистически правильно. У меня получится найти любые ошибки, даже самые маленькие.
+            </p>
+          </div> -->
         </div>
       </section>
     </main>
