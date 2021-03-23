@@ -129,4 +129,10 @@
   background-image: url("/image/vk.svg");
 }
 
+@media (max-width: 999px) {
+  .header__container {
+    margin-bottom: 65px;
+  }
+}
+
 
