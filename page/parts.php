@@ -135,7 +135,7 @@ if ( $lang == 'en' ) : ?>
           <button class="nav__toggle" id="toggle"></button>
 
           <div class="header__left">
-            <a class="header__logo" href="/">
+            <a class="header__logo" href="/en/">
               <img  src="/image/logo.svg"  alt="Profit Pay"  class="header__logo-img"/>
             </a>
           </div>

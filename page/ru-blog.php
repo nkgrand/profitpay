@@ -43,7 +43,7 @@ if ( $b['image'] ) {
 	$bcl = 'blog__article';
 	$bs = 'style="background-image: url('.$b['image'].')"';
 } else {
-	$bi = $b['id'] % 5;
+	$bi = $b['id'] % 4;
 	$bi += 1;
 	$bcl = 'blog__article blog__article-' . $bi;
 	$bs = false;
