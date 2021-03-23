@@ -3,7 +3,7 @@ $(".section-work__benefit-list").slick({
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   nextArrow:
     '<img src="/image/arrow-right.svg" class="section-work__right-arrow" alt="">',
@@ -35,7 +35,7 @@ $(".section-review__reviews-list").slick({
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   nextArrow:
     '<img src="/image/arrow-white-right.svg" class="section-review__vector-right" alt="">',
@@ -77,7 +77,12 @@ $(".section-team__team-list").slick({
         slidesToShow: 2,
       },
     },
-
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
     {
       breakpoint: 576,
       settings: {
