@@ -252,13 +252,13 @@
     background-image: url("/image/eye-img.svg");
   }
 
-  <<<<<<< HEAD ======= .section-review__reviews-list {
+  .section-review__reviews-list {
     margin: 0 auto;
     width: 55%;
   }
-
-  >>>>>>>f3be48b46c1dc86ce25b66ac7d79c17e2dc71c72
-    .section-review__reviews-item {
+  
+  
+  .section-review__reviews-item {
     width: 100%;
     height: 100%;
   }
@@ -272,6 +272,8 @@
     padding: 0;
     transform: translateX(20%);
   }
+
+  
 }
 
 @media (max-width: 576px) {
