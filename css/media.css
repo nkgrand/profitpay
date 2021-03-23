@@ -563,7 +563,132 @@
     line-height: 18px;
   }
 
+  .section-offers {
+    margin-bottom: 70px;
+  }
+
+  .section-offers__offers-list {
+    max-width: 610px;
+    margin: 0 auto;
+  }
+
+  .section-offers__block {
+    width: 276px;
+    min-height: 105px;
+    border-radius: 30px;
+  }
+
+  .section-offers__block-odd,
+  .section-offers__block-even {
+    padding: 13px 20px 13px 80px;
+  }
+
   .section-offers__offer:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+  .section-offers__offer-info {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .section-offers__offer-link {
+    margin-bottom: 8px;
+    width: 100%;
+    min-height: 41px;
+    opacity: 1;
+  }
+
+  .section-offers__offer-name {
+    margin-right: 11px;
+    margin-left: 11px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .section-offers__adult-img {
+    width: auto;
+    height: 134px;
+    transform: translateY(-10px);
+  }
+
+  .section-offers__ear-img {
+    width: auto;
+    height: 185px;
+    transform: translate(-10px, -50px);
+  }
+
+  .section-offers__cardio-img {
+    width: auto;
+    height: 167px;
+    transform: translateY(-30px);
+  }
+
+  .section-offers__bone-img {
+    width: auto;
+    height: 155px;
+    transform: translate(-18px, -30px);
+  }
+
+  .section-offers__blood-img {
+    width: auto;
+    height: 143px;
+    transform: translateY(-20px);
+  }
+
+  .section-offers__eye-img {
+    width: auto;
+    height: 152px;
+    transform: translate(-40px, -30px);
+  }
+
+  .section-offers__offer-vector {
+    width: 17px;
+    height: 17px;
+  }
+
+  .section-offers__icon-adult {
+    width: 23px;
+    height: 23px;
+  }
+
+  .section-offers__icon-ear {
+    width: 15px;
+    height: 22px;
+  }
+
+  .section-offers__icon-cardio {
+    width: 19px;
+    height: 21px;
+  }
+
+  .section-offers__icon-bone {
+    width: 25px;
+    height: 25px;
+  }
+
+  .section-offers__icon-blood {
+    width: 14px;
+    height: 25px;
+  }
+
+  .section-offers__icon-eye {
+    width: 25px;
+    height: 16px;
+  }
+
+  .section-offers__offer:hover,
+  .section-offers__offer:focus {
+    transform: none;
+    filter: none;
+  }
+  
+  .section-offers__offer:active {
+    transform: none;
+  }
+
+
+  /* .section-offers__offer:not(:last-child) {
     margin-bottom: 90px;
   }
 
@@ -679,7 +804,7 @@
   
   .section-offers__offer:active {
     transform: none;
-  }
+  } */
 
   .footer__heading {
     margin-bottom: 40px;
@@ -1122,7 +1247,132 @@
     outline: none;
   }
 
-  .section-offers__heading {
+  .section-offers {
+    margin-bottom: 60px;
+  }
+
+  .section-offers__offers-list {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+
+  .section-offers__block {
+    width: 276px;
+    min-height: 105px;
+    border-radius: 30px;
+  }
+
+  .section-offers__block-odd,
+  .section-offers__block-even {
+    padding: 13px 20px 13px 80px;
+  }
+
+  .section-offers__offer:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+  .section-offers__offer-info {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .section-offers__offer-link {
+    margin-bottom: 8px;
+    width: 100%;
+    min-height: 41px;
+    opacity: 1;
+  }
+
+  .section-offers__offer-name {
+    margin-right: 11px;
+    margin-left: 11px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .section-offers__adult-img {
+    width: auto;
+    height: 134px;
+    transform: translateY(-10px);
+  }
+
+  .section-offers__ear-img {
+    width: auto;
+    height: 185px;
+    transform: translate(-10px, -50px);
+  }
+
+  .section-offers__cardio-img {
+    width: auto;
+    height: 167px;
+    transform: translateY(-30px);
+  }
+
+  .section-offers__bone-img {
+    width: auto;
+    height: 155px;
+    transform: translate(-18px, -30px);
+  }
+
+  .section-offers__blood-img {
+    width: auto;
+    height: 143px;
+    transform: translateY(-20px);
+  }
+
+  .section-offers__eye-img {
+    width: auto;
+    height: 152px;
+    transform: translate(-40px, -30px);
+  }
+
+  .section-offers__offer-vector {
+    width: 17px;
+    height: 17px;
+  }
+
+  .section-offers__icon-adult {
+    width: 23px;
+    height: 23px;
+  }
+
+  .section-offers__icon-ear {
+    width: 15px;
+    height: 22px;
+  }
+
+  .section-offers__icon-cardio {
+    width: 19px;
+    height: 21px;
+  }
+
+  .section-offers__icon-bone {
+    width: 25px;
+    height: 25px;
+  }
+
+  .section-offers__icon-blood {
+    width: 14px;
+    height: 25px;
+  }
+
+  .section-offers__icon-eye {
+    width: 25px;
+    height: 16px;
+  }
+
+  .section-offers__offer:hover,
+  .section-offers__offer:focus {
+    transform: none;
+    filter: none;
+  }
+  
+  .section-offers__offer:active {
+    transform: none;
+  }
+
+
+  /* .section-offers__heading {
     margin-bottom: 55px;
   }
 
@@ -1203,7 +1453,7 @@
   
   .section-offers__offer:active {
     transform: none;
-  }
+  } */
 
   .footer__heading {
     margin-bottom: 40px;
@@ -1845,7 +2095,7 @@
   }
 
   .section-offers__offer:not(:last-child) {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .section-offers__offers-list {
@@ -2118,7 +2368,7 @@
     line-height: 10px;
   }
 
-  .footer__social-item-inst {
+  .footer__social-item-blog {
     display: none;
   }
 
@@ -2142,10 +2392,9 @@
     height: 25px;
   }
 
-  .footer__icon-blog {
-    width: 27px;
-    height: 26px;
-    transform: scale(1.5);
+  .footer__icon-inst {
+    width: 25px;
+    height: 25px;
   }
 
   .footer__copyright {

@@ -375,14 +375,14 @@ if ( $lang == 'en' ) : ?>
             </a>
           </li>
 
-          <li class="footer-social-item">
+          <li class="footer-social-item footer__social-item-blog">
             <a  href="https://profitpay.pro/blog/"  target="_blank"  class="social-link">
               <span class="footer__icon footer__icon-blog"></span>
               <span>BLOG</span>
             </a>
           </li>
 
-          <li class="footer-social-item footer__social-item-inst">
+          <li class="footer-social-item">
             <a  href="https://bit.ly/3rY7jdA"  target="_blank"  class="social-link">
               <span class="footer__icon footer__icon-inst"></span>
               <span>INSTAGRAM</span>
@@ -434,7 +434,7 @@ if ( $lang == 'en' ) : ?>
             </a>
           </li>
 
-          <li class="footer-social-item">
+          <li class="footer-social-item footer__social-item-blog">
             <a
               href="https://profitpay.pro/blog/"
               target="_blank"
@@ -445,7 +445,7 @@ if ( $lang == 'en' ) : ?>
             </a>
           </li>
 
-          <li class="footer-social-item footer__social-item-inst">
+          <li class="footer-social-item">
             <a
               href="https://bit.ly/3rY7jdA"
               target="_blank"
