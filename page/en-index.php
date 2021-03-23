@@ -428,35 +428,35 @@ $sonets = showitonce( 'sonets' );
 
           <h2 class="section-heading section-team__heading">Our team:</h2>
 
-          <ul class="section-team__team-list">
-            <li class="section-team__item">
+          <div class="section-team__team-list">
+            <div class="section-team__item">
               <img src="/image/photo1.png" alt="" id="person1" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo2.png" alt="" id="person2" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo3.png" alt="" id="person3" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo4.png" alt="" id="person4" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo5.png" alt="" id="person5" />
-            </li>
+            </div>
 
-            <li class="section-team__item">
+            <div class="section-team__item">
               <img src="/image/photo6.png" alt="" id="person6" />
-            </li>
-          </ul>
+            </div>
+          </div>
 
           <!-- Detailed blok of team player -->
           <div
-            class="section-team__person section-team__person1 person1_detailed"
+            class="section-team__person section-team__person1 person_detailed"
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Pavel</span>
@@ -478,7 +478,7 @@ $sonets = showitonce( 'sonets' );
           <!-- Detailed blok of team player -->
 
           <div
-            class="section-team__person section-team__person2 person2_detailed"
+            class="section-team__person section-team__person2 person_detailed"
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Aleksandra</span>
@@ -498,7 +498,7 @@ $sonets = showitonce( 'sonets' );
           </div>
 
           <div
-            class="section-team__person section-team__person3 person3_detailed"
+            class="section-team__person section-team__person3 person_detailed"
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Karol</span>
@@ -518,7 +518,7 @@ $sonets = showitonce( 'sonets' );
           </div>
 
           <div
-            class="section-team__person section-team__person4 person4_detailed"
+            class="section-team__person section-team__person4 person_detailed"
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Gabrysia</span>
@@ -538,7 +538,7 @@ $sonets = showitonce( 'sonets' );
           </div>
 
           <div
-            class="section-team__person section-team__person5 person5_detailed"
+            class="section-team__person section-team__person5 person_detailed"
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Tomek</span>
@@ -558,7 +558,7 @@ $sonets = showitonce( 'sonets' );
           </div>
 
           <div
-            class="section-team__person section-team__person6 person6_detailed"
+            class="section-team__person section-team__person6 person_detailed"
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Magda</span>
