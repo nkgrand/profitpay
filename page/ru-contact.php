@@ -32,12 +32,12 @@ $sonets = showitonce( 'sonets' );
             <span class="section-contacts__lines"></span>
   
             <div class="section-contacts__contacts">
-              <div class="section-contacts__contact section-contacts__contact-a">
+              <div class="section-contacts__contact section-contacts__contact-a" id="girl">
                 <span class=" section-contacts__photo section-contacts__photo-a"></span>
   
                 <h2 class="section-contacts__name">Alexandra - ProfitPay</h2>
   
-                <p class="section-contacts__desc">Chief Marketing Officer</p>
+                <p class="section-contacts__desc">Аффилиэйт-менеджер Profit Pay</p>
   
                 <span class="section-contacts__contact-info">
                   <a href="https://t.me/alexandradigital" target="_blank" class="section-contacts__link">
@@ -54,12 +54,12 @@ $sonets = showitonce( 'sonets' );
                 </span>
               </div>
   
-              <div class="section-contacts__contact section-contacts__contact-p">
+              <div class="section-contacts__contact section-contacts__contact-p" id="boy">
                 <span class="section-contacts__photo section-contacts__photo-p"></span>
     
                 <h2 class="section-contacts__name">Pavel - ProfitPay</h2>
     
-                <p class="section-contacts__desc">Vice of Chief Marketing Officer </p>
+                <p class="section-contacts__desc">Аффилиэйт-менеджер Profit Pay </p>
     
                 <span class="section-contacts__contact-info">
                   <a href="https://t.me/yummypeep" target="_blank" class="section-contacts__link">

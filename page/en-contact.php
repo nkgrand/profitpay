@@ -32,7 +32,7 @@ $sonets = showitonce( 'sonets' );
             <span class="section-contacts__lines"></span>
   
             <div class="section-contacts__contacts">
-              <div class="section-contacts__contact section-contacts__contact-a">
+              <div class="section-contacts__contact section-contacts__contact-a" id="girl">
                 <span class=" section-contacts__photo section-contacts__photo-a"></span>
   
                 <h2 class="section-contacts__name">Alexandra - ProfitPay</h2>
@@ -54,7 +54,7 @@ $sonets = showitonce( 'sonets' );
                 </span>
               </div>
   
-              <div class="section-contacts__contact section-contacts__contact-p">
+              <div class="section-contacts__contact section-contacts__contact-p" id="boy">
                 <span class="section-contacts__photo section-contacts__photo-p"></span>
     
                 <h2 class="section-contacts__name">Pavel - ProfitPay</h2>
