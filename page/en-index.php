@@ -14,86 +14,7 @@ $sonets = showitonce( 'sonets' );
   <body class="body">
 <?php if ( $sonets ) sonetblock( 'en' ); ?>
 
-    <header>
-      <div class="container header__container">
-        <nav class="nav" id="nav">
-          <button class="nav__toggle" id="toggle"></button>
-
-          <div class="header__left">
-            <a class="header__logo">
-              <img  src="/image/logo.svg"  alt="The logo of Profit Pay"  class="header__logo-img"/>
-            </a>
-          </div>
-          
-          <div class="header__center">
-            <ul class="nav-list">
-              <li class="header__nav-item">
-                <a
-                  href="https://dashboard.profitpay.pro/login"
-                  class="header__log-in-link"
-                >
-                  <span class="header__log-in-text-menu">Log in</span>
-                  <span class="header__log-in-icon"></span>
-                </a>
-              </li>
-          
-              <li class="header__nav-item">
-                <a href="/en/#section-us" class="nav-link">
-                  <span>About us</span>
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-          
-              <li class="header__nav-item">
-                <a href="/en/#section-work" class="nav-link">
-                  <span>Webmasters</span>
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-          
-              <li class="header__nav-item">
-                <a href="/en/#section-offers" class="nav-link">
-                  <span>Offers</span>
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-          
-              <li class="header__nav-item">
-                <a href="/en/blog/" class="nav-link">
-                  <span>Blog</span>
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-          
-              <li class="header__nav-item">
-                <a href="/en/contact/" class="nav-link">
-                  <span>Contact</span>
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-          
-              <li class="header__nav-item">
-                <a href="/ru/" class="nav-link">
-                  <span>ru</span>
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-          <div class="header__sigh-up-btn">
-            <a  href="https://dashboard.profitpay.pro/register"  class="header__sign-up-link">SIGN UP</a>
-          </div>
-          
-          <div class="header__log-in-btn">
-            <a  href="https://dashboard.profitpay.pro/login"  class="header__log-in-link">
-              <span class="header__log-in-text">Log in</span>
-              <span class="header__log-in-icon"></span>
-            </a>
-          </div>
-        </nav>
-      </div>
-    </header>
+<?php head( 'en', '/' );?>
 
     <main class="main">
       <h1 class="visually-hidden">Profit Pay</h1>
@@ -659,56 +580,7 @@ $sonets = showitonce( 'sonets' );
       </section>
     </main>
 
-    <footer>
-      <div class="container footer__container">
-        <div class="conf footer__conf1"></div>
-
-        <div class="conf footer__conf2"></div>
-
-        <h2 class="section-heading footer__heading">NETWORKS</h2>
-
-        <ul class="footer__social-list">
-          <li class="footer-social-item">
-            <a href="https://t.me/cpafbcat" target="_blank" class="social-link">
-              <span class="footer__icon footer__icon-tg"></span>
-              <span>TELEGRAM</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a  href="https://vk.com/profitpay"  target="_blank"  class="social-link">
-              <span class="footer__icon footer__icon-vk"></span>
-              <span>VKONTAKTE</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a  href="https://www.youtube.com/channel/UCQJb5KlQ7QaWTb9ZSTVBlJw"  target="_blank"  class="social-link">
-              <span class="footer__icon footer__icon-youtube"></span>
-              <span>YOUTUBE</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a  href="https://profitpay.pro/blog/"  target="_blank"  class="social-link">
-              <span class="footer__icon footer__icon-blog"></span>
-              <span>BLOG</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item footer__social-item-inst">
-            <a  href="https://bit.ly/3rY7jdA"  target="_blank"  class="social-link">
-              <span class="footer__icon footer__icon-inst"></span>
-              <span>INSTAGRAM</span>
-            </a>
-          </li>
-        </ul>
-
-        <p class="footer__copyright">
-          Copyright © 2020-2021 Profitpay.pro
-        </p>
-      </div>
-    </footer>
+	<?php footer('en'); ?>
 
     <link rel="stylesheet" href="/libs/slick/slick-theme.css" />
     <link rel="stylesheet" href="/libs/slick/slick.css" />

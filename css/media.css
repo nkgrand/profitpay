@@ -46,7 +46,7 @@
     line-height: 19px;
   }
 
-  .header__nav-item:nth-child(-n + 4) {
+  .header__nav-item:nth-child(3) {
     display: none;
   }
 
@@ -182,33 +182,33 @@
   }
 
   .section-offers__adult-img {
-    height: 40%;
-    transform: translateY(-25px);
+    height: 30%;
+    transform: translateY(-45px);
   }
 
   .section-offers__ear-img {
-    height: 50%;
-    transform: translate(320px, -75px);
+    height: 40%;
+    transform: translate(310px, -105px);
   }
 
   .section-offers__cardio-img {
-    height: 45%;
-    transform: translateY(-40px);
+    height: 35%;
+    transform: translateY(-70px);
   }
 
   .section-offers__bone-img {
-    height: 45%;
-    transform: translate(265px, -48px);
+    height: 35%;
+    transform: translate(260px, -65px);
   }
 
   .section-offers__blood-img {
-    height: 45%;
-    transform: translate(-2px, -35px);
+    height: 30%;
+    transform: translate(-2px, -45px);
   }
 
   .section-offers__eye-img {
-    height: 45%;
-    transform: translate(238px, -40px);
+    height: 35%;
+    transform: translate(230px, -60px);
   }
 
   .section-offers__offer-vector {
@@ -252,9 +252,20 @@
     background-image: url("/image/eye-img.svg");
   }
 
-  .section-review__reviews-item {
-    margin: 30px 20px;
-    padding: 0;
+  <<<<<<< HEAD ======= .section-review__reviews-list {
+    margin: 0 auto;
+    width: 55%;
+  }
+
+  >>>>>>>f3be48b46c1dc86ce25b66ac7d79c17e2dc71c72
+    .section-review__reviews-item {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-team__team-list {
+    margin: 0 auto;
+    width: 75%;
   }
 
   .section-team__item {
@@ -272,7 +283,8 @@
   }
 
   .container {
-    padding: 0px 10px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .section-heading {
@@ -763,10 +775,6 @@
     height: 16px;
   }
 
-  .section-offers__doll {
-    display: none;
-  }
-
   .section-review {
     margin-bottom: 40px;
   }
@@ -884,14 +892,6 @@
     text-transform: uppercase;
   }
 
-  .section-team__lightning {
-    display: none;
-  }
-
-  .section-team__doll {
-    display: none;
-  }
-
   .footer__heading {
     margin-bottom: 27px;
   }
@@ -957,6 +957,10 @@
 
   .lines-container {
     display: none;
+  }
+
+  .section-contacts__contacts {
+    background-image: none;
   }
 
   .section-contacts {

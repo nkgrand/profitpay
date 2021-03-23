@@ -15,130 +15,7 @@ $sonets = showitonce( 'sonets' );
 
 <?php if ( $sonets ) sonetblock( 'ru' ); ?>
 
-    <header>
-      <div class="container header__container">
-        <nav class="nav" id="nav">
-          <button class="nav__toggle" id="toggle"></button>
-
-          <div class="header__log-in-btn-menu">
-            <a
-              href="https://dashboard.profitpay.pro/login"
-              class="header__log-in-link"
-            >
-              <span class="header__log-in-text-menu">Вход</span>
-              <span class="header__log-in-icon"></span>
-            </a>
-          </div>
-
-          <div class="header__left">
-            <a class="header__logo">
-              <img
-                src="/image/logo.svg"
-                alt="Логотип Profit Pay"
-                class="header__logo-img"
-              />
-            </a>
-          </div>
-
-          <div class="header__center">
-            <!-- <button class="nav__toggle" id="toggle"></button> -->
-            <ul class="nav-list">
-            <li class="header__nav-item">
-                <a
-                  href="https://dashboard.profitpay.pro/login"
-                  class="header__log-in-link"
-                >
-                  <span class="header__log-in-text-menu">Вход</span>
-                  <span class="header__log-in-icon"></span>
-                </a>
-              </li>
-              
-              <li class="header__nav-item">
-                <a href="/ru/#section-us" class="nav-link">
-                  <span>о нас</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/#section-work" class="nav-link">
-                  <span>вебмастерам</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/#section-offers" class="nav-link">
-                  <span>офферы</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/blog/" class="nav-link">
-                  <span>блог</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/ru/contact/" class="nav-link">
-                  <span>контакт</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-
-              <li class="header__nav-item">
-                <a href="/en/" class="nav-link">
-                  <span>en</span> 
-                  <span class="menu-vector"></span>
-                </a>
-              </li>
-            </ul>
-
-            <!-- <ul class="nav-list">
-            <li class="header__nav-item">
-              <a href="#section-us" class="nav-link">О НАС</a>
-            </li>
-
-            <li class="header__nav-item">
-              <a href="#section-work" class="nav-link">ВЕБМАСТЕРАМ</a>
-            </li>
-
-            <li class="header__nav-item">
-              <a href="#section-offers" class="nav-link">ИНСТРУМЕНТЫ</a>
-            </li>
-
-            <li class="header__nav-item">
-              <a href="" class="nav-link">БЛОГ</a>
-            </li>
-
-            <li class="header__nav-item">
-              <a href="" class="nav-link">КОНТАКТ</a>
-            </li>
-          </ul> -->
-          </div>
-
-          <div class="header__sigh-up-btn">
-            <a
-              href="https://dashboard.profitpay.pro/register"
-              class="header__sign-up-link"
-              >РЕГИСТРАЦИЯ</a
-            >
-          </div>
-
-          <div class="header__log-in-btn">
-            <a
-              href="https://dashboard.profitpay.pro/login"
-              class="header__log-in-link"
-            >
-              <span class="header__log-in-text">Вход</span>
-              <span class="header__log-in-icon"></span>
-            </a>
-          </div>
-        </nav>
-      </div>
-    </header>
+<?php head('ru', '/'); ?>
 
     <main class="main">
       <h1 class="visually-hidden">Profit Pay</h1>
@@ -617,249 +494,160 @@ $sonets = showitonce( 'sonets' );
             </li>
           </ul>
 
-          <!-- <div class="section-team__person section-team__person1">
+          <!-- Detailed blok of team player -->
+          <div
+            class="section-team__person section-team__person1 person1_detailed"
+          >
             <div class="section-team__name-info">
               <span class="section-team__name">Павел</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo1.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
               <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
               <p>
-                Развиваю сеть с технической части. Если вам нужен определенный преленд с формой, либо нужна интеграция - это ко мне. Также помогаю начинающим вебам советом как и на что лить. В прошлом арбитражил в FB и Google.
+                Развиваю сеть с технической части. Если вам нужен определенный
+                преленд с формой, либо нужна интеграция - это ко мне. Также
+                помогаю начинающим вебам советом как и на что лить. В прошлом
+                арбитражил в FB и Google.
               </p>
             </div>
           </div>
+          <!-- Detailed blok of team player -->
 
-          <div class="section-team__person section-team__person2">
+          <div
+            class="section-team__person section-team__person2 person2_detailed"
+          >
             <div class="section-team__name-info">
               <span class="section-team__name">Александра</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo2.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
               <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
               <p>
-                Подберу идеальную связку, которая принесет вам профит. Прослежу, чтобы вы вовремя получили выплату на свой кошелек. Пристально слежу за работой колл-центр, чтобы аппрув вас радовал. А еще огромный мотиватор для нашей команды - со мной ProfitPay скоро станет топовой ПП по нутре. Ищете вкусный оффер с высоким апрувом? Пишите мне!
+                Подберу идеальную связку, которая принесет вам профит. Прослежу,
+                чтобы вы вовремя получили выплату на свой кошелек. Пристально
+                слежу за работой колл-центр, чтобы аппрув вас радовал. А еще
+                огромный мотиватор для нашей команды - со мной ProfitPay скоро
+                станет топовой ПП по нутре. Ищете вкусный оффер с высоким
+                Approveом? Пишите мне!
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person3">
+          <div
+            class="section-team__person section-team__person3 person3_detailed"
+          >
             <div class="section-team__name-info">
               <span class="section-team__name">Кароль</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo3.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
               <p><strong>Графический дизайнер Profit Pay</strong></p>
               <p>
-                Генерирую творческие идеи и реализую их в своих проектах. Я стараюсь создавать современный, стильный и структурированный визуал для Profit Pay. Разработка всех иллюстраций, дизайна постов и лэндов в этом проекте лежит на мне. Ежедневно в моей голове появляется миллион новых идей для улучшения нашей сети. Эти идеи скоро можно будет увидеть на сайте Profit Pay.
+                Генерирую творческие идеи и реализую их в своих проектах. Я
+                стараюсь создавать современный, стильный и структурированный
+                визуал для Profit Pay. Разработка всех иллюстраций, дизайна
+                постов и лэндов в этом проекте лежит на мне. Ежедневно в моей
+                голове появляется миллион новых идей для улучшения нашей сети.
+                Эти идеи скоро можно будет увидеть на сайте Profit Pay.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person4">
+          <div
+            class="section-team__person section-team__person4 person4_detailed"
+          >
             <div class="section-team__name-info">
               <span class="section-team__name">Габриела</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo4.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
               <p><strong>Копирайтер Profit Pay</strong></p>
               <p>
-                У меня необычный взгляд на вещи и события, которые происходят в мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю писать тексты, а работа в Profit Pay дает мне возможность совершенствовать эти навыки и делиться своими взглядами на этот мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них что-то полезное. Если же после прочтения у вас останутся вопросы - пишите мне, и мы это обсудим.
+                У меня необычный взгляд на вещи и события, которые происходят в
+                мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю
+                писать тексты, а работа в Profit Pay дает мне возможность
+                совершенствовать эти навыки и делиться своими взглядами на этот
+                мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них
+                что-то полезное. Если же после прочтения у вас останутся вопросы
+                - пишите мне, и мы это обсудим.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person5">
+          <div
+            class="section-team__person section-team__person5 person5_detailed"
+          >
             <div class="section-team__name-info">
               <span class="section-team__name">Томаш</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo5.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
               <p><strong>Frontend-разработчик Profit Pay</strong></p>
               <p>
-                Я ответственно и с наслаждением отношусь к своей работе. Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы к CRM. Я не люблю стоять на месте. Постоянное развитие - мое второе имя. В свободное я совершенствую свои профессиональные навыки, читаю научную фантастику и бью противников в League of Legends.
+                Я ответственно и с наслаждением отношусь к своей работе.
+                Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы
+                к CRM. Я не люблю стоять на месте. Постоянное развитие - мое
+                второе имя. В свободное я совершенствую свои профессиональные
+                навыки, читаю научную фантастику и бью противников в League of
+                Legends.
               </p>
             </div>
           </div>
 
-          <div class="section-team__person section-team__person6">
+          <div
+            class="section-team__person section-team__person6 person6_detailed"
+          >
             <div class="section-team__name-info">
               <span class="section-team__name">Магдалена</span>
               <span class="section-team__vector"></span>
             </div>
-            
+
             <div class="section-team__photo">
               <img src="/image/photo6.png" alt="" />
             </div>
-  
+
             <div class="section-team__about">
               <p><strong>Старший копирайтер Profit Pay</strong></p>
               <p>
-                Моя основная задача - создание контента для лэндингов. Я работаю в команде с графическим дизайнером и программистом. Я слежу за тем, чтобы наши страницы выглядели визуально и стилистически правильно. У меня получится найти любые ошибки, даже самые маленькие.
+                Моя основная задача - создание контента для лэндингов. Я работаю
+                в команде с графическим дизайнером и программистом. Я слежу за
+                тем, чтобы наши страницы выглядели визуально и стилистически
+                правильно. У меня получится найти любые ошибки, даже самые
+                маленькие.
               </p>
             </div>
-          </div> -->
-
-          <!-- <div class="section-team__person-320 section-team__person1-320">
-            <p class="section-team__name-320">
-              Павел
-            </p>
-
-            <p class="section-desc">
-              <strong>Аффилиэйт-менеджер Profit Pay</strong>
-              <br>Развиваю сеть с технической части. Если вам нужен определенный преленд с формой, либо нужна интеграция - это ко мне. Также помогаю начинающим вебам советом как и на что лить. В прошлом арбитражил в FB и Google.
-            </p>
           </div>
-
-          <div class="section-team__person-320 section-team__person2-320">
-            <p class="section-team__name-320">
-              Александра
-            </p>
-
-            <p class="section-desc">
-              <strong>Аффилиэйт-менеджер Profit Pay</strong>
-              <br>Подберу идеальную связку, которая принесет вам профит. Прослежу, чтобы вы вовремя получили выплату на свой кошелек. Пристально слежу за работой колл-центр, чтобы аппрув вас радовал. А еще огромный мотиватор для нашей команды - со мной ProfitPay скоро станет топовой ПП по нутре. Ищете вкусный оффер с высоким апрувом? Пишите мне!
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person3-320">
-            <p class="section-team__name-320">
-              Кароль
-            </p>
-
-            <p class="section-desc">
-              <strong>Графический дизайнер Profit Pay</strong>
-              <br> Генерирую творческие идеи и реализую их в своих проектах. Я стараюсь создавать современный, стильный и структурированный визуал для Profit Pay. Разработка всех иллюстраций, дизайна постов и лэндов в этом проекте лежит на мне. Ежедневно в моей голове появляется миллион новых идей для улучшения нашей сети. Эти идеи скоро можно будет увидеть на сайте Profit Pay.
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person4-320">
-            <p class="section-team__name-320">
-              Габриела
-            </p>
-
-            <p class="section-desc">
-              <strong>Копирайтер Profit Pay</strong>
-              <br> У меня необычный взгляд на вещи и события, которые происходят в мире. Это можно увидеть, ознакомившись с моими статьями. Я люблю писать тексты, а работа в Profit Pay дает мне возможность совершенствовать эти навыки и делиться своими взглядами на этот мир. Я надеюсь, вам понравятся наши статьи, и вы найдете в них что-то полезное. Если же после прочтения у вас останутся вопросы - пишите мне, и мы это обсудим.
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person5-320">
-            <p class="section-team__name-320">
-              Томаш
-            </p>
-
-            <p class="section-desc">
-              <strong>Frontend-разработчик Profit Pay</strong>
-              <br> Я ответственно и с наслаждением отношусь к своей работе. Ежедневно я создаю и поддерживаю сайты, а также подключаю офферы к CRM. Я не люблю стоять на месте. Постоянное развитие - мое второе имя. В свободное я совершенствую свои профессиональные навыки, читаю научную фантастику и бью противников в League of Legends.
-            </p>
-          </div>
-
-          <div class="section-team__person-320 section-team__person6-320">
-            <p class="section-team__name-320">
-              Магдалена
-            </p>
-
-            <p class="section-desc">
-              <strong>Старший копирайтер Profit Pay</strong>
-              <br> Моя основная задача - создание контента для лэндингов. Я работаю в команде с графическим дизайнером и программистом. Я слежу за тем, чтобы наши страницы выглядели визуально и стилистически правильно. У меня получится найти любые ошибки, даже самые маленькие.
-            </p>
-          </div> -->
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="container footer__container">
-        <div class="conf footer__conf1"></div>
-
-        <div class="conf footer__conf2"></div>
-
-        <h2 class="section-heading footer__heading">Мы в соц. сетях</h2>
-
-        <ul class="footer__social-list">
-          <li class="footer-social-item">
-            <a href="https://t.me/cpafbcat" target="_blank" class="social-link">
-              <span class="footer__icon footer__icon-tg"></span>
-              <span>TELEGRAM</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a
-              href="https://vk.com/profitpay"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-vk"></span>
-              <span>VKONTAKTE</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a
-              href="https://www.youtube.com/channel/UCQJb5KlQ7QaWTb9ZSTVBlJw"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-youtube"></span>
-              <span>YOUTUBE</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a
-              href="https://profitpay.pro/blog/"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-blog"></span>
-              <span>БЛОГ</span>
-            </a>
-          </li>
-
-          <li class="footer-social-item footer__social-item-inst">
-            <a
-              href="https://bit.ly/3rY7jdA"
-              target="_blank"
-              class="social-link"
-            >
-              <span class="footer__icon footer__icon-inst"></span>
-              <span>INSTAGRAM</span>
-            </a>
-          </li>
-        </ul>
-
-        <p class="footer__copyright">
-          Авторские права © 2020-2021 Profitpay.pro
-        </p>
-      </div>
-    </footer>
+<?php footer('ru'); ?>
 
     <link rel="stylesheet" href="/libs/slick/slick-theme.css" />
     <link rel="stylesheet" href="/libs/slick/slick.css" />
