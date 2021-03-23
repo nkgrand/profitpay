@@ -32,9 +32,7 @@ function cookieblock( $lang ) {
 	        <div class="section-cookie__text">
 	          <p class="section-cookie__heading">Мы используем сookie</p>
 	          <p class="section-cookie__desc">
-	            Во время посещения сайта «Культура.РФ» вы соглашаетесь с тем,
-	            что мы обрабатываем ваши персональные данные с использованием
-	            метрических программ.
+              Используя этот веб-сайт, Вы даете согласие на обработку файлов cookie.
 	            <a href="" class="section-cookie__link"> Подробнее. </a>
 	          </p>
 	        </div>
