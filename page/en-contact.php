@@ -2,31 +2,31 @@
 $cookie = showitonce( 'cookie' );
 $sonets = showitonce( 'sonets' );
 ?><!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profit Pay</title>
+    <title>Contacts | Profit Pay</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/contacts.css">
     <link rel="stylesheet" href="/css/media.css" />
   </head>
 
-<?php if ( $sonets ) sonetblock( 'ru' ); ?>
+<?php if ( $sonets ) sonetblock( 'en' ); ?>
 
-<?php head( 'ru', '/contact/' ); ?>
+<?php head( 'en', '/contact/' ); ?>
     
     <div class="bg_dolls-lights">
       <main>
         <section class="section-contacts">
           <div class="container">
-            <h1 class="visually-hidden">Контакты Profit Pay</h1>
+            <h1 class="visually-hidden">Profit Pay contacts</h1>
   
             <p class="section-contacts__ques">
-              Есть к нам вопросы?
+              Have any questions?
             </p>
             <p class="section-contacts__write">
-              Напиши!
+              Ask us!
             </p>
   
             <span class="section-contacts__lines"></span>
@@ -59,7 +59,7 @@ $sonets = showitonce( 'sonets' );
     
                 <h2 class="section-contacts__name">Pavel - ProfitPay</h2>
     
-                <p class="section-contacts__desc">Vice of Chief Marketing Officer </p>
+                <p class="section-contacts__desc">Vice of Chief Marketing Officer</p>
     
                 <span class="section-contacts__contact-info">
                   <a href="https://t.me/yummypeep" target="_blank" class="section-contacts__link">
@@ -77,12 +77,12 @@ $sonets = showitonce( 'sonets' );
               </div>
             </div>
 
-<?php if ( $cookie ) cookieblock( 'ru' ); ?>
+<?php if ( $cookie ) cookieblock( 'en' ); ?>
 			
       </section>
     </main>
 
-<?php footer('ru'); ?>
+<?php footer('en'); ?>
 
     <script>
       toggle.onclick = () => {
