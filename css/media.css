@@ -29,6 +29,14 @@
 }
 
 @media (max-width: 1200px) and (min-width: 999px) {
+  .section-team__name-info {
+    display: none;
+  }
+
+  .section-team__about {
+    flex: 0 0 45%;
+  }
+
   .section-work__conf1,
   .section-work__conf2,
   .footer__conf1,
