@@ -1958,6 +1958,10 @@
     display: none;
   }
 
+  .section-review__reviews-list {
+    margin: 0 auto;
+  }
+
   .section-review__review {
     margin: 0 auto;
     padding: 12px;

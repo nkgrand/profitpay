@@ -28,6 +28,9 @@ $blog = cached( $url );
 <?php head('ru', '/blog/'); ?>
 
     <main>
+
+<?php if ( $cookie ) cookieblock( 'ru' ); ?>
+
       <h1 class="visually-hidden">Блог Profit Pay</h1>
 
       <section class="blog-section">
@@ -61,10 +64,7 @@ if ( $b['image'] ) {
           </ul>
         </div>
 
-		<div class="paginator"><?=pages( $base, $blog['total'], $page, 8 );?></div>
-
-		<?php if ( $cookie ) cookieblock( 'ru' ); ?>
-
+		    <div class="paginator"><?=pages( $base, $blog['total'], $page, 8 );?></div>
       </section>
     </main>
 

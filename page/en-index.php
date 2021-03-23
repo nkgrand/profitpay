@@ -17,6 +17,9 @@ $sonets = showitonce( 'sonets' );
 <?php head( 'en', '/' );?>
 
     <main class="main">
+
+<?php if ( $cookie ) cookieblock( 'en' ); ?>
+
       <h1 class="visually-hidden">Profit Pay</h1>
 
       <section class="section-hero">
@@ -67,9 +70,6 @@ $sonets = showitonce( 'sonets' );
             </li>
           </ul>
         </div>
-
-<?php if ( $cookie ) cookieblock( 'en' ); ?>		
-
       </section>
 
       <section id="section-us" class="section-us">

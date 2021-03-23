@@ -28,6 +28,9 @@ $blog = cached( $url );
 <?php head('en', '/blog/'); ?>
 
     <main class="main">
+
+<?php if ( $cookie ) cookieblock( 'en' ); ?>
+
       <h1 class="visually-hidden">Profit Pay Blog</h1>
 
       <section class="blog-section">
@@ -58,9 +61,6 @@ if ( $b['image'] ) {
         </div>
 
 		<div class="paginator"><?=pages( $base, $blog['total'], $page, 8 );?></div>
-
-<?php if ( $cookie ) cookieblock( 'en' ); ?>
-
       </section>
     </main>
 

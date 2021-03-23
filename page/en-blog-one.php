@@ -24,6 +24,9 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
 <?php head('en', '/blog/'); ?>
 
     <main class="main">
+
+<?php if ( $cookie ) cookieblock( 'en' ); ?>
+
       <section class="blog-page">
         <div class="container">
 
@@ -84,9 +87,6 @@ if ( $b['image'] ) {
             </div>
           </div>
         </div>
-
-<?php if ( $cookie ) cookieblock( 'en' ); ?>
-
       </section>
     </main>
 

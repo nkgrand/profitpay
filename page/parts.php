@@ -11,7 +11,7 @@ function cookieblock( $lang ) {
 	      <div class="section-cookie__text">
 	        <p class="section-cookie__heading">This site uses cookies.</p>
 	        <p class="section-cookie__desc">
-	          By continuing to browse the site, you are agreeing to our use of cookies.
+	          By continuing to browse the site, you are agreeing to our usage of cookies.
 	          <a href="" class="section-cookie__link">
 	            More info.
 	          </a>
