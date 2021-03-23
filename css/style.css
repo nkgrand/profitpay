@@ -1039,6 +1039,7 @@ p {
   color: var(--desc-color);
   text-align: center;
   background-color: #fff;
+  margin: 0 auto;
 }
 
 .section-review__review-heading {

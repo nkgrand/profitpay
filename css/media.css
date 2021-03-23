@@ -9,7 +9,6 @@
     display: none;
   }
 
-
   .section-us__container {
     background-position-x: 900px;
   }
@@ -47,7 +46,7 @@
     line-height: 19px;
   }
 
-  .header__nav-item:nth-child(-n+4) {
+  .header__nav-item:nth-child(-n + 4) {
     display: none;
   }
 
@@ -158,11 +157,11 @@
     min-height: 150px;
     border-radius: 30px;
   }
-  
+
   .section-offers__block-odd {
     padding: 15px 15px 15px 120px;
   }
-  
+
   .section-offers__block-even {
     padding: 15px 120px 15px 15px;
   }
@@ -171,7 +170,7 @@
     font-size: 18px;
     line-height: 22px;
   }
-  
+
   .section-offers__offer-link {
     margin-bottom: 10px;
     min-height: 50px;
@@ -186,27 +185,27 @@
     height: 40%;
     transform: translateY(-25px);
   }
-  
+
   .section-offers__ear-img {
     height: 50%;
     transform: translate(320px, -75px);
   }
-  
+
   .section-offers__cardio-img {
     height: 45%;
     transform: translateY(-40px);
   }
-  
+
   .section-offers__bone-img {
     height: 45%;
     transform: translate(265px, -48px);
   }
-  
+
   .section-offers__blood-img {
     height: 45%;
     transform: translate(-2px, -35px);
   }
-  
+
   .section-offers__eye-img {
     height: 45%;
     transform: translate(238px, -40px);
@@ -216,43 +215,43 @@
     width: 24px;
     height: 24px;
   }
-  
+
   .section-offers__icon-adult {
     width: 30px;
     height: 30px;
     background-image: url("/image/adult-img.svg");
   }
-  
+
   .section-offers__icon-ear {
     width: 22px;
     height: 34px;
     background-image: url("/image/ear-img.svg");
   }
-  
+
   .section-offers__icon-cardio {
     width: 28px;
     height: 32px;
     background-image: url("/image/cardio-img.svg");
   }
-  
+
   .section-offers__icon-bone {
     width: 32px;
     height: 32px;
     background-image: url("/image/bone-img.svg");
   }
-  
+
   .section-offers__icon-blood {
     width: 21px;
     height: 32px;
     background-image: url("/image/blood-img.svg");
   }
-  
+
   .section-offers__icon-eye {
     width: 36px;
     height: 20px;
     background-image: url("/image/eye-img.svg");
   }
-  
+
   .section-review__reviews-item {
     margin: 30px 20px;
     padding: 0;
@@ -260,6 +259,7 @@
 
   .section-team__item {
     padding: 0;
+    transform: translateX(20%);
   }
 }
 
@@ -831,11 +831,16 @@
 
   .section-team__vector-left {
     transform: translateX(-15px);
+    left: -20px;
   }
 
   .section-team__vector-right {
-    right: 0;
+    right: -20px;
     transform: translateX(15px);
+  }
+
+  .team_photo {
+    margin: 0 auto;
   }
 
   /* .section-team__person {
