@@ -158,7 +158,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
-                      href=""
+                      href="https://dashboard.profitpay.pro/offers/98"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -220,7 +220,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
-                      href=""
+                      href="https://dashboard.profitpay.pro/offers/83"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -249,7 +249,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
-                      href=""
+                      href="https://dashboard.profitpay.pro/offers/93"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -278,7 +278,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
-                      href=""
+                      href="https://dashboard.profitpay.pro/offers/91"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -307,7 +307,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
-                      href=""
+                      href="https://dashboard.profitpay.pro/offers/89"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
