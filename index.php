@@ -12,6 +12,13 @@ $lang = isset( $path[0] ) ? $path[0] : false;
 $page = isset( $path[1] ) ? $path[1] : 'index';
 $slug = isset( $path[2] ) ? $path[2] : false;
 
+// Sitemap file
+if ( $lang == 'sitemap.xml' ) {
+	require_once __DIR__ . '/page/common.php';
+	require_once __DIR__ . '/page/seo.php';
+	sitemap();
+}
+
 // Language redirect
 if ( !$lang || ( $lang != 'ru' && $lang != 'en' ) ) {
 	$pp = ( $page != 'index' ) ? "$lang/$page" : $lang;
