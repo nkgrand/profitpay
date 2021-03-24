@@ -612,6 +612,7 @@ p {
   min-height: 100px;
   background-color: #0a0a0a;
   transform: translateY(700px);
+  display: none;
 }
 
 .section-cookie__container {
