@@ -347,7 +347,6 @@
 
   .section-cookie {
     min-height: 120px;
-    transform: translateY(450px);
   }
 
   .section-cookie__container {
@@ -835,7 +834,6 @@
 
   .section-cookie {
     min-height: 120px;
-    transform: translateY(300px);
   }
 
   .section-cookie__container {
@@ -1395,10 +1393,6 @@
 
 @media (max-width: 600px) {
   /* Cookie */
-
-  .section-cookie {
-    transform: translateY(200px);
-  }
 
   .section-cookie__container {
     flex-direction: column;
