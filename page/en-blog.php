@@ -28,12 +28,9 @@ $blog = cached( $url );
   <body class="body">
 
 <?php if ( $sonets ) sonetblock( 'en' ); ?>
-
 <?php head('en', '/blog/'); ?>
 
     <main class="main">
-
-<?php if ( $cookie ) cookieblock( 'en' ); ?>
 
       <h1 class="visually-hidden">Profit Pay Blog</h1>
 
@@ -68,6 +65,7 @@ if ( $b['image'] ) {
       </section>
     </main>
 
+<?php if ( $cookie ) cookieblock( 'en' ); ?>
 <?php footer('en'); ?>
 
 	<script src="/js/cookie.js"></script>

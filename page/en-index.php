@@ -16,13 +16,11 @@ $sonets = showitonce( 'sonets' );
   </head>
 
   <body class="body">
-<?php if ( $sonets ) sonetblock( 'en' ); ?>
 
+<?php if ( $sonets ) sonetblock( 'en' ); ?>
 <?php head( 'en', '/' );?>
 
     <main class="main">
-
-<?php if ( $cookie ) cookieblock( 'en' ); ?>
 
       <h1 class="visually-hidden">Profit Pay</h1>
 
@@ -589,7 +587,8 @@ $sonets = showitonce( 'sonets' );
       </section>
     </main>
 
-	<?php footer('en'); ?>
+<?php if ( $cookie ) cookieblock( 'en' ); ?>
+<?php footer('en'); ?>
 
     <link rel="stylesheet" href="/libs/slick/slick-theme.css" />
     <link rel="stylesheet" href="/libs/slick/slick.css" />
