@@ -66,6 +66,7 @@ if ( $b['image'] ) {
 
 <?php footer('en'); ?>
 
+	<script src="/js/cookie.js"></script>
     <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");

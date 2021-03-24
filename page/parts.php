@@ -19,7 +19,7 @@ function cookieblock( $lang ) {
 	      </div>
 
 	      <button type="submit" class="section-cookie__btn cookiesBtnClose">
-	        Accept it <span class="section-cookie__vector"></span>
+	        Accept <span class="section-cookie__vector"></span>
 	      </button>
 	    </div>
 	  </div>

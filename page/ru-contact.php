@@ -14,8 +14,6 @@ $sonets = showitonce( 'sonets' );
 	<link rel="preload" href="/image/contact-lines-left.svg" as="image" />	
   </head>
 
-<?php if ( $sonets ) sonetblock( 'ru' ); ?>
-
 <?php head( 'ru', '/contact/' ); ?>
     
     <div class="bg_dolls-lights">
@@ -87,6 +85,7 @@ $sonets = showitonce( 'sonets' );
 <?php footer('ru'); ?>
 
 	<script src="/js/lines.js"></script>
+	<script src="/js/cookie.js"></script>
     <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");
