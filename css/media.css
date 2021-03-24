@@ -1909,6 +1909,10 @@
     background-color: inherit;
   }
 
+  .section-work__info:hover {
+    box-shadow: none;
+  }
+
   .section-work__desc {
     font-size: 18px;
     line-height: 1.2;
@@ -2028,7 +2032,11 @@
   }
 
   .section-review {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+  }
+
+  .section-review__heading {
+    margin-bottom: 30px;;
   }
 
   .section-review__vector-left,
@@ -2044,14 +2052,16 @@
     margin: 0 auto;
     padding: 12px;
     width: 100%;
-    min-height: 205px;
+    min-height: 340px;
     height: auto;
     text-align: center;
   }
 
   .section-review__reviews-item {
+    margin: 0 0 20px 0;
     padding: 0;
     width: 100%;
+    filter: none;
   }
 
   .section-review__review-heading {
@@ -2124,28 +2134,10 @@
     flex: 0 0 65%;
     display: flex;
     flex-direction: column;
-    top: 80px;
-  }
-
-  .section-team__person-320 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 10px;
-    width: 192px;
-    height: 216px;
-    text-align: center;
-    color: #000;
-    background-color: #fff;
-  }
-
-  .section-team__name-320 {
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: uppercase;
+    height: 240px;
+    font-size: 10px;
+    line-height: 14px;
+    transform: translateY(-25px);
   }
 
   .footer__heading {
