@@ -12,7 +12,7 @@ function cookieblock( $lang ) {
 	        <p class="section-cookie__heading">This site uses cookies.</p>
 	        <p class="section-cookie__desc">
 	          By continuing to browse the site, you are agreeing to our usage of cookies.
-	          <a href="" class="section-cookie__link">
+	          <a href="https://policies.google.com/technologies/cookies?hl=en-US" class="section-cookie__link">
 	            More info.
 	          </a>
 	        </p>
@@ -33,7 +33,7 @@ function cookieblock( $lang ) {
 	          <p class="section-cookie__heading">Мы используем сookie</p>
 	          <p class="section-cookie__desc">
               Используя этот веб-сайт, Вы даете согласие на обработку файлов cookie.
-	            <a href="" class="section-cookie__link"> Подробнее. </a>
+	            <a href="https://policies.google.com/technologies/cookies?hl=ru" class="section-cookie__link"> Подробнее. </a>
 	          </p>
 	        </div>
 
