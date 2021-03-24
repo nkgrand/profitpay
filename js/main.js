@@ -110,8 +110,8 @@ $(".section-team__team-list").slick({
     cookieContainer.style.display = "flex";
   }
 
-  setTimeout(displayModal, 1000);
-  setTimeout(displayCockies, 3000);
+  setTimeout(displayModal, 30000);
+  setTimeout(displayCockies, 1000);
 
   modalBtnClose.addEventListener("click", function () {
     modalContainer.style.display = "none";
