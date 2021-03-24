@@ -17,8 +17,10 @@ $blog = cached( $url );
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog | Profit Pay</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/css/blog.css" />
     <link rel="stylesheet" href="/css/media.css" />
+	<link rel="alternate" href="/ru/blog/" hreflang="ru" />
+	<link rel="canonical" href="https://www.profitpay.pro/en/blog/" />
   </head>
 
   <body class="body">

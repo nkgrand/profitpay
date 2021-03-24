@@ -9,6 +9,8 @@ $sonets = showitonce( 'sonets' );
     <title>Profit Pay</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/media.css" />
+	<link rel="alternate" href="/en/" hreflang="en" />
+	<link rel="canonical" href="https://www.profitpay.pro/ru/" />	
   </head>
 
   <body class="body">

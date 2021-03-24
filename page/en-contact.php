@@ -10,12 +10,14 @@ $sonets = showitonce( 'sonets' );
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/contacts.css">
     <link rel="stylesheet" href="/css/media.css" />
+	<link rel="alternate" href="/ru/contact/" hreflang="ru" />
+	<link rel="canonical" href="https://www.profitpay.pro/en/contact/" />
 	<link rel="preload" href="/image/contact-lines-right.svg" as="image" />
-	<link rel="preload" href="/image/contact-lines-left.svg" as="image" />	
+	<link rel="preload" href="/image/contact-lines-left.svg" as="image" />
   </head>
 
 <?php head( 'en', '/contact/' ); ?>
-    
+
     <div class="bg_dolls-lights">
       <main>
 
@@ -24,31 +26,31 @@ $sonets = showitonce( 'sonets' );
         <section class="section-contacts">
           <div class="container">
             <h1 class="visually-hidden">Profit Pay contacts</h1>
-  
+
             <p class="section-contacts__ques">
               Have any questions?
             </p>
             <p class="section-contacts__write">
               Ask us!
             </p>
-  
+
             <span class="section-contacts__lines"></span>
-  
+
             <div class="section-contacts__contacts">
               <div class="section-contacts__contact section-contacts__contact-a" id="girl">
                 <span class=" section-contacts__photo section-contacts__photo-a"></span>
-  
+
                 <h2 class="section-contacts__name">Alexandra - ProfitPay</h2>
-  
+
                 <p class="section-contacts__desc">Chief Marketing Officer</p>
-  
+
                 <span class="section-contacts__contact-info">
                   <a href="https://t.me/alexandradigital" target="_blank" class="section-contacts__link">
                     <span class="section-contacts__icon section-contacts__icon-tg"></span>
                     <span class="section-contacts__text">@alexandradigital</span>
                   </a>
                 </span>
-  
+
                 <span class="section-contacts__contact-info">
                   <a href="https://vk.com/sannito" target="_blank" class="section-contacts__link">
                     <span class="section-contacts__icon section-contacts__icon-vk"></span>
@@ -56,21 +58,21 @@ $sonets = showitonce( 'sonets' );
                   </a>
                 </span>
               </div>
-  
+
               <div class="section-contacts__contact section-contacts__contact-p" id="boy">
                 <span class="section-contacts__photo section-contacts__photo-p"></span>
-    
+
                 <h2 class="section-contacts__name">Pavel - ProfitPay</h2>
-    
+
                 <p class="section-contacts__desc">Vice of Chief Marketing Officer</p>
-    
+
                 <span class="section-contacts__contact-info">
                   <a href="https://t.me/yummypeep" target="_blank" class="section-contacts__link">
                     <span class="section-contacts__icon section-contacts__icon-tg"></span>
                     <span class="section-contacts__text">@yummypeep</span>
                   </a>
                 </span>
-    
+
                 <span class="section-contacts__contact-info">
                   <a href="https://vk.com/yummypeep" target="_blank" class="section-contacts__link">
                     <span class="section-contacts__icon section-contacts__icon-vk"></span>
@@ -78,7 +80,7 @@ $sonets = showitonce( 'sonets' );
                   </a>
                 </span>
               </div>
-            </div>		
+            </div>
       </section>
     </main>
 

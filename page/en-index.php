@@ -8,7 +8,9 @@ $sonets = showitonce( 'sonets' );
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profit Pay</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/media.css" />
+	<link rel="alternate" href="/ru/" hreflang="ru" />
+	<link rel="canonical" href="https://www.profitpay.pro/en/" />		
   </head>
 
   <body class="body">

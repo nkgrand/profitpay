@@ -6,6 +6,10 @@ $id = (int) $xx[0];
 $page = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&uid='.$id );
 $page = $page['data'][0];
 $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&show=6&lang=ru' );
+$lang = ( $page['lang'] == 'en' ) ? 'en' : 'ru';
+$id = $page['id'];
+$slug = text2link( $page['title'] );
+$full = "/$lang/blog/$id-$slug";
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,6 +19,7 @@ $blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea3697
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/blog-page.css">
     <link rel="stylesheet" href="/css/media.css" />
+	<link rel="canonical" href="https://www.profitpay.pro<?=$full;?>" />
   </head>
 
   <body class="body">
