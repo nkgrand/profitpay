@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>404 Not found</title>
+	<title>404 Not found | Profit Pay</title>
 	<meta name="robots" content="none" />
 	<meta http-equiv="Cache-Control" content="no-cache">
 	<style type="text/css">

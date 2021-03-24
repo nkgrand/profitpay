@@ -19,6 +19,17 @@ if ( $lang == 'sitemap.xml' ) {
 	sitemap();
 }
 
+// Redirects
+$r2r = [
+	'kontakt'	=> '/ru/contact/',
+	'blokirovka-reklamnogo-akkaunta-facebook' => '/ru/blog/29-blokirovka-reklamnogo-akkaunta-facebook-prichiny-i-kak-razblokirovat',
+	'kejs-po-slivu-trafika-na-a-cardin' => '/ru/blog/32-kejs-po-slivu-trafika-na-a-cardin',
+];
+if (isset( $r2r[$lang] )) {
+	header( 'Location: ' . $r2r[$lang] );
+	die();
+}
+
 // Language redirect
 if ( !$lang || ( $lang != 'ru' && $lang != 'en' ) ) {
 	$pp = ( $page != 'index' ) ? "$lang/$page" : $lang;
