@@ -10,7 +10,9 @@ $sonets = showitonce( 'sonets' );
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/media.css" />
 	<link rel="alternate" href="/en/" hreflang="en" />
-	<link rel="canonical" href="https://www.profitpay.pro/ru/" />			
+	<link rel="canonical" href="https://www.profitpay.pro/ru/" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />
   </head>
 
   <body class="body">
@@ -20,7 +22,7 @@ $sonets = showitonce( 'sonets' );
 <?php head('ru', '/'); ?>
 
     <main class="main">
-      
+
 <?php if ( $cookie ) cookieblock( 'ru' ); ?>
 
       <h1 class="visually-hidden">Profit Pay</h1>
@@ -222,7 +224,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
-                      href=""
+                      href="https://dashboard.profitpay.pro/offers"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -363,7 +365,7 @@ $sonets = showitonce( 'sonets' );
             <!-- <ul
               class="section-offers__offers-list section-offers__offers-list-2"
             >
-              
+
             </ul> -->
           </div>
         </div>

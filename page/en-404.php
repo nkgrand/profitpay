@@ -19,6 +19,8 @@
 			p { font-size: 14px; }
 		}
 	</style>
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />			
 </head>
 <body>
 

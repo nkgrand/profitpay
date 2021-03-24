@@ -16,10 +16,22 @@ $full = "/$lang/blog/$id-$slug";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?=$page['title'];?> | Profit Pay</title>
+	<meta name="description" content="<?=htmlspecialchars(excerpt( $page['descr'] ? $page['descr'] : $page['text'], 250 )); ?>" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/blog-page.css">
     <link rel="stylesheet" href="/css/media.css" />
 	<link rel="canonical" href="https://www.profitpay.pro<?=$full;?>" />
+	<meta property="og:site_name" content="Profit Pay" />
+	<meta property="og:title" content="<?=htmlspecialchars( $page['title'] ); ?>" />
+	<meta property="og:description" content="<?=htmlspecialchars(excerpt( $page['descr'] ? $page['descr'] : $page['text'], 250 )); ?>" />
+	<meta property="og:url" content="https://www.profitpay.pro<?=$full;?>" />
+	<meta property="og:type" content="website" />
+<?php if ( $page['image'] ) : ?>
+	<meta property="og:image" content="<?=$page['image'];?>" />
+	<link rel="image_src" href="<?=$page['image'];?>" />
+<?php endif; ?>
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />
   </head>
 
   <body class="body">

@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: 
+Host: https://www.profitpay.pro
+Sitemap: https://www.profitpay.pro/sitemap.xml

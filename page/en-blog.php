@@ -21,6 +21,8 @@ $blog = cached( $url );
     <link rel="stylesheet" href="/css/media.css" />
 	<link rel="alternate" href="/ru/blog/" hreflang="ru" />
 	<link rel="canonical" href="https://www.profitpay.pro/en/blog/" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />			
   </head>
 
   <body class="body">

@@ -10,7 +10,9 @@ $sonets = showitonce( 'sonets' );
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/media.css" />
 	<link rel="alternate" href="/ru/" hreflang="ru" />
-	<link rel="canonical" href="https://www.profitpay.pro/en/" />		
+	<link rel="canonical" href="https://www.profitpay.pro/en/" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />
   </head>
 
   <body class="body">
@@ -53,7 +55,7 @@ $sonets = showitonce( 'sonets' );
             <li class="section-hero__social-item section-hero__social-item-tg">
               <a  href="https://t.me/cpafbcat"  target="_blank"  class="section-hero__social-link section-hero__social-link-tg">
                 <span  class="section-hero__social-icon section-hero__social-icon-tg"></span>
-                
+
                 <span>
                   <span class="section-hero__social-name">Telegram</span>
                   <br />@PROFITPAYCPA
@@ -139,7 +141,7 @@ $sonets = showitonce( 'sonets' );
             </ul>
           </div>
         </div>
-				
+
       </section>
 
       <section id="section-offers" class="section-offers">
@@ -191,7 +193,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
-                      href=""
+                      href="https://dashboard.profitpay.pro/offers"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -332,7 +334,7 @@ $sonets = showitonce( 'sonets' );
             <!-- <ul
               class="section-offers__offers-list section-offers__offers-list-2"
             >
-              
+
             </ul> -->
           </div>
         </div>
@@ -499,7 +501,7 @@ $sonets = showitonce( 'sonets' );
             <div class="section-team__about">
               <p><strong>Profit Pay Affiliate Manager</strong></p>
               <p>
-                I find the perfect package for you that will bring you good profit. I will make sure that you receive your money on time. I closely follow the work of the call center so that you can be satisfied with the profits. And also a huge motivation for our team - ProfitPay for me will become the best PP soon. Are you looking for a tasty, highly appreciated offer? E-mail me! 
+                I find the perfect package for you that will bring you good profit. I will make sure that you receive your money on time. I closely follow the work of the call center so that you can be satisfied with the profits. And also a huge motivation for our team - ProfitPay for me will become the best PP soon. Are you looking for a tasty, highly appreciated offer? E-mail me!
               </p>
             </div>
           </div>

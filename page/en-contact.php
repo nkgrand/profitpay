@@ -14,6 +14,8 @@ $sonets = showitonce( 'sonets' );
 	<link rel="canonical" href="https://www.profitpay.pro/en/contact/" />
 	<link rel="preload" href="/image/contact-lines-right.svg" as="image" />
 	<link rel="preload" href="/image/contact-lines-left.svg" as="image" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />			
   </head>
 
 <?php head( 'en', '/contact/' ); ?>
