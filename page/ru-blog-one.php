@@ -37,12 +37,9 @@ $full = "/$lang/blog/$id-$slug";
   <body class="body">
 
 <?php if ( $sonets ) sonetblock( 'ru' ); ?>
-
 <?php head('ru', '/blog/'); ?>
 
     <main class="main">
-
-<?php if ( $cookie ) cookieblock( 'ru' ); ?>
 
       <section class="blog-page">
         <div class="container">
@@ -107,7 +104,8 @@ if ( $b['image'] ) {
       </section>
     </main>
 
-	<?php footer('ru'); ?>
+<?php if ( $cookie ) cookieblock( 'ru' ); ?>
+<?php footer('ru'); ?>
 
 	<script src="/js/cookie.js"></script>
     <script>

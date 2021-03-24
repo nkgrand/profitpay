@@ -23,8 +23,6 @@ $sonets = showitonce( 'sonets' );
     <div class="bg_dolls-lights">
       <main>
 
-<?php if ( $cookie ) cookieblock( 'en' ); ?>
-
         <section class="section-contacts">
           <div class="container">
             <h1 class="visually-hidden">Profit Pay contacts</h1>
@@ -86,6 +84,7 @@ $sonets = showitonce( 'sonets' );
       </section>
     </main>
 
+<?php if ( $cookie ) cookieblock( 'en' ); ?>
 <?php footer('en'); ?>
 
 	<script src="/js/lines.js"></script>

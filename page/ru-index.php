@@ -18,12 +18,10 @@ $sonets = showitonce( 'sonets' );
   <body class="body">
 
 <?php if ( $sonets ) sonetblock( 'ru' ); ?>
-
 <?php head('ru', '/'); ?>
 
     <main class="main">
 
-<?php if ( $cookie ) cookieblock( 'ru' ); ?>
 
       <h1 class="visually-hidden">Profit Pay</h1>
 
@@ -758,6 +756,7 @@ $sonets = showitonce( 'sonets' );
       </section>
     </main>
 
+<?php if ( $cookie ) cookieblock( 'ru' ); ?>
 <?php footer('ru'); ?>
 
     <link rel="stylesheet" href="/libs/slick/slick-theme.css" />
