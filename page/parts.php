@@ -2,9 +2,9 @@
 
 // Cookie block
 function cookieblock( $lang ) {
-	
+
 	if ( $lang == 'en' ) : ?>
-	
+
 	  <div class="section-cookie">
 	    <div class="section-cookie__container">
 	      <span class="section-cookie__icon"></span>
@@ -23,9 +23,9 @@ function cookieblock( $lang ) {
 	      </button>
 	    </div>
 	  </div>
-		  
-    <?php else : ?>			
-		
+
+    <?php else : ?>
+
 	    <div class="section-cookie">
 	      <div class="section-cookie__container">
 	        <span class="section-cookie__icon"></span>
@@ -41,17 +41,17 @@ function cookieblock( $lang ) {
 	          Понял <span class="section-cookie__vector"></span>
 	        </button>
 	      </div>
-	    </div>	
-	
-	<?php endif; 
-	
+	    </div>
+
+	<?php endif;
+
 }
 
 // Social networks block
 function sonetblock( $lang ) {
-	
+
 	if ( $lang == 'en' ) : ?>
-	
+
     <div class="modal-form">
       <span class="modal-form__x btnClose"></span>
       <h2 class="section-heading modal-form__heading">NETWORKS</h2>
@@ -77,9 +77,9 @@ function sonetblock( $lang ) {
       </div>
     </div>
     <div class="overlay"></div>
-		  
-    <?php else : ?>			
-		
+
+    <?php else : ?>
+
     <div class="modal-form">
       <span class="modal-form__x btnClose"></span>
       <h2 class="section-heading modal-form__heading">Мы в соц. сетях</h2>
@@ -117,16 +117,16 @@ function sonetblock( $lang ) {
       </div>
     </div>
     <div class="overlay"></div>
-	
-	<?php endif; 	
-	
+
+	<?php endif;
+
 }
 
 // Page header
 function head( $lang, $page = '/' ) {
-	
-if ( $lang == 'en' ) : ?>	
-	
+
+if ( $lang == 'en' ) : ?>
+
     <header>
       <div class="container header__container">
         <nav class="nav" id="nav">
@@ -137,7 +137,7 @@ if ( $lang == 'en' ) : ?>
               <img  src="/image/logo.svg"  alt="Profit Pay"  class="header__logo-img"/>
             </a>
           </div>
-          
+
           <div class="header__center">
             <ul class="nav-list">
               <li class="header__nav-item">
@@ -149,42 +149,42 @@ if ( $lang == 'en' ) : ?>
                   <span class="header__log-in-icon"></span>
                 </a>
               </li>
-          
+
               <li class="header__nav-item">
                 <a href="/en/#section-us" class="nav-link">
                   <span>About us</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
-          
+
               <li class="header__nav-item">
                 <a href="/en/#section-work" class="nav-link">
                   <span>Webmasters</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
-          
+
               <li class="header__nav-item">
                 <a href="/en/#section-offers" class="nav-link">
                   <span>Offers</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
-          
+
               <li class="header__nav-item">
                 <a href="/en/blog/" class="nav-link">
                   <span>Blog</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
-          
+
               <li class="header__nav-item">
                 <a href="/en/contact/" class="nav-link">
                   <span>Contact</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
-          
+
               <li class="header__nav-item">
                 <a href="/ru<?=$page;?>" class="nav-link">
                   <span>ru</span>
@@ -193,11 +193,11 @@ if ( $lang == 'en' ) : ?>
               </li>
             </ul>
           </div>
-          
+
           <div class="header__sigh-up-btn">
             <a  href="https://dashboard.profitpay.pro/register"  class="header__sign-up-link">SIGN UP</a>
           </div>
-          
+
           <div class="header__log-in-btn">
             <a  href="https://dashboard.profitpay.pro/login"  class="header__log-in-link">
               <span class="header__log-in-text">Log in</span>
@@ -206,10 +206,10 @@ if ( $lang == 'en' ) : ?>
           </div>
         </nav>
       </div>
-    </header>	
-	
-<?php else : ?>	
-	
+    </header>
+
+<?php else : ?>
+
     <header>
       <div class="container header__container">
         <nav class="nav" id="nav">
@@ -247,45 +247,45 @@ if ( $lang == 'en' ) : ?>
                   <span class="header__log-in-icon"></span>
                 </a>
               </li>
-              
+
               <li class="header__nav-item">
                 <a href="/ru/#section-us" class="nav-link">
-                  <span>о нас</span> 
+                  <span>о нас</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/#section-work" class="nav-link">
-                  <span>вебмастерам</span> 
+                  <span>вебмастерам</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/#section-offers" class="nav-link">
-                  <span>офферы</span> 
+                  <span>офферы</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/blog/" class="nav-link">
-                  <span>блог</span> 
+                  <span>блог</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/ru/contact/" class="nav-link">
-                  <span>контакт</span> 
+                  <span>контакт</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
 
               <li class="header__nav-item">
                 <a href="/en<?=$page;?>" class="nav-link">
-                  <span>en</span> 
+                  <span>en</span>
                   <span class="menu-vector"></span>
                 </a>
               </li>
@@ -333,15 +333,15 @@ if ( $lang == 'en' ) : ?>
           </div>
         </nav>
       </div>
-    </header>	
-	
-<?php endif;		
-	
+    </header>
+
+<?php endif;
+
 }
 
 // Page footer
 function footer( $lang ) {
-	
+
 if ( $lang == 'en' ) : ?>
     <footer>
       <div class="container footer__container">
@@ -459,7 +459,31 @@ if ( $lang == 'en' ) : ?>
           Авторские права © 2020-2021 Profitpay.pro
         </p>
       </div>
-    </footer>	
-<?php endif;	
-	
+    </footer>
+<?php endif;
+
+?><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175588031-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-175588031-1');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(68362042, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/68362042" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<?php
+
 }
