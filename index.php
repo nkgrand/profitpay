@@ -24,6 +24,8 @@ $r2r = [
 	'kontakt'	=> '/ru/contact/',
 	'blokirovka-reklamnogo-akkaunta-facebook' => '/ru/blog/29-blokirovka-reklamnogo-akkaunta-facebook-prichiny-i-kak-razblokirovat',
 	'kejs-po-slivu-trafika-na-a-cardin' => '/ru/blog/32-kejs-po-slivu-trafika-na-a-cardin',
+	'4-populyarnyx-trekera-dlya-arbitrazha-trafika' => '/ru/blog/31-4-populyarnyx-trekera-dlya-arbitrazha-trafika',
+	'arbitrazhim-na-polshu-xarakteristika-geo-i-profitnye-offery-dlya-tebya' => '/ru/blog/30-arbitrazhim-na-polshu-xarakteristika-geo-i-profitnye-offery-dlya-tebya',
 ];
 if (isset( $r2r[$lang] )) {
 	header( 'Location: ' . $r2r[$lang] );
