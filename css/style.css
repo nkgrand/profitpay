@@ -605,13 +605,14 @@ p {
 
 .section-cookie {
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   border-top: 2px solid var(--green-color);
   border-bottom: 2px solid var(--green-color);
   box-shadow: 0px 0px 29px #04e069;
   width: 100%;
   min-height: 100px;
   background-color: #0a0a0a;
+  z-index: 5;
 }
 
 .section-cookie__container {
