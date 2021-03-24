@@ -469,7 +469,7 @@ $sonets = showitonce( 'sonets' );
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Pavel</span>
-              <span class="section-team__vector"></span>
+              <span class="section-team__vector section-team__vector-1-en"></span>
             </div>
 
             <div class="section-team__photo">
@@ -491,7 +491,7 @@ $sonets = showitonce( 'sonets' );
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Aleksandra</span>
-              <span class="section-team__vector"></span>
+              <span class="section-team__vector section-team__vector-2-en"></span>
             </div>
 
             <div class="section-team__photo">
@@ -511,7 +511,7 @@ $sonets = showitonce( 'sonets' );
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Karol</span>
-              <span class="section-team__vector"></span>
+              <span class="section-team__vector section-team__vector-3-en"></span>
             </div>
 
             <div class="section-team__photo">
@@ -531,7 +531,7 @@ $sonets = showitonce( 'sonets' );
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Gabrysia</span>
-              <span class="section-team__vector"></span>
+              <span class="section-team__vector section-team__vector-4-en"></span>
             </div>
 
             <div class="section-team__photo">
@@ -551,7 +551,7 @@ $sonets = showitonce( 'sonets' );
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Tomek</span>
-              <span class="section-team__vector"></span>
+              <span class="section-team__vector section-team__vector-5-en"></span>
             </div>
 
             <div class="section-team__photo">
@@ -571,7 +571,7 @@ $sonets = showitonce( 'sonets' );
           >
             <div class="section-team__name-info">
               <span class="section-team__name">Magda</span>
-              <span class="section-team__vector"></span>
+              <span class="section-team__vector section-team__vector-6-en"></span>
             </div>
 
             <div class="section-team__photo">

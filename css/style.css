@@ -819,10 +819,6 @@ p {
 
 /* Section offers */
 
-.section-offers {
-  margin-bottom: 120px;
-}
-
 .section-offers__heading {
   margin-bottom: 45px;
   text-align: center;
@@ -1175,8 +1171,18 @@ p {
   filter: drop-shadow(0px 0px 45px var(--green-color));
 }
 
-.section-team__photo {
-  /* flex: 0 0 23.5%; */
+.section-team__vector-2,
+.section-team__vector-2-en {
+  transform: translateX(64px);
+}
+
+.section-team__vector-4,
+.section-team__vector-4-en {
+  transform: translateX(22px);
+}
+
+.section-team__vector-6 {
+  transform: translateX(50px);
 }
 
 .section-team__about {

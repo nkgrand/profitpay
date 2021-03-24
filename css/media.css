@@ -564,7 +564,7 @@
   }
 
   .section-offers {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
 
   .section-offers__offers-list {
@@ -1128,7 +1128,7 @@
   }
 
   .section-offers {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
 
   .section-offers__offers-list {
@@ -1880,7 +1880,7 @@
   }
 
   .section-offers {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .section-offers__ul {
@@ -2111,10 +2111,6 @@
   .team_photo {
     margin: 0 auto;
   }
-
-  /* .section-team__person {
-    display: none;
-  } */
 
   .section-team__person {
     width: 100%;

@@ -544,7 +544,7 @@ $sonets = showitonce( 'sonets' );
             >
               <div class="section-team__name-info">
                 <span class="section-team__name">Павел</span>
-                <span class="section-team__vector"></span>
+                <span class="section-team__vector section-team__vector-1"></span>
               </div>
 
               <div class="section-team__photo">
@@ -568,7 +568,7 @@ $sonets = showitonce( 'sonets' );
             >
               <div class="section-team__name-info">
                 <span class="section-team__name">Александра</span>
-                <span class="section-team__vector"></span>
+                <span class="section-team__vector section-team__vector-2"></span>
               </div>
 
               <div class="section-team__photo">
@@ -593,7 +593,7 @@ $sonets = showitonce( 'sonets' );
             >
               <div class="section-team__name-info">
                 <span class="section-team__name">Кароль</span>
-                <span class="section-team__vector"></span>
+                <span class="section-team__vector section-team__vector-3"></span>
               </div>
 
               <div class="section-team__photo">
@@ -618,7 +618,7 @@ $sonets = showitonce( 'sonets' );
             >
               <div class="section-team__name-info">
                 <span class="section-team__name">Габриела</span>
-                <span class="section-team__vector"></span>
+                <span class="section-team__vector section-team__vector-4"></span>
               </div>
 
               <div class="section-team__photo">
@@ -644,7 +644,7 @@ $sonets = showitonce( 'sonets' );
             >
               <div class="section-team__name-info">
                 <span class="section-team__name">Томаш</span>
-                <span class="section-team__vector"></span>
+                <span class="section-team__vector section-team__vector-5"></span>
               </div>
 
               <div class="section-team__photo">
@@ -669,7 +669,7 @@ $sonets = showitonce( 'sonets' );
             >
               <div class="section-team__name-info">
                 <span class="section-team__name">Магдалена</span>
-                <span class="section-team__vector"></span>
+                <span class="section-team__vector section-team__vector-6"></span>
               </div>
 
               <div class="section-team__photo">
