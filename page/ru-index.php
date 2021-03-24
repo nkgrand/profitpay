@@ -10,7 +10,7 @@ $sonets = showitonce( 'sonets' );
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/media.css" />
 	<link rel="alternate" href="/en/" hreflang="en" />
-	<link rel="canonical" href="https://www.profitpay.pro/ru/" />	
+	<link rel="canonical" href="https://www.profitpay.pro/ru/" />			
   </head>
 
   <body class="body">
@@ -40,7 +40,7 @@ $sonets = showitonce( 'sonets' );
           <div class="section-hero__offers-btn-desc">
             <div class="section-hero__offers-btn">
               <a
-                href="https://dashboard.profitpay.pro/offers"
+                href="https://dashboard.profitpay.pro/register"
                 class="section-hero__offers-link"
               >
                 <span>СМОТРЕТЬ ОФФЕРЫ</span>
@@ -49,16 +49,21 @@ $sonets = showitonce( 'sonets' );
             </div>
 
             <div>
-              <p class="section-hero__link-desc">
-                Аппрув от 50%. Гарантируем
-              </p>
+              <p class="section-hero__link-desc">Аппрув от 50%. Гарантируем</p>
             </div>
           </div>
 
           <ul class="section-hero__social-list">
             <li class="section-hero__social-item section-hero__social-item-tg">
-              <a  href="https://t.me/cpafbcat" target="_blank" class="section-hero__social-link section-hero__social-link-tg">
-                <span class="section-hero__social-icon section-hero__social-icon-tg"></span>
+              <a
+                href="https://t.me/cpafbcat"
+                target="_blank"
+                class="section-hero__social-link section-hero__social-link-tg"
+              >
+                <span
+                  class="section-hero__social-icon section-hero__social-icon-tg"
+                ></span>
+
                 <span>
                   <span class="section-hero__social-name">Telegram</span>
                   <br />@PROFITPAYCPA
@@ -66,9 +71,7 @@ $sonets = showitonce( 'sonets' );
               </a>
             </li>
 
-            <li
-              class="section-hero__social-item section-hero__social-item-vk"
-            >
+            <li class="section-hero__social-item section-hero__social-item-vk">
               <a
                 href="https://vk.com/profitpay"
                 target="_blank"
@@ -85,26 +88,27 @@ $sonets = showitonce( 'sonets' );
             </li>
           </ul>
         </div>
+
       </section>
 
-    <section id="section-us" class="section-us">
-      <div class="section-us__container">
-        <div class="section-us__pp-hashes">
-          <span class="section-us__hashes"></span>
-          <span class="section-us__pp">ProfitPay</span>
-        </div>
+      <section id="section-us" class="section-us">
+        <div class="section-us__container">
+          <div class="section-us__pp-hashes">
+            <span class="section-us__hashes"></span>
+            <span class="section-us__pp">ProfitPay</span>
+          </div>
 
-        <div class="section-us__info">
-          <h2 class="section-heading section-us__heading">КТО МЫ?</h2>
-          <p class="section-desc section-us__desc">
-            <strong>ProfitPay</strong> - CPA-сеть прямого нутра рекламодателя из Европы!
-          </p>
+          <div class="section-us__info">
+            <h2 class="section-heading section-us__heading">КТО МЫ?</h2>
+            <p class="section-desc section-us__desc">
+              <strong>ProfitPay</strong> - CPA-сеть прямого нутра рекламодателя
+              из Европы!
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
       <section id="section-work" class="section-work">
-
         <div class="conf section-work__conf1"></div>
         <div class="conf section-work__conf2"></div>
 
@@ -127,7 +131,7 @@ $sonets = showitonce( 'sonets' );
                 class="section-work__benefit-item section-work__benefit-item-percent"
               >
                 <p class="section-desc section-work__desc">
-                  <strong>Апрув от 50%</strong>
+                  <strong>Апрув с кэшем - от 50%</strong>
                 </p>
               </li>
 
@@ -159,7 +163,9 @@ $sonets = showitonce( 'sonets' );
                 class="section-work__benefit-item section-work__benefit-item-crown"
               >
                 <p class="section-desc section-work__desc">
-                  <strong>Эксклюзивные офферы и перевод промо-материалов</strong>
+                  <strong
+                    >Эксклюзивные офферы и перевод промо-материалов</strong
+                  >
                 </p>
               </li>
             </ul>
@@ -169,49 +175,81 @@ $sonets = showitonce( 'sonets' );
 
       <section id="section-offers" class="section-offers">
         <div class="container">
-
           <h2 class="section-heading section-offers__heading">Лучшие офферы</h2>
 
           <div class="section-offers__ul">
-            <ul class="section-offers__offers-list section-offers__offers-list-1">
-              <li class="section-offers__offer">
+            <div
+              class="section-offers__offers-list section-offers__offers-list-1"
+            >
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-adult.png"
-                  alt="https://dashboard.profitpay.pro/offers/98"
+                  alt=""
                   class="section-offers__img section-offers__adult-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href="https://dashboard.profitpay.pro/offers/98"
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-adult"
+                      ></span>
+
+                      <h3 class="section-offers__offer-name">Адалт</h3>
+
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+
+                  <p class="section-offers__offer-info">
+                    Апрув <span class="section-heading">57%</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="section-offers__offer">
+                <img
+                  src="/image/offer-ear.png"
+                  alt=""
+                  class="section-offers__img section-offers__ear-img"
+                />
+
+                <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
                       href=""
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
-                        class="section-offers__icon section-offers__icon-adult"
+                        class="section-offers__icon section-offers__icon-ear"
                       ></span>
-  
-                      <h3 class="section-offers__offer-name">Адалт</h3>
-  
+
+                      <h3 class="section-offers__offer-name">Слух</h3>
+
                       <span
                         class="section-offers__icon section-offers__offer-vector"
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
-                    Апрув <span class="section-heading">57%</span>
+                    Апрув <span class="section-heading">76%</span>
                   </p>
                 </div>
-              </li>
-  
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-cardio.png"
                   alt=""
                   class="section-offers__img section-offers__cardio-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
@@ -227,82 +265,20 @@ $sonets = showitonce( 'sonets' );
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Апрув <span class="section-heading">72%</span>
                   </p>
                 </div>
-              </li>
-  
-              <li class="section-offers__offer">
-                <img
-                  src="/image/offer-blood.png"
-                  alt=""
-                  class="section-offers__img section-offers__blood-img"
-                />
-  
-                <div class="section-offers__block section-offers__block-odd">
-                  <div class="section-offers__btn">
-                    <a
-                      href="https://dashboard.profitpay.pro/offers/91"
-                      class="section-offers__offer-link section-offers__offer-info"
-                    >
-                      <span
-                        class="section-offers__icon section-offers__icon-blood"
-                      ></span>
-                      <h3 class="section-offers__offer-name">Диабет</h3>
-                      <span
-                        class="section-offers__icon section-offers__offer-vector"
-                      ></span>
-                    </a>
-                  </div>
-  
-                  <p class="section-offers__offer-info">
-                    Апрув <span class="section-heading">66%</span>
-                  </p>
-                </div>
-              </li>
-            </ul>
-  
-            <ul class="section-offers__offers-list section-offers__offers-list-2">
-              <li class="section-offers__offer">
-                <img
-                  src="/image/offer-ear.png"
-                  alt=""
-                  class="section-offers__img section-offers__ear-img"
-                />
-  
-                <div class="section-offers__block section-offers__block-even">
-                  <div class="section-offers__btn">
-                    <a
-                      href=""
-                      class="section-offers__offer-link section-offers__offer-info"
-                    >
-                      <span
-                        class="section-offers__icon section-offers__icon-ear"
-                      ></span>
-  
-                      <h3 class="section-offers__offer-name">Слух</h3>
-  
-                      <span
-                        class="section-offers__icon section-offers__offer-vector"
-                      ></span>
-                    </a>
-                  </div>
-  
-                  <p class="section-offers__offer-info">
-                    Апрув <span class="section-heading">76%</span>
-                  </p>
-                </div>
-              </li>
-  
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-bone.png"
                   alt=""
                   class="section-offers__img section-offers__bone-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
@@ -318,20 +294,49 @@ $sonets = showitonce( 'sonets' );
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Апрув <span class="section-heading">67%</span>
                   </p>
                 </div>
-              </li>
-  
-              <li class="section-offers__offer">
+              </div>
+
+              <div class="section-offers__offer">
+                <img
+                  src="/image/offer-blood.png"
+                  alt=""
+                  class="section-offers__img section-offers__blood-img"
+                />
+
+                <div class="section-offers__block section-offers__block-odd">
+                  <div class="section-offers__btn">
+                    <a
+                      href="https://dashboard.profitpay.pro/offers/91"
+                      class="section-offers__offer-link section-offers__offer-info"
+                    >
+                      <span
+                        class="section-offers__icon section-offers__icon-blood"
+                      ></span>
+                      <h3 class="section-offers__offer-name">Диабет</h3>
+                      <span
+                        class="section-offers__icon section-offers__offer-vector"
+                      ></span>
+                    </a>
+                  </div>
+
+                  <p class="section-offers__offer-info">
+                    Апрув <span class="section-heading">66%</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="section-offers__offer">
                 <img
                   src="/image/offer-eye.png"
                   alt=""
                   class="section-offers__img section-offers__eye-img"
                 />
-  
+
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
@@ -347,13 +352,19 @@ $sonets = showitonce( 'sonets' );
                       ></span>
                     </a>
                   </div>
-  
+
                   <p class="section-offers__offer-info">
                     Апрув <span class="section-heading">64%</span>
                   </p>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
+
+            <!-- <ul
+              class="section-offers__offers-list section-offers__offers-list-2"
+            >
+              
+            </ul> -->
           </div>
         </div>
       </section>
@@ -364,15 +375,26 @@ $sonets = showitonce( 'sonets' );
 
           <h2 class="section-heading section-review__heading">Отзывы</h2>
 
-          <ul class="section-review__reviews-list">
-            <li class="section-review__reviews-item">
+          <div class="section-review__reviews-list">
+            <div class="section-review__reviews-item">
               <div class="section-review__review">
                 <p class="section-review__review-heading">
                   Не удивлюсь, если выйдет в ТОП...
                 </p>
 
                 <p class="section-review__review-text">
-                  ProfitPay. Стараются для вэбов. Факт! Чувствуется цивилизованный подход к бизнесу в целом. Как для молодой партнерки, редкость. Можно расценивать - как дефирамбы, но не отнять. Технически все есть: легко, понятно, работает. Не заезженые офферы, заточены под здравый смысл. Партнерка для своего ГЕО местная, поэтому хорошо знают свою ЦА. А это, на минуточку, высокий апрув. Если 100$ минималка пугает новичков, ошибаються. Сам новичек, зашло 5 лидов, 4 апрува. 15 мин. на вывод. Вааще без проблем. Менеджеры: Павел, Александра. Есть подозрение что не спят вообще...) Шутка, но на связи постоянно. Мне как "Нубу", скинули настроенные под API ленды, и даже связочку подкинули. Короче, я с Вами ребята.
+                  ProfitPay. Стараются для вэбов. Факт! Чувствуется
+                  цивилизованный подход к бизнесу в целом. Как для молодой
+                  партнерки, редкость. Можно расценивать - как дефирамбы, но не
+                  отнять. Технически все есть: легко, понятно, работает. Не
+                  заезженые офферы, заточены под здравый смысл. Партнерка для
+                  своего ГЕО местная, поэтому хорошо знают свою ЦА. А это, на
+                  минуточку, высокий апрув. Если 100$ минималка пугает новичков,
+                  ошибаються. Сам новичек, зашло 5 лидов, 4 апрува. 15 мин. на
+                  вывод. Вааще без проблем. Менеджеры: Павел, Александра. Есть
+                  подозрение что не спят вообще...) Шутка, но на связи
+                  постоянно. Мне как "Нубу", скинули настроенные под API ленды,
+                  и даже связочку подкинули. Короче, я с Вами ребята.
                 </p>
               </div>
 
@@ -387,15 +409,21 @@ $sonets = showitonce( 'sonets' );
 
                 <h3 class="section-review__user-name">Aleksandr</h3>
               </div>
-            </li>
+            </div>
 
-            <li class="section-review__reviews-item">
+            <div class="section-review__reviews-item">
               <div class="section-review__review">
                 <p class="section-review__review-heading">ПП неплохая</p>
 
                 <p class="section-review__review-text">
-                  Пробую тут адалт лить, офферы неотжатые по сравнению с той же террой. Выплата выше ощутимо, что даже на тестах выходит плюсовой рои. Вывод минимум сотка. 
-                  <br>Единственное неудобство может быть для новичков - в ленды надо прописывать апи интеграцию. Не сложно, есть инстуркция, бат энивей. Да и манагер, вроде как, может всё готовое скинуть. Кстати отвечают практически в любое время суток. Из десятка пп, даже бурж, эта пока что кажется самой норм. В основном из-за свежих офферов
+                  Пробую тут адалт лить, офферы неотжатые по сравнению с той же
+                  террой. Выплата выше ощутимо, что даже на тестах выходит
+                  плюсовой рои. Вывод минимум сотка. Единственное неудобство
+                  может быть для новичков - в ленды надо прописывать апи
+                  интеграцию. Не сложно, есть инстуркция, бат энивей. Да и
+                  манагер, вроде как, может всё готовое скинуть. Кстати отвечают
+                  практически в любое время суток. Из десятка пп, даже бурж, эта
+                  пока что кажется самой норм. В основном из-за свежих офферов
                 </p>
               </div>
 
@@ -410,14 +438,22 @@ $sonets = showitonce( 'sonets' );
 
                 <h3 class="section-review__user-name">Mikhail</h3>
               </div>
-            </li>
+            </div>
 
-            <li class="section-review__reviews-item">
+            <div class="section-review__reviews-item">
               <div class="section-review__review">
                 <p class="section-review__review-heading">Отзыв о ProfitPay</p>
 
                 <p class="section-review__review-text">
-                  Шикарная ПП. Раньше работал в основном с leadrock, но когда познакомился с ProfitPay - то это что-то с чем то: высокие выплаты по всем офферам, низкая цена оффера на сайте, хороший КЦ и как следствие - высокий аппрув. По технической части тоже все ок, если возникают какие либо вопросы - Павел всегда онлайн. По поводу выплат, то тут все отлично - никаких задержек. Так же есть различные конкурсы в которых одно удовольствие участвовать, как говорится "хороший тамада и конкурсы интересные").
+                  Шикарная ПП. Раньше работал в основном с leadrock, но когда
+                  познакомился с ProfitPay - то это что-то с чем то: высокие
+                  выплаты по всем офферам, низкая цена оффера на сайте, хороший
+                  КЦ и как следствие - высокий аппрув. По технической части тоже
+                  все ок, если возникают какие либо вопросы - Павел всегда
+                  онлайн. По поводу выплат, то тут все отлично - никаких
+                  задержек. Так же есть различные конкурсы в которых одно
+                  удовольствие участвовать, как говорится "хороший тамада и
+                  конкурсы интересные").
                 </p>
               </div>
 
@@ -432,17 +468,22 @@ $sonets = showitonce( 'sonets' );
 
                 <h3 class="section-review__user-name">Lorrens</h3>
               </div>
-            </li>
+            </div>
 
-            <li class="section-review__reviews-item">
+            <div class="section-review__reviews-item">
               <div class="section-review__review">
                 <p class="section-review__review-heading">
                   Первые впечатления о партнерке
                 </p>
 
                 <p class="section-review__review-text">
-                  В партнерку ProfitPay пришел ради интереса, так как очень уж менеджер рассказывала о их высоких аппрувах и качественных промо. 
-                  <br>Ну и был приятно удивлен действительно! Сейчас мы с командой работаем уже 1,5 месяца с ними. Замечаний особо никаких нет. Были вопросы с валидацией формы - но быстро устранили. Тех поддержка - огонь! всегда на связи. Так что рекомендую от души!
+                  В партнерку ProfitPay пришел ради интереса, так как очень уж
+                  менеджер рассказывала о их высоких аппрувах и качественных
+                  промо. Ну и был приятно удивлен действительно! Сейчас мы с
+                  командой работаем уже 1,5 месяца с ними. Замечаний особо
+                  никаких нет. Были вопросы с валидацией формы - но быстро
+                  устранили. Тех поддержка - огонь! всегда на связи. Так что
+                  рекомендую от души!
                 </p>
               </div>
 
@@ -457,8 +498,8 @@ $sonets = showitonce( 'sonets' );
 
                 <h3 class="section-review__user-name">Anton</h3>
               </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -509,7 +550,6 @@ $sonets = showitonce( 'sonets' );
               </div>
 
               <div class="section-team__about">
-                <button>Close</button>
                 <p><strong>Аффилиэйт-менеджер Profit Pay</strong></p>
                 <p>
                   Развиваю сеть с технической части. Если вам нужен определенный
@@ -723,6 +763,7 @@ $sonets = showitonce( 'sonets' );
     <script src="/libs/jquery.min.js"></script>
     <script src="/libs/slick/slick.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/personClick.js"></script>
     <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");
