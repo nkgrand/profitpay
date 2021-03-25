@@ -108,9 +108,10 @@ if ( $b['image'] ) {
 <?php footer('ru'); ?>
 
 	<script src="/js/cookie.js"></script>
-    <script>
+  <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");
+        document.querySelector('.body').classList.toggle("modal-open");
       };
     </script>
   </body>

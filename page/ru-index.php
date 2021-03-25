@@ -768,6 +768,7 @@ $sonets = showitonce( 'sonets' );
     <script>
       toggle.onclick = () => {
         nav.classList.toggle("expand");
+        document.querySelector('.body').classList.toggle("modal-open");
       };
     </script>
   </body>
