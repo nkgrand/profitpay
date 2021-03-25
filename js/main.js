@@ -129,3 +129,21 @@ $(".section-team__team-list").slick({
     cookieContainer.style.display = "none";
   });
 })();
+
+(() => {
+  const menuEl = document.querySelectorAll(".header__nav-item");
+  const body = document.querySelector(".body");
+  const nav = document.querySelector(".nav");
+
+  for (let i = 0; i < menuEl.length; i++) {
+    clickMenuItem(menuEl[i]);
+  }
+
+  function clickMenuItem(button) {
+    button.addEventListener("click", function () {
+      console.log("click");
+      nav.classList.remove("expand");
+      body.classList.remove("modal-open");
+    });
+  }
+})();
