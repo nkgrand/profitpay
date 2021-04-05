@@ -2205,6 +2205,10 @@
     margin-bottom: 40px;
   }
 
+  .blog__desc {
+    display: none;
+  }
+
   /* Contacts */
 
   .lines-container {
