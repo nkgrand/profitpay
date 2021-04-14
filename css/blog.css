@@ -83,6 +83,7 @@
 
 .blog__name {
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .blog__article-desc {

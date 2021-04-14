@@ -755,6 +755,14 @@
     margin-right: 35px;
   }
 
+  .blog__article-desc {
+    display: none;
+  }
+
+  .blog__desc h2 {
+    margin-bottom: 0;
+  }
+
   /* contacts */
 
   .section-contacts {
@@ -1317,6 +1325,14 @@
 
   .blog__article-item:nth-child(odd) {
     margin-right: 35px;
+  }
+
+  .blog__article-desc {
+    display: none;
+  }
+
+  .blog__desc h2 {
+    margin-bottom: 0;
   }
 
   /* Contacts */
@@ -2205,8 +2221,12 @@
     margin-bottom: 40px;
   }
 
-  .blog__desc {
+  .blog__article-desc {
     display: none;
+  }
+
+  .blog__desc h2 {
+    margin-bottom: 0;
   }
 
   /* Contacts */
