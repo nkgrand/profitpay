@@ -139,7 +139,7 @@ $sonets = showitonce( 'sonets' );
                 class="section-work__benefit-item section-work__benefit-item-money"
               >
                 <p class="section-desc section-work__desc">
-                  <strong>Ежедневные выплаты от 100$</strong>
+                  <strong>Выплаты от 100$</strong>
                 </p>
               </li>
 

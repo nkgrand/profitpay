@@ -115,7 +115,7 @@ $sonets = showitonce( 'sonets' );
 
               <li  class="section-work__benefit-item section-work__benefit-item-money">
                 <p class="section-desc section-work__desc">
-                  <strong>Daily payouts from $100</strong>
+                  <strong>Payouts from $100</strong>
                 </p>
               </li>
 
