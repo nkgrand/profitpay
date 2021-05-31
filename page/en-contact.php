@@ -6,12 +6,21 @@ $sonets = showitonce( 'sonets' );
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacts | Profit Pay</title>
+    <title>Contacts of ProfitPay - direct nutra advertiser CPA network</title>
+	<meta name="description" content="Contacts of CPA affiliate network from direct nutra advertiser with approve guarantee from 50% and friendly support. High payouts with exclusive offers." />
+	<meta property="og:title" content="Contacts of ProfitPay - direct nutra advertiser CPA network" />
+	<meta property="og:description" content="Contacts of CPA affiliate network from direct nutra advertiser with approve guarantee from 50% and friendly support. High payouts with exclusive offers." />
+	<meta property="og:site_name" content="ProfitPay" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:url" content="https://www.profitpay.one/en/contact/" />
+	<meta property="og:image" content="https://www.profitpay.one/image/profitpay.jpg" />
+	<link rel="image_src" href="https://www.profitpay.one/image/profitpay.jpg" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/contacts.css">
     <link rel="stylesheet" href="/css/media.css" />
 	<link rel="alternate" href="/ru/contact/" hreflang="ru" />
-	<link rel="canonical" href="https://www.profitpay.pro/en/contact/" />
+	<link rel="canonical" href="https://www.profitpay.one/en/contact/" />
 	<link rel="preload" href="/image/contact-lines-right.svg" as="image" />
 	<link rel="preload" href="/image/contact-lines-left.svg" as="image" />
 	<link rel="icon" type="image/png" href="/favicon.png" />

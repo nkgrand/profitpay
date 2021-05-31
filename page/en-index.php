@@ -6,11 +6,20 @@ $sonets = showitonce( 'sonets' );
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profit Pay</title>
+    <title>ProfitPay - direct nutra advertiser CPA network in Europe</title>
+	<meta name="description" content="CPA affiliate network from direct nutra advertiser. Approve guarantee from 50%. Instant payments. Friendly support. High payouts. Exclusive offers." />
+	<meta property="og:title" content="ProfitPay - direct nutra advertiser CPA network in Europe" />
+	<meta property="og:description" content="CPA affiliate network from direct nutra advertiser. Approve guarantee from 50%. Instant payments. Friendly support. High payouts. Exclusive offers." />
+	<meta property="og:site_name" content="ProfitPay" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:url" content="https://www.profitpay.one/en/" />
+	<meta property="og:image" content="https://www.profitpay.one/image/profitpay.jpg" />
+	<link rel="image_src" href="https://www.profitpay.one/image/profitpay.jpg" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/media.css" />
 	<link rel="alternate" href="/ru/" hreflang="ru" />
-	<link rel="canonical" href="https://www.profitpay.pro/en/" />
+	<link rel="canonical" href="https://www.profitpay.one/en/" />
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />
   </head>
@@ -37,7 +46,7 @@ $sonets = showitonce( 'sonets' );
 
           <div class="section-hero__offers-btn-desc">
             <div class="section-hero__offers-btn">
-              <a href="https://dashboard.profitpay.pro/offers" class="section-hero__offers-link">
+              <a href="https://dashboard.profitpay.one/offers" class="section-hero__offers-link">
                 <span>VIEW OFFERS</span>
                 <span class="section-hero__vector"></span></a>
             </div>
@@ -160,7 +169,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
-                      href="https://dashboard.profitpay.pro/offers/98"
+                      href="https://dashboard.profitpay.one/offers/98"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -191,7 +200,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
-                      href="https://dashboard.profitpay.pro/offers"
+                      href="https://dashboard.profitpay.one/offers"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -222,7 +231,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
-                      href="https://dashboard.profitpay.pro/offers/83"
+                      href="https://dashboard.profitpay.one/offers/83"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -251,7 +260,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
-                      href="https://dashboard.profitpay.pro/offers/93"
+                      href="https://dashboard.profitpay.one/offers/93"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -280,7 +289,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-odd">
                   <div class="section-offers__btn">
                     <a
-                      href="https://dashboard.profitpay.pro/offers/91"
+                      href="https://dashboard.profitpay.one/offers/91"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span
@@ -309,7 +318,7 @@ $sonets = showitonce( 'sonets' );
                 <div class="section-offers__block section-offers__block-even">
                   <div class="section-offers__btn">
                     <a
-                      href="https://dashboard.profitpay.pro/offers/89"
+                      href="https://dashboard.profitpay.one/offers/89"
                       class="section-offers__offer-link section-offers__offer-info"
                     >
                       <span

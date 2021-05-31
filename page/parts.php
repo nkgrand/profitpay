@@ -142,7 +142,7 @@ if ( $lang == 'en' ) : ?>
             <ul class="nav-list">
               <li class="header__nav-item">
                 <a
-                  href="https://dashboard.profitpay.pro/login"
+                  href="https://dashboard.profitpay.one/login"
                   class="header__log-in-link"
                 >
                   <span class="header__log-in-text-menu">Log in</span>
@@ -195,11 +195,11 @@ if ( $lang == 'en' ) : ?>
           </div>
 
           <div class="header__sigh-up-btn">
-            <a  href="https://dashboard.profitpay.pro/register"  class="header__sign-up-link">SIGN UP</a>
+            <a  href="https://dashboard.profitpay.one/register"  class="header__sign-up-link">SIGN UP</a>
           </div>
 
           <div class="header__log-in-btn">
-            <a  href="https://dashboard.profitpay.pro/login"  class="header__log-in-link">
+            <a  href="https://dashboard.profitpay.one/login"  class="header__log-in-link">
               <span class="header__log-in-text">Log in</span>
               <span class="header__log-in-icon"></span>
             </a>
@@ -217,7 +217,7 @@ if ( $lang == 'en' ) : ?>
 
           <div class="header__log-in-btn-menu">
             <a
-              href="https://dashboard.profitpay.pro/login"
+              href="https://dashboard.profitpay.one/login"
               class="header__log-in-link"
             >
               <span class="header__log-in-text-menu">Вход</span>
@@ -240,7 +240,7 @@ if ( $lang == 'en' ) : ?>
             <ul class="nav-list">
             <li class="header__nav-item">
                 <a
-                  href="https://dashboard.profitpay.pro/login"
+                  href="https://dashboard.profitpay.one/login"
                   class="header__log-in-link"
                 >
                   <span class="header__log-in-text-menu">Вход</span>
@@ -316,7 +316,7 @@ if ( $lang == 'en' ) : ?>
 
           <div class="header__sigh-up-btn">
             <a
-              href="https://dashboard.profitpay.pro/register"
+              href="https://dashboard.profitpay.one/register"
               class="header__sign-up-link"
               >РЕГИСТРАЦИЯ</a
             >
@@ -324,7 +324,7 @@ if ( $lang == 'en' ) : ?>
 
           <div class="header__log-in-btn">
             <a
-              href="https://dashboard.profitpay.pro/login"
+              href="https://dashboard.profitpay.one/login"
               class="header__log-in-link"
             >
               <span class="header__log-in-text">Вход</span>
@@ -374,7 +374,7 @@ if ( $lang == 'en' ) : ?>
           </li>
 
           <li class="footer-social-item footer__social-item-blog">
-            <a  href="https://profitpay.pro/blog/"  target="_blank"  class="social-link">
+            <a  href="https://profitpay.one/blog/"  target="_blank"  class="social-link">
               <span class="footer__icon footer__icon-blog"></span>
               <span>BLOG</span>
             </a>
@@ -389,7 +389,7 @@ if ( $lang == 'en' ) : ?>
         </ul>
 
         <p class="footer__copyright">
-          Copyright © 2020-2021 Profitpay.pro
+          Copyright © 2020-2021 profitpay.one
         </p>
       </div>
     </footer>
@@ -434,7 +434,7 @@ if ( $lang == 'en' ) : ?>
 
           <li class="footer-social-item footer__social-item-blog">
             <a
-              href="https://profitpay.pro/blog/"
+              href="https://profitpay.one/blog/"
               target="_blank"
               class="social-link"
             >
@@ -456,7 +456,7 @@ if ( $lang == 'en' ) : ?>
         </ul>
 
         <p class="footer__copyright">
-          Авторские права © 2020-2021 Profitpay.pro
+          Авторские права © 2020-2021 profitpay.one
         </p>
       </div>
     </footer>

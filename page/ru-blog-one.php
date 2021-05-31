@@ -3,9 +3,9 @@ $cookie = showitonce( 'cookie' );
 $sonets = showitonce( 'sonets' );
 $xx = explode( '-', SLUG );
 $id = (int) $xx[0];
-$page = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&uid='.$id );
+$page = cached( 'https://dashboard.profitpay.one/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&uid='.$id );
 $page = $page['data'][0];
-$blog = cached( 'https://dashboard.profitpay.pro/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&show=6&lang=ru' );
+$blog = cached( 'https://dashboard.profitpay.one/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&show=6&lang=ru' );
 $lang = ( $page['lang'] == 'en' ) ? 'en' : 'ru';
 $id = $page['id'];
 $slug = text2link( $page['title'] );
@@ -16,19 +16,23 @@ $full = "/$lang/blog/$id-$slug";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?=$page['title'];?> | Profit Pay</title>
-	<meta name="description" content="<?=htmlspecialchars(excerpt( $page['descr'] ? $page['descr'] : $page['text'], 250 )); ?>" />
+	<meta name="description" content="<?=htmlspecialchars(excerpt( $page['descr'] ? $page['descr'] : $page['text'], 160 )); ?>" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/blog-page.css">
     <link rel="stylesheet" href="/css/media.css" />
-	<link rel="canonical" href="https://www.profitpay.pro<?=$full;?>" />
+	<link rel="canonical" href="https://www.profitpay.one<?=$full;?>" />
 	<meta property="og:site_name" content="Profit Pay" />
 	<meta property="og:title" content="<?=htmlspecialchars( $page['title'] ); ?>" />
-	<meta property="og:description" content="<?=htmlspecialchars(excerpt( $page['descr'] ? $page['descr'] : $page['text'], 250 )); ?>" />
-	<meta property="og:url" content="https://www.profitpay.pro<?=$full;?>" />
-	<meta property="og:type" content="website" />
+	<meta property="og:description" content="<?=htmlspecialchars(excerpt( $page['descr'] ? $page['descr'] : $page['text'], 160 )); ?>" />
+	<meta property="og:url" content="https://www.profitpay.one<?=$full;?>" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="ru_RU" />
 <?php if ( $page['image'] ) : ?>
 	<meta property="og:image" content="<?=$page['image'];?>" />
 	<link rel="image_src" href="<?=$page['image'];?>" />
+<?php else : ?>
+	<meta property="og:image" content="https://www.profitpay.one/image/profitpay.jpg" />
+	<link rel="image_src" href="https://www.profitpay.one/image/profitpay.jpg" />
 <?php endif; ?>
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<link rel="shortcut icon" sizes="16x16" type="image/png" href="/favicon.png" />
