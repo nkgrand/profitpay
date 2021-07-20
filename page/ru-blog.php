@@ -2,7 +2,7 @@
 $cookie = showitonce( 'cookie' );
 $sonets = showitonce( 'sonets' );
 $page = max( 1, (int) $_GET['page'] );
-$url = 'https://dashboard.profitpay.one/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&lang=ru&show=8';
+$url = 'https://my.profitpay.one/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&lang=ru&show=8';
 $base = '/ru/blog/';
 if ( $page > 1 ) $url .= '&page=' . $page;
 if (isset( $_GET['search'] )) {

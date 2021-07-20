@@ -11,7 +11,7 @@ function sitemap() {
 	];
 
 	// Blog entries
-	$fetch = 'https://dashboard.profitpay.one/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&show=500&notext=1';
+	$fetch = 'https://my.profitpay.one/api/sys/news.json?id=1-a5ea36973b3611a8d9b37ce8f2c2140a&public=1&show=500&notext=1';
 	$news = cached( $fetch );
 	foreach ( $news['data'] as $n ) {
 		$lang = ( $n['lang'] == 'en' ) ? 'en' : 'ru';

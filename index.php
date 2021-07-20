@@ -19,6 +19,16 @@ if ( $lang == 'sitemap.xml' ) {
 	sitemap();
 }
 
+// Redirector
+function redirect( $url, $last = true ) {
+	if ( $_GET ) {
+		$url .= ( strpos( $url, '?' ) !== false ) ? '&' : '?';
+		$url .= http_build_query( $_GET );
+	}
+	header( "Location: $url" );
+	if ( $last ) die();
+}
+
 // Redirects
 $r2r = [
 	'kontakt'	=> '/ru/contact/',
@@ -27,18 +37,15 @@ $r2r = [
 	'4-populyarnyx-trekera-dlya-arbitrazha-trafika' => '/ru/blog/31-4-populyarnyx-trekera-dlya-arbitrazha-trafika',
 	'arbitrazhim-na-polshu-xarakteristika-geo-i-profitnye-offery-dlya-tebya' => '/ru/blog/30-arbitrazhim-na-polshu-xarakteristika-geo-i-profitnye-offery-dlya-tebya',
 ];
-if (isset( $r2r[$lang] )) {
-	header( 'Location: ' . $r2r[$lang] );
-	die();
-}
+if (isset( $r2r[$lang] )) redirect( $r2r[$lang] );
 
 // Language redirect
 if ( !$lang || ( $lang != 'ru' && $lang != 'en' ) ) {
 	$pp = ( $page != 'index' ) ? "$lang/$page" : $lang;
-	header( "Location: /en/$pp" );
+	redirect( "/en/$pp", false );
 	if (isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )) {
 		$x = explode( ',', $_SERVER['HTTP_ACCEPT_LANGUAGE'] );
-		foreach ( $x as $z ) if ( $z = trim( $z ) ) if ( strpos( $z, 'ru' ) !== false ) header( "Location: /ru/$pp" );
+		foreach ( $x as $z ) if ( $z = trim( $z ) ) if ( strpos( $z, 'ru' ) !== false ) redirect( "/ru/$pp" );
 	}
 	die();
 } else define( 'LANG', $lang );
